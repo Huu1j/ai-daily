@@ -1,0 +1,8 @@
+_site/
+preview.html
+.jekyll-cache/
+.jekyll-metadata
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

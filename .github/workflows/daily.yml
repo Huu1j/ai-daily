@@ -1,0 +1,61 @@
+name: Daily AI Digest
+
+# 每天 UTC 05:00 = 北京时间 13:00 跑一次。
+# 这个点美西当天的内容基本都出来了，欧洲/国内的源也已更新。
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '补跑指定日期（YYYY-MM-DD），留空表示今天'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-daily
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 拉取仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 生成当日日报
+        env:
+          DAILY_DATE: ${{ github.event.inputs.date }}
+          TZ: Asia/Shanghai
+          # 想让摘要变成中文一句话：把下面三个打开（在 Settings → Secrets/Variables 里配）
+          # SUMMARY_MODE: llm
+          # LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          # LLM_BASE_URL: https://api.deepseek.com/v1
+          # LLM_MODEL: deepseek-chat
+          TOP_PAPERS: '12'
+          TOP_ARXIV: '15'
+          TOP_MODELS: '12'
+        run: |
+          python scripts/main.py
+
+      - name: 提交并推送
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts data
+          if git diff --staged --quiet; then
+            echo "本次没有内容变化，跳过提交"
+          else
+            git commit -m "chore(daily): 更新 $(date -u +%F) AI 日报"
+            git push
+          fi

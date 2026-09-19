@@ -1,0 +1,40 @@
+title: AI 日报
+description: 每日自动聚合 —— AI 要闻 / 前沿论文 / 模型榜单
+lang: zh-CN
+theme: minima
+
+url: ""
+baseurl: "/ai-daily"
+
+timezone: Asia/Shanghai
+
+# 只构建 post 布局需要的内容，忽略脚本目录，避免 Jekyll 解析 Python
+exclude:
+  - scripts
+  - .github
+  - data
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .venv
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+minima:
+  skin: classic
+
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# 站点级说明变量，供模板使用
+repo: ""
+enable_llm_summary: false
