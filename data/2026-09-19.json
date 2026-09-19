@@ -1,6 +1,6 @@
 {
  "date": "2026-09-19",
- "stats": "7 条要闻 · 24 篇论文 · 12 个模型",
+ "stats": "3 条要闻 · 12 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
    "name": "AINews (smol.ai)",
@@ -44,33 +44,6 @@
    ],
    "stale": true,
    "latest_date": "2026-09-09"
-  },
-  "the_batch": {
-   "name": "The Batch",
-   "url": "https://www.deeplearning.ai/the-batch",
-   "issue": 371,
-   "issue_url": "https://www.deeplearning.ai/the-batch/issue-371",
-   "headline": "Meta’s Agent Security, The Navier-Stokes Controversy, Fraud on Claude",
-   "blurb": "",
-   "date": "2026-09-18",
-   "articles": [
-    {
-     "title": "How To Secure Agents for the Masses",
-     "url": "https://www.deeplearning.ai/the-batch/how-to-secure-agents-for-the-masses"
-    },
-    {
-     "title": "Inside the Dispute Over A Landmark Agent-Driven Mathematical Proof",
-     "url": "https://www.deeplearning.ai/the-batch/inside-the-dispute-over-a-landmark-agent-driven-mathematical-proof"
-    },
-    {
-     "title": "Some Kimi and DeepSeek Users Were Served Claude Instead, Anthropic Says",
-     "url": "https://www.deeplearning.ai/the-batch/some-kimi-and-deepseek-users-were-served-claude-instead-anthropic-says"
-    },
-    {
-     "title": "Even Agents Benefit From Reminders",
-     "url": "https://www.deeplearning.ai/the-batch/even-agents-benefit-from-reminders"
-    }
-   ]
   },
   "hf_papers": {
    "name": "Hugging Face Daily Papers",
@@ -211,110 +184,6 @@
    ],
    "date": "2026-09-17",
    "stale": true
-  },
-  "arxiv": {
-   "name": "arXiv cs.AI",
-   "url": "https://arxiv.org/list/cs.AI/recent",
-   "papers": [
-    {
-     "id": "2609.20822",
-     "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-     "authors": "",
-     "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is a…",
-     "url": "https://arxiv.org/abs/2609.20822v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20820",
-     "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
-     "authors": "",
-     "summary": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades performance, many approaches to policy memor…",
-     "url": "https://arxiv.org/abs/2609.20820v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20816",
-     "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
-     "authors": "",
-     "summary": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relie…",
-     "url": "https://arxiv.org/abs/2609.20816v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20815",
-     "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
-     "authors": "",
-     "summary": "Hereditary polyposis syndromes can be precursor lesions to colorectal cancer and are associated with a broad spectrum of extracolonic tumors. Early identification and accurate classification of these syndromes are essential for timely diagn…",
-     "url": "https://arxiv.org/abs/2609.20815v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20812",
-     "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
-     "authors": "",
-     "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\emph{overclaim} task …",
-     "url": "https://arxiv.org/abs/2609.20812v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20779",
-     "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
-     "authors": "",
-     "summary": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory conten…",
-     "url": "https://arxiv.org/abs/2609.20779v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20776",
-     "title": "GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies",
-     "authors": "",
-     "summary": "Action chunking is widely used for action generation and execution in Vision-Language-Action (VLA) policies, yet existing approaches commonly use a fixed action horizon. During a rollout, different task stages may require different levels o…",
-     "url": "https://arxiv.org/abs/2609.20776v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20768",
-     "title": "Semantic Action Graph: A Shared Representation for Agent Grounding and Human Interpretation of Sports Highlights",
-     "authors": "",
-     "summary": "Generative agents are increasingly used to select and narrate video highlights, but they typically operate over unstructured or frame-level representations. Their output is consequently difficult for a viewer to verify and steer toward indi…",
-     "url": "https://arxiv.org/abs/2609.20768v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20758",
-     "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
-     "authors": "",
-     "summary": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. Exhaustive testing is expensive, so evaluation rests on a sample of label…",
-     "url": "https://arxiv.org/abs/2609.20758v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20754",
-     "title": "RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents",
-     "authors": "",
-     "summary": "Effective troubleshooting agents in enterprise customer support depend on retrieving actionable guidance from similar historical cases, yet existing retrieval-augmented generation (RAG) systems treat support cases as static documents and ov…",
-     "url": "https://arxiv.org/abs/2609.20754v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20752",
-     "title": "Large Language Models as Falsifiers for Cyber-Physical Systems",
-     "authors": "",
-     "summary": "Falsification searches for counterexamples to formal specifications in cyber-physical systems (CPS). With specifications written in Signal Temporal Logic (STL), falsification can be formulated as a robustness optimization problem, tradition…",
-     "url": "https://arxiv.org/abs/2609.20752v1",
-     "date": "2026-09-17"
-    },
-    {
-     "id": "2609.20732",
-     "title": "Q&A on Any Spreadsheet Requires Interpreting Its Grid Structure",
-     "authors": "",
-     "summary": "Semantic cell annotation improves chunking interpretability for spreadsheets in LLM-driven RAG systems, aiding answer generation through enriched context rather than improved retrieval accuracy. We propose a novel framework of splitting any…",
-     "url": "https://arxiv.org/abs/2609.20732v1",
-     "date": "2026-09-17"
-    }
-   ],
-   "date": "2026-09-17",
-   "total": 15
   },
   "artificial_analysis": {
    "name": "Artificial Analysis",
