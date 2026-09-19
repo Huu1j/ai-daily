@@ -29,7 +29,9 @@ defaults:
 minima:
   skin: classic
 
-permalink: pretty
+# 不要默认的 pretty/date 样式：它会把 categories 拼进路径，
+# 中文分类会被编码成一长串 %E6%97%A5... 的丑链接。
+permalink: /:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed
