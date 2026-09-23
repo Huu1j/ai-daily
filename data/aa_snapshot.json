@@ -1,11 +1,11 @@
 {
- "date": "2026-09-22",
+ "date": "2026-09-23",
  "models": {
+  "Claude Opus 5.5": 57.6,
   "Claude Fable 5.1": 53.4,
   "GPT-6 Astra": 52.7,
-  "Claude Opus 5": 50.8,
   "Muse Spark 1.3": 48.1,
-  "GPT-5.6 Sol": 47.0,
+  "GPT-6 Sol": 47.5,
   "Grok 4.7": 46.4,
   "MiMo-V2.6-Pro": 46.3,
   "Qwen3.8 Max": 45.4,
@@ -20,7 +20,7 @@
   "Qwen3.8-Flash-Next": 39.8,
   "DeepSeek V4.1 Flash": 39.5,
   "Claude Sonnet 5": 38.2,
-  "GPT-5.6 Luna": 37.3,
+  "GPT-6 Luna": 37.3,
   "DeepSeek V4 Pro 0813": 36.0,
   "Agnes 3.0 Flash": 35.5,
   "Agnes 2.5 Pro Beta": 35.2,
