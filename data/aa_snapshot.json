@@ -1,5 +1,5 @@
 {
- "date": "2026-09-24",
+ "date": "2026-09-25",
  "models": {
   "Claude Opus 5.5": 57.6,
   "Claude Fable 5.1": 53.4,
@@ -27,7 +27,6 @@
   "Motif 3": 33.6,
   "GPT-5.3 Codex": 32.5,
   "K2 Horizon 375B A23B": 30.5,
-  "Apodex 1.1": 30.4,
   "Gemini 3.1 Pro Preview": 29.7,
   "MiniMax-M3": 29.2,
   "Solar Pro 4": 28.2,
@@ -35,6 +34,7 @@
   "Inkling Small": 27.8,
   "JT-4.1 Flash 236B A21B": 27.3,
   "Quasar 438B": 26.7,
+  "Apodex 1.1": 26.4,
   "MiMo-V2.5-Pro": 26.0,
   "GPT-5.5 Instant": 26.0,
   "Kimi K2.7 Code": 25.8,
