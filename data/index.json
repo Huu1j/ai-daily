@@ -1,6 +1,17 @@
 {
  "days": [
   {
+   "date": "2026-10-07",
+   "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
+   "sources": [
+    "AINews (smol.ai)",
+    "Hugging Face Daily Papers",
+    "arXiv cs.AI",
+    "Artificial Analysis",
+    "alphaXiv"
+   ]
+  },
+  {
    "date": "2026-10-06",
    "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
    "sources": [
