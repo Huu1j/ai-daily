@@ -1,5 +1,5 @@
 {
- "date": "2026-10-07",
+ "date": "2026-10-08",
  "models": {
   "Claude Opus 5.5": 57.6,
   "Claude Sonnet 5.5": 56.0,
@@ -14,6 +14,7 @@
   "GLM-5.3": 44.8,
   "Step 5 Preview": 43.7,
   "Kimi K3": 43.6,
+  "Claude Haiku 5.5": 43.4,
   "GPT-5.6 Terra": 42.1,
   "GLM 5.3 Flash": 41.8,
   "Ling 3.1 Flash": 41.1,
@@ -57,7 +58,6 @@
   "K2 Horizon 7B": 20.6,
   "Qwen3.5 Omni Plus": 20.4,
   "o3": 20.2,
-  "Ling 3.0 Flash": 20.1,
   "K-EXAONE 2.0 0803": 19.7,
   "LongCat 2.0": 19.1,
   "JT-35B-Flash": 18.7,
@@ -111,7 +111,6 @@
   "K2-V2": 9.9,
   "Qwen3 Next 80B A3B Instruct": 9.6,
   "DiffusionGemma 26B A4B": 9.5,
-  "Mistral Large 3": 9.3,
   "Motif-2-12.7B-Reasoning": 9.2,
   "Nova Premier": 9.2,
   "Qwen3 Coder Next": 9.2,
