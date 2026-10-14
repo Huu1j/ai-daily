@@ -1,5 +1,5 @@
 {
- "date": "2026-10-13",
+ "date": "2026-10-14",
  "models": {
   "Claude Opus 5.5": 57.6,
   "Claude Sonnet 5.5": 56.0,
@@ -28,6 +28,7 @@
   "GPT-6 Luna": 38.1,
   "MiMo-V2.6-Flash": 37.9,
   "DeepSeek V4 Pro 0813": 36.0,
+  "Agnes 2.5 Pro Beta": 35.2,
   "DeepSeek V4 Flash Vision": 34.8,
   "JT-4.1 Flash 236B A21B": 33.9,
   "Qwen3.8 27B": 33.7,
