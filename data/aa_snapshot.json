@@ -1,5 +1,5 @@
 {
- "date": "2026-10-16",
+ "date": "2026-10-17",
  "models": {
   "Claude Opus 5.5": 57.6,
   "Claude Sonnet 5.5": 56.0,
@@ -36,6 +36,7 @@
   "Motif 3": 33.6,
   "GPT-5.3 Codex": 32.5,
   "K2 Horizon 375B A23B": 30.5,
+  "Beam 1.0": 30.3,
   "Gemini 3.1 Pro Preview": 29.7,
   "MiniMax-M3": 29.2,
   "Nex-N2-Pro": 28.2,

@@ -1,5 +1,5 @@
 {
- "date": "2026-10-16",
+ "date": "2026-10-17",
  "stats": "3 条要闻 · 25 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
@@ -53,73 +53,95 @@
      "id": "2610.21601",
      "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
      "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift can…",
-     "upvotes": 159,
-     "comments": 1,
+     "upvotes": 660,
+     "comments": 4,
      "authors": "Bingxi Hou, Guochao Jiang, Guofeng Quan, Weiqing Li 等 7 人",
      "org": "",
      "url": "https://huggingface.co/papers/2610.21601",
      "arxiv": "https://arxiv.org/abs/2610.21601"
     },
     {
-     "id": "2610.22341",
-     "title": "3DCodeVerse: Exploring 3D Worlds as Code",
-     "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding ha…",
-     "upvotes": 65,
-     "comments": 1,
-     "authors": "Yipeng Gao, Ziyao Zeng, Jinfa Huang, Yijiang Li 等 19 人",
-     "org": "UniversityofSouthernCalifornia",
-     "url": "https://huggingface.co/papers/2610.22341",
-     "arxiv": "https://arxiv.org/abs/2610.22341"
-    },
-    {
-     "id": "2610.22174",
-     "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
-     "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and …",
-     "upvotes": 41,
-     "comments": 1,
-     "authors": "Yilong Xu, Minrui Xu, Xinyu Zhou, Xiang Long 等 6 人",
-     "org": "LARK-Lab",
-     "url": "https://huggingface.co/papers/2610.22174",
-     "arxiv": "https://arxiv.org/abs/2610.22174"
-    },
-    {
      "id": "2610.22200",
      "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
      "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-us…",
-     "upvotes": 39,
-     "comments": 2,
+     "upvotes": 315,
+     "comments": 3,
      "authors": "Hanzhang Zhou, Long Li, Quyu Kong, Lei Wang 等 15 人",
      "org": "Tongyi-MAI",
      "url": "https://huggingface.co/papers/2610.22200",
      "arxiv": "https://arxiv.org/abs/2610.22200"
     },
     {
+     "id": "2610.22350",
+     "title": "FDE-Gym: The Last Mile of AI Delivery",
+     "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must cla…",
+     "upvotes": 281,
+     "comments": 2,
+     "authors": "Dongxu Yang, Hongda Yan, Renxin Wang, Baoli Zhang 等 26 人",
+     "org": "DeepLethe",
+     "url": "https://huggingface.co/papers/2610.22350",
+     "arxiv": "https://arxiv.org/abs/2610.22350"
+    },
+    {
      "id": "2610.22276",
      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
      "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-lan…",
-     "upvotes": 38,
-     "comments": 1,
+     "upvotes": 281,
+     "comments": 2,
      "authors": "Luozheng Qin, Yuhan Zhu, Changhai Zhou, Qian Qiao 等 12 人",
      "org": "mindlab-research",
      "url": "https://huggingface.co/papers/2610.22276",
      "arxiv": "https://arxiv.org/abs/2610.22276"
     },
     {
+     "id": "2610.21261",
+     "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+     "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which …",
+     "upvotes": 104,
+     "comments": 2,
+     "authors": "Haotian Ma, Ziye Mei, Frederic Sala",
+     "org": "OpenSAE",
+     "url": "https://huggingface.co/papers/2610.21261",
+     "arxiv": "https://arxiv.org/abs/2610.21261"
+    },
+    {
      "id": "2610.21306",
      "title": "VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models",
      "summary": "Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map obser…",
-     "upvotes": 27,
-     "comments": 1,
+     "upvotes": 54,
+     "comments": 2,
      "authors": "Qi Lu, Jiarun Li, Ce Zhang, Miao Pan 等 8 人",
      "org": "OmniAI-ZJU",
      "url": "https://huggingface.co/papers/2610.21306",
      "arxiv": "https://arxiv.org/abs/2610.21306"
     },
     {
+     "id": "2610.22174",
+     "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
+     "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and …",
+     "upvotes": 51,
+     "comments": 2,
+     "authors": "Yilong Xu, Minrui Xu, Xinyu Zhou, Xiang Long 等 6 人",
+     "org": "LARK-Lab",
+     "url": "https://huggingface.co/papers/2610.22174",
+     "arxiv": "https://arxiv.org/abs/2610.22174"
+    },
+    {
+     "id": "2610.21095",
+     "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
+     "summary": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear. We introduce OneWM, a simple framework for unified causal training that treats actions as both co…",
+     "upvotes": 39,
+     "comments": 2,
+     "authors": "Yue Su, Bokai Lin, Xinkai Wang, Chubin Zhang 等 12 人",
+     "org": "IAAI233",
+     "url": "https://huggingface.co/papers/2610.21095",
+     "arxiv": "https://arxiv.org/abs/2610.21095"
+    },
+    {
      "id": "2610.22355",
      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
      "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond con…",
-     "upvotes": 23,
+     "upvotes": 30,
      "comments": 1,
      "authors": "Bowei Liu, Xinchen Zhang, Xuhuan Li, Tianlin Zhang 等 13 人",
      "org": "",
@@ -127,32 +149,10 @@
      "arxiv": "https://arxiv.org/abs/2610.22355"
     },
     {
-     "id": "2610.22344",
-     "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
-     "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvemen…",
-     "upvotes": 22,
-     "comments": 1,
-     "authors": "Shangheng Du, Jinxin Shi, Shuaiyu Zhang, Yiming Wu 等 10 人",
-     "org": "InternScience",
-     "url": "https://huggingface.co/papers/2610.22344",
-     "arxiv": "https://arxiv.org/abs/2610.22344"
-    },
-    {
-     "id": "2610.22282",
-     "title": "Routing Policy Optimization for Online Diffusion Reinforcement Learning",
-     "summary": "Reinforcement learning can align visual generators with reward signals beyond their pretraining objectives, but existing score-function methods typically introduce stochasticity by perturbing the reverse denoising trajec…",
-     "upvotes": 18,
-     "comments": 1,
-     "authors": "Qiuhong Shen, Yiding Yang, Yuxin Zhang, Xinwei Huang 等 11 人",
-     "org": "NationalUniversityofSingapore",
-     "url": "https://huggingface.co/papers/2610.22282",
-     "arxiv": "https://arxiv.org/abs/2610.22282"
-    },
-    {
      "id": "2610.21656",
      "title": "Data World: Scaling Data Environments from Scratch",
      "summary": "Data agents use code to process heterogeneous files and derive analytical insights. Scaling their training faces costly environment curation, privacy and intellectual-property restrictions, and difficulty verifying open-…",
-     "upvotes": 16,
+     "upvotes": 27,
      "comments": 1,
      "authors": "Zhanli Li, Zeyuan Xu, Chaoxu Pang, Zeyuan Liu 等 19 人",
      "org": "meituan-longcat",
@@ -160,26 +160,26 @@
      "arxiv": "https://arxiv.org/abs/2610.21656"
     },
     {
+     "id": "2610.22344",
+     "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+     "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvemen…",
+     "upvotes": 25,
+     "comments": 2,
+     "authors": "Shangheng Du, Jinxin Shi, Shuaiyu Zhang, Yiming Wu 等 10 人",
+     "org": "InternScience",
+     "url": "https://huggingface.co/papers/2610.22344",
+     "arxiv": "https://arxiv.org/abs/2610.22344"
+    },
+    {
      "id": "2610.21439",
      "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
      "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normali…",
-     "upvotes": 13,
+     "upvotes": 22,
      "comments": 1,
      "authors": "Skylar Zhai, Haonan Wang, Zhining Liu, Linxin Song 等 7 人",
      "org": "MBZUAI",
      "url": "https://huggingface.co/papers/2610.21439",
      "arxiv": "https://arxiv.org/abs/2610.21439"
-    },
-    {
-     "id": "2610.22311",
-     "title": "Velox: Spatial Memory Makes World Models Efficient",
-     "summary": "Video world models turn actions and camera motion into long visual rollouts, making video a natural interface for interactive simulation. Such interaction requires responsive generation, yet coherent rollouts must retain…",
-     "upvotes": 13,
-     "comments": 1,
-     "authors": "Qiuhong Shen, Shizun Wang, Xinchao Wang",
-     "org": "NationalUniversityofSingapore",
-     "url": "https://huggingface.co/papers/2610.22311",
-     "arxiv": "https://arxiv.org/abs/2610.22311"
     }
    ],
    "date": "2026-10-15",
@@ -230,19 +230,19 @@
      "date": "2026-10-15"
     },
     {
-     "id": "2610.22350",
-     "title": "FDE-Gym: The Last Mile of AI Delivery",
-     "authors": "",
-     "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requi…",
-     "url": "https://arxiv.org/abs/2610.22350v1",
-     "date": "2026-10-15"
-    },
-    {
      "id": "2610.22343",
      "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
      "authors": "",
      "summary": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with ca…",
      "url": "https://arxiv.org/abs/2610.22343v1",
+     "date": "2026-10-15"
+    },
+    {
+     "id": "2610.22341",
+     "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+     "authors": "",
+     "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial re…",
+     "url": "https://arxiv.org/abs/2610.22341v1",
      "date": "2026-10-15"
     },
     {
@@ -308,7 +308,7 @@
      "intelligence": 57.6,
      "price_in": 4,
      "price_out": 20,
-     "tps": 96.8304596499779,
+     "tps": 97.4598382728047,
      "context": 1000000,
      "open": false
     },
@@ -319,7 +319,7 @@
      "intelligence": 56.0,
      "price_in": 2,
      "price_out": 10,
-     "tps": 137.685268124164,
+     "tps": 141.374735137415,
      "context": 1000000,
      "open": false
     },
@@ -352,7 +352,7 @@
      "intelligence": 52.7,
      "price_in": 10,
      "price_out": 50,
-     "tps": 53.692273416665,
+     "tps": 57.4341766009502,
      "context": 1000000,
      "open": false
     },
@@ -374,7 +374,7 @@
      "intelligence": 52.4,
      "price_in": 4,
      "price_out": 20,
-     "tps": 183.949289327988,
+     "tps": 180.843715579491,
      "context": 1048576,
      "open": false
     },
@@ -385,7 +385,7 @@
      "intelligence": 51.8,
      "price_in": 2,
      "price_out": 10,
-     "tps": 57.062303433362,
+     "tps": 66.030331930327,
      "context": 1000000,
      "open": false
     },
@@ -396,7 +396,7 @@
      "intelligence": 48.1,
      "price_in": 1.25,
      "price_out": 4.25,
-     "tps": 127.719526945643,
+     "tps": 133.812988988685,
      "context": 1000000,
      "open": false
     },
@@ -407,7 +407,7 @@
      "intelligence": 46.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 101.553459762374,
+     "tps": 93.1303226037017,
      "context": 500000,
      "open": false
     },
@@ -429,7 +429,7 @@
      "intelligence": 45.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 39.3041059003755,
+     "tps": 38.3175643921364,
      "context": 983616,
      "open": false
     }
@@ -442,7 +442,7 @@
      "intelligence": 57.6,
      "price_in": 4,
      "price_out": 20,
-     "tps": 96.8304596499779,
+     "tps": 97.4598382728047,
      "context": 1000000,
      "open": false
     },
@@ -453,7 +453,7 @@
      "intelligence": 56.0,
      "price_in": 2,
      "price_out": 10,
-     "tps": 137.685268124164,
+     "tps": 141.374735137415,
      "context": 1000000,
      "open": false
     },
@@ -486,7 +486,7 @@
      "intelligence": 52.7,
      "price_in": 10,
      "price_out": 50,
-     "tps": 53.692273416665,
+     "tps": 57.4341766009502,
      "context": 1000000,
      "open": false
     },
@@ -508,7 +508,7 @@
      "intelligence": 52.4,
      "price_in": 4,
      "price_out": 20,
-     "tps": 183.949289327988,
+     "tps": 180.843715579491,
      "context": 1048576,
      "open": false
     },
@@ -519,7 +519,7 @@
      "intelligence": 51.8,
      "price_in": 2,
      "price_out": 10,
-     "tps": 57.062303433362,
+     "tps": 66.030331930327,
      "context": 1000000,
      "open": false
     },
@@ -530,7 +530,7 @@
      "intelligence": 48.1,
      "price_in": 1.25,
      "price_out": 4.25,
-     "tps": 127.719526945643,
+     "tps": 133.812988988685,
      "context": 1000000,
      "open": false
     },
@@ -541,7 +541,7 @@
      "intelligence": 46.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 101.553459762374,
+     "tps": 93.1303226037017,
      "context": 500000,
      "open": false
     },
@@ -563,7 +563,7 @@
      "intelligence": 45.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 39.3041059003755,
+     "tps": 38.3175643921364,
      "context": 983616,
      "open": false
     },
@@ -574,7 +574,7 @@
      "intelligence": 44.8,
      "price_in": 1.4,
      "price_out": 4.4,
-     "tps": 66.8457526810666,
+     "tps": 80.6004452857788,
      "context": 1000000,
      "open": true
     },
@@ -596,7 +596,7 @@
      "intelligence": 43.6,
      "price_in": 3,
      "price_out": 15,
-     "tps": 43.4110967412118,
+     "tps": 42.1643778284807,
      "context": 1048576,
      "open": true
     },
@@ -607,7 +607,7 @@
      "intelligence": 43.4,
      "price_in": 0.1,
      "price_out": 0.5,
-     "tps": 238.432175511751,
+     "tps": 235.42637507888,
      "context": 1000000,
      "open": false
     },
@@ -618,7 +618,7 @@
      "intelligence": 42.1,
      "price_in": 2,
      "price_out": 12,
-     "tps": 133.931664271132,
+     "tps": 136.364539358102,
      "context": 1000000,
      "open": false
     },
@@ -629,7 +629,7 @@
      "intelligence": 41.8,
      "price_in": 0.15,
      "price_out": 0.5,
-     "tps": 65.8721684202214,
+     "tps": 70.8312344302647,
      "context": 1000000,
      "open": true
     },
@@ -640,7 +640,7 @@
      "intelligence": 41.1,
      "price_in": 0.3,
      "price_out": 0.9,
-     "tps": 215.244495065616,
+     "tps": 214.088942848184,
      "context": 1000000,
      "open": true
     },
@@ -651,7 +651,7 @@
      "intelligence": 40.9,
      "price_in": 0.75,
      "price_out": 3.75,
-     "tps": 146.706105691347,
+     "tps": 147.073440802345,
      "context": 1000000,
      "open": false
     },
@@ -662,7 +662,7 @@
      "intelligence": 39.9,
      "price_in": 2,
      "price_out": 6,
-     "tps": 39.1200605671091,
+     "tps": 38.847077567023,
      "context": 262000,
      "open": true
     },
@@ -673,7 +673,7 @@
      "intelligence": 39.8,
      "price_in": 0.15,
      "price_out": 0.47,
-     "tps": 52.4613306463665,
+     "tps": 52.0170858066303,
      "context": 256000,
      "open": true
     },
@@ -684,7 +684,7 @@
      "intelligence": 39.5,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 179.249008942913,
+     "tps": 175.852558774099,
      "context": 1000000,
      "open": true
     },
@@ -695,7 +695,7 @@
      "intelligence": 38.9,
      "price_in": 1.25,
      "price_out": 4.25,
-     "tps": 102.036199790718,
+     "tps": 130.675197673432,
      "context": 1048576,
      "open": true
     },
@@ -706,7 +706,7 @@
      "intelligence": 38.4,
      "price_in": 1.36,
      "price_out": 4.18,
-     "tps": null,
+     "tps": 71.3341010336807,
      "context": 524288,
      "open": false
     },
@@ -717,7 +717,7 @@
      "intelligence": 38.1,
      "price_in": 0.1,
      "price_out": 0.5,
-     "tps": 122.095443752871,
+     "tps": 120.357052380923,
      "context": 1000000,
      "open": false
     },
@@ -728,7 +728,7 @@
      "intelligence": 37.9,
      "price_in": 0.14,
      "price_out": 0.28,
-     "tps": 53.6593012044135,
+     "tps": 51.9430960183717,
      "context": 1000000,
      "open": true
     },
@@ -739,7 +739,7 @@
      "intelligence": 36.0,
      "price_in": 1.32,
      "price_out": 3.96,
-     "tps": 89.0346169586279,
+     "tps": 78.7593928468968,
      "context": 1000000,
      "open": true
     },
@@ -750,7 +750,7 @@
      "intelligence": 35.2,
      "price_in": 0.1,
      "price_out": 0.3,
-     "tps": 118.554441641049,
+     "tps": 115.630255691748,
      "context": 1000000,
      "open": false
     },
@@ -761,7 +761,7 @@
      "intelligence": 34.8,
      "price_in": 0.44,
      "price_out": 1.32,
-     "tps": 175.695822147513,
+     "tps": 173.001026012607,
      "context": 1000000,
      "open": false
     },
@@ -783,7 +783,7 @@
      "intelligence": 33.7,
      "price_in": 0.5,
      "price_out": 3,
-     "tps": 41.3783865301246,
+     "tps": 41.3222151208951,
      "context": 256000,
      "open": true
     },
@@ -805,7 +805,7 @@
      "intelligence": 32.5,
      "price_in": 1.75,
      "price_out": 14,
-     "tps": 100.939119406931,
+     "tps": 97.5721077616432,
      "context": 400000,
      "open": false
     },
@@ -816,8 +816,19 @@
      "intelligence": 30.5,
      "price_in": 0,
      "price_out": 0,
-     "tps": 1213.21004864282,
+     "tps": null,
      "context": 524288,
+     "open": true
+    },
+    {
+     "name": "Beam 1.0",
+     "family": "Beam 1.0",
+     "creator": "Reflection",
+     "intelligence": 30.3,
+     "price_in": 0.7,
+     "price_out": 2.1,
+     "tps": 227.87946345201,
+     "context": 1048576,
      "open": true
     },
     {
@@ -827,7 +838,7 @@
      "intelligence": 29.7,
      "price_in": 2,
      "price_out": 12,
-     "tps": 140.122036656425,
+     "tps": 138.984768907248,
      "context": 1000000,
      "open": false
     },
@@ -838,7 +849,7 @@
      "intelligence": 29.2,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 93.8728349667825,
+     "tps": 93.3839213891068,
      "context": 1000000,
      "open": true
     },
@@ -860,7 +871,7 @@
      "intelligence": 26.7,
      "price_in": 0.6,
      "price_out": 1.8,
-     "tps": 146.121105555178,
+     "tps": 179.633257174453,
      "context": 1000000,
      "open": false
     },
@@ -871,7 +882,7 @@
      "intelligence": 26.6,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 81.3738410731302,
+     "tps": 112.604815688728,
      "context": 512000,
      "open": false
     },
@@ -880,9 +891,9 @@
      "family": "Nemotron 3.5 Super VL",
      "creator": "NVIDIA",
      "intelligence": 26.5,
-     "price_in": 0.2,
+     "price_in": 0.225,
      "price_out": 0.575,
-     "tps": 196.275197271207,
+     "tps": 387.985678326339,
      "context": 1000000,
      "open": true
     },
@@ -904,7 +915,7 @@
      "intelligence": 26.0,
      "price_in": 5,
      "price_out": 30,
-     "tps": 160.900432631088,
+     "tps": 150.889148845292,
      "context": 400000,
      "open": false
     },
@@ -915,7 +926,7 @@
      "intelligence": 25.8,
      "price_in": 0.95,
      "price_out": 4,
-     "tps": 51.7675745459954,
+     "tps": 49.4960755317674,
      "context": 256000,
      "open": true
     },
@@ -926,7 +937,7 @@
      "intelligence": 25.7,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 200.435005298159,
+     "tps": 202.355510019739,
      "context": 1000000,
      "open": true
     },
@@ -948,7 +959,7 @@
      "intelligence": 25.3,
      "price_in": 0.136,
      "price_out": 0.5549999999999999,
-     "tps": 88.8630796943165,
+     "tps": 84.3715012479146,
      "context": 256000,
      "open": true
     },
@@ -959,7 +970,7 @@
      "intelligence": 25.2,
      "price_in": 0.4,
      "price_out": 1.6,
-     "tps": 55.7317939145428,
+     "tps": 56.1360440249473,
      "context": 1000000,
      "open": false
     },
@@ -970,7 +981,7 @@
      "intelligence": 25.0,
      "price_in": 1,
      "price_out": 4.05,
-     "tps": 179.968339149915,
+     "tps": 197.032217094765,
      "context": 1000000,
      "open": true
     },
@@ -1003,7 +1014,7 @@
      "intelligence": 24.1,
      "price_in": 0.1,
      "price_out": 0.4,
-     "tps": 81.2240717944227,
+     "tps": 79.775606662091,
      "context": 1048576,
      "open": false
     },
@@ -1013,8 +1024,8 @@
      "creator": "NVIDIA",
      "intelligence": 22.9,
      "price_in": 0.6,
-     "price_out": 2.5,
-     "tps": 155.928743659088,
+     "price_out": 2.7,
+     "tps": 147.259848743967,
      "context": 262144,
      "open": true
     },
@@ -1025,7 +1036,7 @@
      "intelligence": 22.6,
      "price_in": 0.075,
      "price_out": 0.22,
-     "tps": 227.99469794379,
+     "tps": 272.857109030234,
      "context": 262144,
      "open": true
     },
@@ -1036,7 +1047,7 @@
      "intelligence": 22.2,
      "price_in": 0.3,
      "price_out": 2.5,
-     "tps": 446.070444249361,
+     "tps": 448.872718582386,
      "context": 1000000,
      "open": false
     },
@@ -1045,8 +1056,8 @@
      "family": "G9v3-39A5B",
      "creator": "AI9Stars",
      "intelligence": 21.8,
-     "price_in": 0,
-     "price_out": 0,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 131072,
      "open": true
@@ -1056,8 +1067,8 @@
      "family": "KAT Coder Pro V2",
      "creator": "KwaiKAT",
      "intelligence": 21.7,
-     "price_in": 0.3,
-     "price_out": 1.2,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 256000,
      "open": false
@@ -1080,7 +1091,7 @@
      "intelligence": 21.4,
      "price_in": 0.6,
      "price_out": 3.6,
-     "tps": 56.4613876229718,
+     "tps": 55.9422543302279,
      "context": 262144,
      "open": true
     },
@@ -1113,7 +1124,7 @@
      "intelligence": 20.4,
      "price_in": 0.4,
      "price_out": 4.8,
-     "tps": 83.9342140387782,
+     "tps": 72.9931376608896,
      "context": 256000,
      "open": false
     },
@@ -1146,7 +1157,7 @@
      "intelligence": 19.1,
      "price_in": 0.75,
      "price_out": 2.95,
-     "tps": 69.6730866762678,
+     "tps": 65.0299110779382,
      "context": 1000000,
      "open": true
     },
@@ -1168,7 +1179,7 @@
      "intelligence": 18.2,
      "price_in": 0.375,
      "price_out": 2.25,
-     "tps": 142.883020021234,
+     "tps": 139.283760731095,
      "context": 262144,
      "open": true
     },
@@ -1179,7 +1190,7 @@
      "intelligence": 17.7,
      "price_in": 0.4,
      "price_out": 3.2,
-     "tps": 140.997903396689,
+     "tps": 139.6861460792,
      "context": 262144,
      "open": true
     },
@@ -1190,7 +1201,7 @@
      "intelligence": 17.5,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 124.400832344107,
+     "tps": 131.750000197731,
      "context": 131072,
      "open": true
     },
@@ -1211,8 +1222,8 @@
      "creator": "Google",
      "intelligence": 16.7,
      "price_in": 0.1,
-     "price_out": 0.4,
-     "tps": 62.6755981617722,
+     "price_out": 0.37,
+     "tps": 68.0018676651712,
      "context": 256000,
      "open": true
     },
@@ -1223,7 +1234,7 @@
      "intelligence": 16.6,
      "price_in": 0.3,
      "price_out": 2.5,
-     "tps": 116.843204448068,
+     "tps": 114.739575566645,
      "context": 262144,
      "open": true
     },
@@ -1245,7 +1256,7 @@
      "intelligence": 14.7,
      "price_in": 0,
      "price_out": 0,
-     "tps": 35.4352074824744,
+     "tps": 35.2223925684341,
      "context": 256000,
      "open": true
     },
@@ -1267,7 +1278,7 @@
      "intelligence": 14.2,
      "price_in": 0.1,
      "price_out": 0.3,
-     "tps": 114.771626741612,
+     "tps": 119.37922970773,
      "context": 262144,
      "open": true
     },
@@ -1278,7 +1289,7 @@
      "intelligence": 14.2,
      "price_in": 1.25,
      "price_out": 10,
-     "tps": 134.22245659637,
+     "tps": 127.28425568703,
      "context": 256000,
      "open": false
     },
@@ -1289,7 +1300,7 @@
      "intelligence": 14.2,
      "price_in": 1.5,
      "price_out": 7.5,
-     "tps": 170.176774873219,
+     "tps": 160.402491324738,
      "context": 256000,
      "open": true
     },
@@ -1298,8 +1309,8 @@
      "family": "Nova 2.0 Omni",
      "creator": "Amazon",
      "intelligence": 13.6,
-     "price_in": 0.3,
-     "price_out": 2.5,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 1000000,
      "open": false
@@ -1311,7 +1322,7 @@
      "intelligence": 13.4,
      "price_in": 0.3,
      "price_out": 2.5,
-     "tps": 183.065562598943,
+     "tps": 181.432275647735,
      "context": 1000000,
      "open": false
     },
@@ -1320,8 +1331,8 @@
      "family": "Apriel-v1.6-15B-Thinker",
      "creator": "ServiceNow",
      "intelligence": 13.4,
-     "price_in": 0,
-     "price_out": 0,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 128000,
      "open": true
@@ -1333,7 +1344,7 @@
      "intelligence": 13.3,
      "price_in": 0.17,
      "price_out": 0.25,
-     "tps": 98.0933376667672,
+     "tps": 98.8104239715215,
      "context": 262144,
      "open": true
     },
@@ -1355,7 +1366,7 @@
      "intelligence": 13.1,
      "price_in": 0,
      "price_out": 0,
-     "tps": 185.689440568807,
+     "tps": 174.138780289854,
      "context": 192000,
      "open": true
     },
@@ -1366,7 +1377,7 @@
      "intelligence": 13.1,
      "price_in": 0.03,
      "price_out": 0.15,
-     "tps": 12.3105456913874,
+     "tps": 12.0005227930226,
      "context": 262144,
      "open": true
     },
@@ -1377,7 +1388,7 @@
      "intelligence": 12.9,
      "price_in": 0.06,
      "price_out": 0.2,
-     "tps": 303.501481830854,
+     "tps": 298.197371751771,
      "context": 1000000,
      "open": true
     },
@@ -1388,7 +1399,7 @@
      "intelligence": 12.7,
      "price_in": 0.16,
      "price_out": 0.65,
-     "tps": 76.0669785066866,
+     "tps": 76.5768326945147,
      "context": 131072,
      "open": true
     },
@@ -1410,7 +1421,7 @@
      "intelligence": 12.5,
      "price_in": 0.1,
      "price_out": 0.8,
-     "tps": 255.317440132381,
+     "tps": 233.060057315409,
      "context": 256000,
      "open": false
     },
@@ -1421,7 +1432,7 @@
      "intelligence": 12.3,
      "price_in": 0.25,
      "price_out": 0.75,
-     "tps": 780.236944716664,
+     "tps": 777.14603713203,
      "context": 260000,
      "open": false
     },
@@ -1474,9 +1485,9 @@
      "family": "gpt-oss-120b",
      "creator": "OpenAI",
      "intelligence": 11.6,
-     "price_in": 0.15,
-     "price_out": 0.59,
-     "tps": 213.634774260604,
+     "price_in": 0.125,
+     "price_out": 0.595,
+     "tps": 214.051776451257,
      "context": 131072,
      "open": true
     },
@@ -1520,7 +1531,7 @@
      "intelligence": 11.3,
      "price_in": 0.15,
      "price_out": 0.6,
-     "tps": 181.000102694525,
+     "tps": 164.984050157766,
      "context": 256000,
      "open": true
     },
@@ -1531,7 +1542,7 @@
      "intelligence": 11.2,
      "price_in": 0.15,
      "price_out": 1.2,
-     "tps": 162.515092643195,
+     "tps": 162.263911276795,
      "context": 262144,
      "open": true
     },
@@ -1542,7 +1553,7 @@
      "intelligence": 11.1,
      "price_in": 0,
      "price_out": 0,
-     "tps": 15.5666415317434,
+     "tps": 15.3374976316735,
      "context": 262144,
      "open": true
     },
@@ -1553,7 +1564,7 @@
      "intelligence": 11.1,
      "price_in": 0.06,
      "price_out": 0.25,
-     "tps": 128.448254245181,
+     "tps": 132.106888920332,
      "context": 131072,
      "open": true
     },
@@ -1573,8 +1584,8 @@
      "family": "G9v3-3B",
      "creator": "AI9Stars",
      "intelligence": 10.8,
-     "price_in": 0,
-     "price_out": 0,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 131072,
      "open": true
@@ -1586,7 +1597,7 @@
      "intelligence": 10.8,
      "price_in": 0.25,
      "price_out": 0.8,
-     "tps": 346.044583106529,
+     "tps": 339.698510836631,
      "context": 512000,
      "open": true
     },
@@ -1619,7 +1630,7 @@
      "intelligence": 10.3,
      "price_in": 0.3,
      "price_out": 0.9,
-     "tps": 241.52121661161,
+     "tps": 239.752250571728,
      "context": 256000,
      "open": true
     },
@@ -1629,8 +1640,8 @@
      "creator": "OpenAI",
      "intelligence": 10.0,
      "price_in": 0.07,
-     "price_out": 0.215,
-     "tps": 290.490758418726,
+     "price_out": 0.25,
+     "tps": 296.080169901625,
      "context": 131072,
      "open": true
     },
@@ -1641,7 +1652,7 @@
      "intelligence": 9.9,
      "price_in": 0,
      "price_out": 0,
-     "tps": 91.4372128738236,
+     "tps": 86.6377882013215,
      "context": 256000,
      "open": true
     },
@@ -1661,9 +1672,9 @@
      "family": "Qwen3 Next 80B A3B Instruct",
      "creator": "Alibaba",
      "intelligence": 9.6,
-     "price_in": 0.15,
-     "price_out": 1.1,
-     "tps": 113.834436500784,
+     "price_in": 0.125,
+     "price_out": 1.15,
+     "tps": 111.125731472433,
      "context": 262144,
      "open": true
     },
@@ -1684,8 +1695,8 @@
      "creator": "Meta",
      "intelligence": 9.3,
      "price_in": 0.25,
-     "price_out": 0.87,
-     "tps": 55.8915031162455,
+     "price_out": 0.9199999999999999,
+     "tps": 55.0474894533443,
      "context": 1000000,
      "open": true
     },
@@ -1716,9 +1727,9 @@
      "family": "Qwen3 Coder Next",
      "creator": "Alibaba",
      "intelligence": 9.2,
-     "price_in": 0.5,
-     "price_out": 1.2,
-     "tps": 63.9379542016014,
+     "price_in": 0.31,
+     "price_out": 1,
+     "tps": 68.9256126071947,
      "context": 256000,
      "open": true
     },
@@ -1729,7 +1740,7 @@
      "intelligence": 9.1,
      "price_in": 0.03,
      "price_out": 0.12,
-     "tps": 218.995832894375,
+     "tps": 219.225045306712,
      "context": 131072,
      "open": true
     },
@@ -1751,7 +1762,7 @@
      "intelligence": 8.9,
      "price_in": 0.05,
      "price_out": 0.2,
-     "tps": 235.298108311719,
+     "tps": 227.796577313857,
      "context": 1000000,
      "open": true
     },
@@ -1762,7 +1773,7 @@
      "intelligence": 8.9,
      "price_in": 0.02,
      "price_out": 0.1,
-     "tps": 46.5551698360354,
+     "tps": 43.5406963850933,
      "context": 128000,
      "open": true
     },
@@ -1773,7 +1784,7 @@
      "intelligence": 8.8,
      "price_in": 0.042,
      "price_out": 0.17,
-     "tps": null,
+     "tps": 235.112679814109,
      "context": 128000,
      "open": true
     },
@@ -1861,7 +1872,7 @@
      "intelligence": 7.8,
      "price_in": 0.25,
      "price_out": 0.97,
-     "tps": 101.136130688902,
+     "tps": 101.058596288221,
      "context": 65536,
      "open": true
     },
@@ -1883,7 +1894,7 @@
      "intelligence": 7.7,
      "price_in": 0.71,
      "price_out": 0.72,
-     "tps": 92.9069337408171,
+     "tps": 92.9080224989316,
      "context": 128000,
      "open": true
     },
@@ -1916,7 +1927,7 @@
      "intelligence": 7.5,
      "price_in": 1,
      "price_out": 3,
-     "tps": 37.1603264284797,
+     "tps": 33.3007229133568,
      "context": 128000,
      "open": true
     },
@@ -1925,8 +1936,8 @@
      "family": "ERNIE 4.5 300B A47B",
      "creator": "Baidu",
      "intelligence": 7.5,
-     "price_in": 0.28,
-     "price_out": 1.1,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 131072,
      "open": true
@@ -1949,7 +1960,7 @@
      "intelligence": 7.4,
      "price_in": 0.04,
      "price_out": 0.16,
-     "tps": 216.455044429165,
+     "tps": 181.643691417553,
      "context": 131072,
      "open": true
     },
@@ -1980,8 +1991,8 @@
      "family": "Ring-flash-2.0",
      "creator": "InclusionAI",
      "intelligence": 7.2,
-     "price_in": 0.14,
-     "price_out": 0.57,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 128000,
      "open": true
@@ -2002,8 +2013,8 @@
      "family": "Olmo 3.1 32B Think",
      "creator": "Allen Institute for AI",
      "intelligence": 7.1,
-     "price_in": 0,
-     "price_out": 0,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 65500,
      "open": true
@@ -2015,7 +2026,7 @@
      "intelligence": 7.0,
      "price_in": 2.5,
      "price_out": 10,
-     "tps": 63.5745894979855,
+     "tps": 63.8460207213686,
      "context": 256000,
      "open": true
     },
@@ -2035,8 +2046,8 @@
      "family": "Sarvam 30B",
      "creator": "Sarvam",
      "intelligence": 6.6,
-     "price_in": 0.026,
-     "price_out": 0.11,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 65536,
      "open": true
@@ -2059,7 +2070,7 @@
      "intelligence": 6.5,
      "price_in": 0.18,
      "price_out": 0.66,
-     "tps": 80.1227740283995,
+     "tps": 85.7163434082653,
      "context": 10000000,
      "open": true
     },
@@ -2092,7 +2103,7 @@
      "intelligence": 6.3,
      "price_in": 0.2,
      "price_out": 0.7,
-     "tps": 1401.99759756466,
+     "tps": 1407.07038556424,
      "context": 131072,
      "open": false
     },
@@ -2103,7 +2114,7 @@
      "intelligence": 6.3,
      "price_in": 0.075,
      "price_out": 0.3,
-     "tps": 45.7633416417589,
+     "tps": 45.3562606466337,
      "context": 128000,
      "open": true
     },
@@ -2147,7 +2158,7 @@
      "intelligence": 6.0,
      "price_in": 0.25,
      "price_out": 0.97,
-     "tps": 96.8932610527837,
+     "tps": 96.4770807137842,
      "context": 65536,
      "open": true
     },
@@ -2156,8 +2167,8 @@
      "family": "Granite 4.0 H Small",
      "creator": "IBM",
      "intelligence": 6.0,
-     "price_in": 0.06,
-     "price_out": 0.25,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 128000,
      "open": true
@@ -2180,7 +2191,7 @@
      "intelligence": 5.9,
      "price_in": 0.035,
      "price_out": 0.14,
-     "tps": 320.416538493256,
+     "tps": 297.691300678127,
      "context": 130000,
      "open": false
     },
@@ -2191,7 +2202,7 @@
      "intelligence": 5.9,
      "price_in": 0.125,
      "price_out": 0.5,
-     "tps": 41.6341517119639,
+     "tps": 41.5555701032196,
      "context": 16000,
      "open": true
     },
@@ -2268,7 +2279,7 @@
      "intelligence": 5.6,
      "price_in": 0.2,
      "price_out": 0.8,
-     "tps": 86.4098485686817,
+     "tps": 86.0009222209993,
      "context": 128000,
      "open": true
     },
@@ -2279,7 +2290,7 @@
      "intelligence": 5.5,
      "price_in": 0.15,
      "price_out": 0.15,
-     "tps": 110.203395876048,
+     "tps": 102.35326587493,
      "context": 256000,
      "open": true
     },
@@ -2290,7 +2301,7 @@
      "intelligence": 5.4,
      "price_in": 0.345,
      "price_out": 0.345,
-     "tps": 22.8902647050273,
+     "tps": 22.2845238969156,
      "context": 128000,
      "open": true
     },
@@ -2332,8 +2343,8 @@
      "family": "Olmo 3 7B Instruct",
      "creator": "Allen Institute for AI",
      "intelligence": 5.2,
-     "price_in": 0.1,
-     "price_out": 0.2,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 65536,
      "open": true
@@ -2387,8 +2398,8 @@
      "family": "Apertus 70B Instruct",
      "creator": "Swiss AI Initiative",
      "intelligence": 5.1,
-     "price_in": 0.82,
-     "price_out": 2.92,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 65536,
      "open": true
@@ -2444,7 +2455,7 @@
      "intelligence": 4.8,
      "price_in": 0.1,
      "price_out": 0.1,
-     "tps": 199.188621373448,
+     "tps": 217.349345283945,
      "context": 256000,
      "open": true
     },
@@ -2466,7 +2477,7 @@
      "intelligence": 4.8,
      "price_in": 0.1,
      "price_out": 0.2,
-     "tps": null,
+     "tps": 128.119999587761,
      "context": 65536,
      "open": true
     },
@@ -2504,7 +2515,7 @@
      "open": true
     }
    ],
-   "total_models": 188
+   "total_models": 189
   },
   "alphaxiv": {
    "name": "alphaXiv",
