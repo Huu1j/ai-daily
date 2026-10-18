@@ -1,5 +1,5 @@
 {
- "date": "2026-10-17",
+ "date": "2026-10-18",
  "stats": "3 条要闻 · 25 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
@@ -53,7 +53,7 @@
      "id": "2610.21601",
      "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
      "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift can…",
-     "upvotes": 660,
+     "upvotes": 667,
      "comments": 4,
      "authors": "Bingxi Hou, Guochao Jiang, Guofeng Quan, Weiqing Li 等 7 人",
      "org": "",
@@ -61,11 +61,22 @@
      "arxiv": "https://arxiv.org/abs/2610.21601"
     },
     {
+     "id": "2610.22276",
+     "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+     "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-lan…",
+     "upvotes": 352,
+     "comments": 2,
+     "authors": "Luozheng Qin, Yuhan Zhu, Changhai Zhou, Qian Qiao 等 12 人",
+     "org": "mindlab-research",
+     "url": "https://huggingface.co/papers/2610.22276",
+     "arxiv": "https://arxiv.org/abs/2610.22276"
+    },
+    {
      "id": "2610.22200",
      "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
      "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-us…",
-     "upvotes": 315,
-     "comments": 3,
+     "upvotes": 316,
+     "comments": 4,
      "authors": "Hanzhang Zhou, Long Li, Quyu Kong, Lei Wang 等 15 人",
      "org": "Tongyi-MAI",
      "url": "https://huggingface.co/papers/2610.22200",
@@ -75,7 +86,7 @@
      "id": "2610.22350",
      "title": "FDE-Gym: The Last Mile of AI Delivery",
      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must cla…",
-     "upvotes": 281,
+     "upvotes": 285,
      "comments": 2,
      "authors": "Dongxu Yang, Hongda Yan, Renxin Wang, Baoli Zhang 等 26 人",
      "org": "DeepLethe",
@@ -83,26 +94,26 @@
      "arxiv": "https://arxiv.org/abs/2610.22350"
     },
     {
-     "id": "2610.22276",
-     "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
-     "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-lan…",
-     "upvotes": 281,
-     "comments": 2,
-     "authors": "Luozheng Qin, Yuhan Zhu, Changhai Zhou, Qian Qiao 等 12 人",
-     "org": "mindlab-research",
-     "url": "https://huggingface.co/papers/2610.22276",
-     "arxiv": "https://arxiv.org/abs/2610.22276"
-    },
-    {
      "id": "2610.21261",
      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which …",
-     "upvotes": 104,
+     "upvotes": 106,
      "comments": 2,
      "authors": "Haotian Ma, Ziye Mei, Frederic Sala",
      "org": "OpenSAE",
      "url": "https://huggingface.co/papers/2610.21261",
      "arxiv": "https://arxiv.org/abs/2610.21261"
+    },
+    {
+     "id": "2610.21439",
+     "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
+     "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normali…",
+     "upvotes": 56,
+     "comments": 2,
+     "authors": "Skylar Zhai, Haonan Wang, Zhining Liu, Linxin Song 等 7 人",
+     "org": "MBZUAI",
+     "url": "https://huggingface.co/papers/2610.21439",
+     "arxiv": "https://arxiv.org/abs/2610.21439"
     },
     {
      "id": "2610.21306",
@@ -119,7 +130,7 @@
      "id": "2610.22174",
      "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
      "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and …",
-     "upvotes": 51,
+     "upvotes": 54,
      "comments": 2,
      "authors": "Yilong Xu, Minrui Xu, Xinyu Zhou, Xiang Long 等 6 人",
      "org": "LARK-Lab",
@@ -130,8 +141,8 @@
      "id": "2610.21095",
      "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
      "summary": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear. We introduce OneWM, a simple framework for unified causal training that treats actions as both co…",
-     "upvotes": 39,
-     "comments": 2,
+     "upvotes": 40,
+     "comments": 3,
      "authors": "Yue Su, Bokai Lin, Xinkai Wang, Chubin Zhang 等 12 人",
      "org": "IAAI233",
      "url": "https://huggingface.co/papers/2610.21095",
@@ -141,8 +152,8 @@
      "id": "2610.22355",
      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
      "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond con…",
-     "upvotes": 30,
-     "comments": 1,
+     "upvotes": 32,
+     "comments": 2,
      "authors": "Bowei Liu, Xinchen Zhang, Xuhuan Li, Tianlin Zhang 等 13 人",
      "org": "",
      "url": "https://huggingface.co/papers/2610.22355",
@@ -152,8 +163,8 @@
      "id": "2610.21656",
      "title": "Data World: Scaling Data Environments from Scratch",
      "summary": "Data agents use code to process heterogeneous files and derive analytical insights. Scaling their training faces costly environment curation, privacy and intellectual-property restrictions, and difficulty verifying open-…",
-     "upvotes": 27,
-     "comments": 1,
+     "upvotes": 28,
+     "comments": 3,
      "authors": "Zhanli Li, Zeyuan Xu, Chaoxu Pang, Zeyuan Liu 等 19 人",
      "org": "meituan-longcat",
      "url": "https://huggingface.co/papers/2610.21656",
@@ -169,17 +180,6 @@
      "org": "InternScience",
      "url": "https://huggingface.co/papers/2610.22344",
      "arxiv": "https://arxiv.org/abs/2610.22344"
-    },
-    {
-     "id": "2610.21439",
-     "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
-     "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normali…",
-     "upvotes": 22,
-     "comments": 1,
-     "authors": "Skylar Zhai, Haonan Wang, Zhining Liu, Linxin Song 等 7 人",
-     "org": "MBZUAI",
-     "url": "https://huggingface.co/papers/2610.21439",
-     "arxiv": "https://arxiv.org/abs/2610.21439"
     }
    ],
    "date": "2026-10-15",
