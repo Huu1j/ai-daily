@@ -1,6 +1,6 @@
 {
- "date": "2026-10-22",
- "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
+ "date": "2026-10-23",
+ "stats": "3 条要闻 · 27 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
    "name": "AINews (smol.ai)",
@@ -50,139 +50,139 @@
    "url": "https://huggingface.co/papers",
    "papers": [
     {
-     "id": "2610.29989",
-     "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
-     "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may al…",
-     "upvotes": 68,
+     "id": "2610.30926",
+     "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+     "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large langua…",
+     "upvotes": 132,
      "comments": 1,
-     "authors": "Ruopeng Gao, Yukun Huang, Jiarui Hu, Shuai Wang 等 7 人",
-     "org": "TencentARC",
-     "url": "https://huggingface.co/papers/2610.29989",
-     "arxiv": "https://arxiv.org/abs/2610.29989"
+     "authors": "Songlin Yang, Zhe Wang, Xiaotong Zhao, Xi Wang 等 11 人",
+     "org": "tencent",
+     "url": "https://huggingface.co/papers/2610.30926",
+     "arxiv": "https://arxiv.org/abs/2610.30926"
     },
     {
-     "id": "2610.29997",
-     "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
-     "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unadd…",
-     "upvotes": 24,
+     "id": "2610.30949",
+     "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+     "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, co…",
+     "upvotes": 38,
      "comments": 1,
-     "authors": "Mingze Sun, Ziang Cao, Yuan Fei, Qiankuan Tao 等 11 人",
-     "org": "ropedia-ai",
-     "url": "https://huggingface.co/papers/2610.29997",
-     "arxiv": "https://arxiv.org/abs/2610.29997"
+     "authors": "A. Jian Yang, An Huang, Bo Dan, Chen Mu 等 177 人",
+     "org": "IQuestLab",
+     "url": "https://huggingface.co/papers/2610.30949",
+     "arxiv": "https://arxiv.org/abs/2610.30949"
     },
     {
-     "id": "2610.29357",
-     "title": "Memory-Centric Continual Learning for AI Agents",
-     "summary": "Autonomous agents powered by foundation models can reason, plan, and use tools, but their fixed weights and context limits hinder sustained learning from experience over long-term deployment. While external memory system…",
-     "upvotes": 17,
+     "id": "2610.31329",
+     "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+     "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level per…",
+     "upvotes": 27,
      "comments": 1,
-     "authors": "Dongfang Li, Zhuoen Chen, Bonian Jia, Zixuan Liu 等 28 人",
-     "org": "SLAIAITP",
-     "url": "https://huggingface.co/papers/2610.29357",
-     "arxiv": "https://arxiv.org/abs/2610.29357"
+     "authors": "Tianming Liang, Junyi Pan, Yuxi Li, Canmiao Fu 等 8 人",
+     "org": "tencent",
+     "url": "https://huggingface.co/papers/2610.31329",
+     "arxiv": "https://arxiv.org/abs/2610.31329"
     },
     {
-     "id": "2610.30108",
-     "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
-     "summary": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We defin…",
-     "upvotes": 15,
-     "comments": 1,
-     "authors": "Yanzhe Chen, Ziyi Yang, Jifeng Zhu, Qiming Huang 等 17 人",
-     "org": "showlab",
-     "url": "https://huggingface.co/papers/2610.30108",
-     "arxiv": "https://arxiv.org/abs/2610.30108"
-    },
-    {
-     "id": "2610.29680",
-     "title": "TraceForge: Distilling with Your Own Thinking",
-     "summary": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answe…",
-     "upvotes": 15,
-     "comments": 1,
-     "authors": "Yan Wang",
-     "org": "IndependentResearcher121",
-     "url": "https://huggingface.co/papers/2610.29680",
-     "arxiv": "https://arxiv.org/abs/2610.29680"
-    },
-    {
-     "id": "2610.29441",
-     "title": "Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers",
-     "summary": "Full 3D attention is costly in video Diffusion Transformers. Block-sparse attention reduces this cost by computing only selected attention blocks. However, existing methods either overlook the potential to optimize spars…",
+     "id": "2610.31305",
+     "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
+     "summary": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose…",
      "upvotes": 13,
      "comments": 1,
-     "authors": "Tianze Xia, Xiaoling Zhou, Ruya Lan, Yiqiao Liao 等 6 人",
-     "org": "KlingTeam",
-     "url": "https://huggingface.co/papers/2610.29441",
-     "arxiv": "https://arxiv.org/abs/2610.29441"
+     "authors": "Hongcan Guo, Yian Zhao, Feng Wang, Shen Nie 等 7 人",
+     "org": "ByteDance-Seed",
+     "url": "https://huggingface.co/papers/2610.31305",
+     "arxiv": "https://arxiv.org/abs/2610.31305"
     },
     {
-     "id": "2610.30120",
-     "title": "ALPS: Visual State Encoders for World Models",
-     "summary": "World models turn visual representations into predictions and actions. We argue that their visual foundation should combine physical-state information, native language alignment, and pixel reconstruction, so that a singl…",
+     "id": "2610.31158",
+     "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
+     "summary": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video …",
+     "upvotes": 13,
+     "comments": 1,
+     "authors": "Jiahao Meng, Qize Yang, Yuxuan Wang, Yunfei Chu 等 7 人",
+     "org": "Qwen",
+     "url": "https://huggingface.co/papers/2610.31158",
+     "arxiv": "https://arxiv.org/abs/2610.31158"
+    },
+    {
+     "id": "2610.30866",
+     "title": "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
+     "summary": "Recent advances in video generation have made synthetic videos increasingly realistic, placing greater demands on reliable AI-generated video detection. Existing artifact-based detectors typically identify generation art…",
      "upvotes": 11,
      "comments": 1,
-     "authors": "Yanqing Liu, Letian Zhang, Chengzhi Liu, Zijun Wang 等 8 人",
-     "org": "UCSC-VLAA",
-     "url": "https://huggingface.co/papers/2610.30120",
-     "arxiv": "https://arxiv.org/abs/2610.30120"
+     "authors": "Zhuoran Zhang, Yang Shi, Qixun Wang, Tengfei Liu 等 14 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2610.30866",
+     "arxiv": "https://arxiv.org/abs/2610.30866"
     },
     {
-     "id": "2610.29545",
-     "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
-     "summary": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower p…",
+     "id": "2610.31574",
+     "title": "Rethinking Sequence Compression with Test-time Regression",
+     "summary": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperform…",
      "upvotes": 10,
-     "comments": 3,
-     "authors": "Patrick Haller, Filipe Laitenberger, Alan Akbik",
-     "org": "huberlin",
-     "url": "https://huggingface.co/papers/2610.29545",
-     "arxiv": "https://arxiv.org/abs/2610.29545"
-    },
-    {
-     "id": "2610.29458",
-     "title": "Harness Scaling for Generalizable Agentic Reinforcement Learning",
-     "summary": "Agent harnesses have become a central component of modern agentic systems, shaping how models use tools, manage context, and coordinate long-horizon interaction. Realizing the benefits of these harnesses depends on how e…",
-     "upvotes": 8,
      "comments": 1,
-     "authors": "Fei Bai, Huatong Song, Chuan Hao, Ran Tao 等 8 人",
-     "org": "RUC",
-     "url": "https://huggingface.co/papers/2610.29458",
-     "arxiv": "https://arxiv.org/abs/2610.29458"
+     "authors": "Sihan Yang, Jie Huang, Hanxuan Li, Yifan Guo 等 7 人",
+     "org": "SphereLab",
+     "url": "https://huggingface.co/papers/2610.31574",
+     "arxiv": "https://arxiv.org/abs/2610.31574"
     },
     {
-     "id": "2610.30023",
-     "title": "RealMe: Immersive Volumetric Video from Minimal Captures",
-     "summary": "This paper addresses the problem of creating immersive volumetric videos from sparse and low-resolution capture resources. Conventional dense multi-view reconstruction methods can produce high-quality volumetric videos, …",
-     "upvotes": 6,
+     "id": "2610.30755",
+     "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+     "summary": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always …",
+     "upvotes": 10,
      "comments": 1,
-     "authors": "Chenxu Zhou, Zhiyuan Yu, Yudong Jin, Yinji Shentu 等 7 人",
-     "org": "zju3dv",
-     "url": "https://huggingface.co/papers/2610.30023",
-     "arxiv": "https://arxiv.org/abs/2610.30023"
+     "authors": "Zhengye Bao, Shengtao Zhang, Haokai Zhang, Shiqi Lou 等 6 人",
+     "org": "XianJiaotongUniversity",
+     "url": "https://huggingface.co/papers/2610.30755",
+     "arxiv": "https://arxiv.org/abs/2610.30755"
     },
     {
-     "id": "2610.29317",
-     "title": "SpatialBrain: Spatial Intelligence Growing from Experience",
-     "summary": "Spatial reasoning requires more than access to geometric tools: a reasoner must decide when direct observation is sufficient and when to reconstruct, measure, or change reference frames. We present SpatialBrain, a framew…",
-     "upvotes": 6,
+     "id": "2610.31494",
+     "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
+     "summary": "Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world envi…",
+     "upvotes": 7,
      "comments": 1,
-     "authors": "Yifan Zhou, Ziyang Gong, Xiaojun Ye, Yifei Liu 等 8 人",
-     "org": "SJTU",
-     "url": "https://huggingface.co/papers/2610.29317",
-     "arxiv": "https://arxiv.org/abs/2610.29317"
+     "authors": "Advait Gupta, Sachin Konan, Tom Yin, Gabriel Sarch 等 5 人",
+     "org": "zlab-princeton",
+     "url": "https://huggingface.co/papers/2610.31494",
+     "arxiv": "https://arxiv.org/abs/2610.31494"
     },
     {
-     "id": "2610.29560",
-     "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
-     "summary": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve no…",
+     "id": "2610.31623",
+     "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
+     "summary": "This paper studies category-level RGB-D object pose estimation, which recovers an object's 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-c…",
      "upvotes": 5,
      "comments": 1,
-     "authors": "Tingwen Du, Haoyu Guo, Hanxue Zhang, Xuanxu Wang 等 12 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2610.29560",
-     "arxiv": "https://arxiv.org/abs/2610.29560"
+     "authors": "Jinyu Zhang, Haitao Lin, Jiashu Hou, Xiangyang Xue 等 5 人",
+     "org": "sii-research",
+     "url": "https://huggingface.co/papers/2610.31623",
+     "arxiv": "https://arxiv.org/abs/2610.31623"
+    },
+    {
+     "id": "2610.31466",
+     "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
+     "summary": "AI coding agents can now build small playable games in minutes, but the results usually look like programmer art: gray blockouts, colored geometric primitives, and flat semantic blobs. We present AnyGameRenderer, a video…",
+     "upvotes": 5,
+     "comments": 1,
+     "authors": "Ruicong Liu, Liangyang Ouyang, Fengbo Lan, Zhixiang Wang 等 5 人",
+     "org": "AlayaLab",
+     "url": "https://huggingface.co/papers/2610.31466",
+     "arxiv": "https://arxiv.org/abs/2610.31466"
+    },
+    {
+     "id": "2610.30882",
+     "title": "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
+     "summary": "Reinforcement learning (RL) is credited with teaching reasoning models to write {wait} before reconsidering a step, yet large RL accuracy gains do not require the word. This view can confuse what RL discovers with what a…",
+     "upvotes": 5,
+     "comments": 1,
+     "authors": "Zhizhuo Kou, Sizai Hou, Long Chen, Jian Yang 等 9 人",
+     "org": "huawei-noah",
+     "url": "https://huggingface.co/papers/2610.30882",
+     "arxiv": "https://arxiv.org/abs/2610.30882"
     }
    ],
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "stale": true
   },
   "arxiv": {
@@ -190,119 +190,127 @@
    "url": "https://arxiv.org/list/cs.AI/recent",
    "papers": [
     {
-     "id": "2610.30128",
-     "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+     "id": "2610.31667",
+     "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
      "authors": "",
-     "summary": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnost…",
-     "url": "https://arxiv.org/abs/2610.30128v1",
-     "date": "2026-10-21"
+     "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completio…",
+     "url": "https://arxiv.org/abs/2610.31667v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30125",
-     "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
+     "id": "2610.31657",
+     "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
      "authors": "",
-     "summary": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distrib…",
-     "url": "https://arxiv.org/abs/2610.30125v1",
-     "date": "2026-10-21"
+     "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then …",
+     "url": "https://arxiv.org/abs/2610.31657v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30116",
-     "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+     "id": "2610.31656",
+     "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
      "authors": "",
-     "summary": "Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each model play its role in this ecosystem, as…",
-     "url": "https://arxiv.org/abs/2610.30116v1",
-     "date": "2026-10-21"
+     "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into …",
+     "url": "https://arxiv.org/abs/2610.31656v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30114",
-     "title": "The End of Consensus Research?",
+     "id": "2610.31650",
+     "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
      "authors": "",
-     "summary": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to the problem is still open, as it requir…",
-     "url": "https://arxiv.org/abs/2610.30114v1",
-     "date": "2026-10-21"
+     "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and …",
+     "url": "https://arxiv.org/abs/2610.31650v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30113",
-     "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+     "id": "2610.31646",
+     "title": "Low-Bit N-Gram Embeddings for Language Models",
      "authors": "",
-     "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, code, or individual tra…",
-     "url": "https://arxiv.org/abs/2610.30113v1",
-     "date": "2026-10-21"
+     "summary": "Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves durin…",
+     "url": "https://arxiv.org/abs/2610.31646v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30105",
-     "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
+     "id": "2610.31639",
+     "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
      "authors": "",
-     "summary": "Sequential decision-making under partial observability is difficult because agents must explore to infer hidden, task-relevant information before acting effectively. Learning such information-gathering behaviors tabula rasa via online reinf…",
-     "url": "https://arxiv.org/abs/2610.30105v1",
-     "date": "2026-10-21"
+     "summary": "Chain-of-thought (CoT) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. In standard autoregressive generation, dense attention allows …",
+     "url": "https://arxiv.org/abs/2610.31639v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30104",
-     "title": "BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard",
+     "id": "2610.31624",
+     "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
      "authors": "",
-     "summary": "Despite recent advances, current AI systems remain highly susceptible to domain shifts, particularly in biomedical imaging, where images are usually acquired under substantially different experimental conditions. Although recent domain adap…",
-     "url": "https://arxiv.org/abs/2610.30104v1",
-     "date": "2026-10-21"
+     "summary": "Instrumental convergence is often invoked as a general reason to expect capable agents to acquire or express power-seeking subgoals: self-preservation, resource acquisition, deception, or resistance to oversight which poses an important thr…",
+     "url": "https://arxiv.org/abs/2610.31624v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30099",
-     "title": "Differentially Private Sparse Reward Estimation with Preference Feedback",
+     "id": "2610.31606",
+     "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
      "authors": "",
-     "summary": "Reinforcement Learning with Human Feedback (RLHF) has become a central paradigm for aligning Large Language Models with human values. However, the reliance on sensitive preference data necessitates rigorous differential privacy (DP) guarant…",
-     "url": "https://arxiv.org/abs/2610.30099v1",
-     "date": "2026-10-21"
+     "summary": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. …",
+     "url": "https://arxiv.org/abs/2610.31606v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30097",
-     "title": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
+     "id": "2610.31593",
+     "title": "Simulated Control Evals",
      "authors": "",
-     "summary": "Vision-language-action (VLA) models have shown promise in robotic manipulation, but imitation learning (IL) alone often struggles to master complex long-horizon skills. Reinforcement learning (RL) offers an effective avenue for further impr…",
-     "url": "https://arxiv.org/abs/2610.30097v1",
-     "date": "2026-10-21"
+     "summary": "Control evaluations measure whether safeguards can prevent an AI model from causing undesired outcomes even when it is intentionally trying to do so. These evaluations typically use purpose-built control settings and extrapolate their resul…",
+     "url": "https://arxiv.org/abs/2610.31593v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30074",
-     "title": "Parallel AI Agent Collaboration as Graph-Structured Distributed Block Optimization",
+     "id": "2610.31588",
+     "title": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
      "authors": "",
-     "summary": "Parallel AI agents can produce useful local edits yet degrade a shared solution when their edits are combined. We model this coordination problem as discrete block optimization with an exactly evaluable objective and a known dependency grap…",
-     "url": "https://arxiv.org/abs/2610.30074v1",
-     "date": "2026-10-21"
+     "summary": "Institutions that deploy large language models in regulated settings often need technical evidence of responsible AI practices before approving a deployment. COMPL-AI provides a technical interpretation of the EU AI Act that organises this …",
+     "url": "https://arxiv.org/abs/2610.31588v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30072",
-     "title": "Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis",
+     "id": "2610.31586",
+     "title": "Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination",
      "authors": "",
-     "summary": "Data agents built on ReAct-style loops now execute complex analytical workflows over structured data, yet their intermediate reasoning still runs almost entirely through text. Human analysts instead move between numbers, tables, and charts,…",
-     "url": "https://arxiv.org/abs/2610.30072v1",
-     "date": "2026-10-21"
+     "summary": "Accuracy on medical examinations is common evidence offered for the clinical use of language models, yet a health system that intends to run an open model on its own hardware needs to know considerably more: whether the model recognizes whe…",
+     "url": "https://arxiv.org/abs/2610.31586v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30051",
-     "title": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
+     "id": "2610.31579",
+     "title": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
      "authors": "",
-     "summary": "Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-speci…",
-     "url": "https://arxiv.org/abs/2610.30051v1",
-     "date": "2026-10-21"
+     "summary": "Research on sycophancy asks whether large language models (LLMs) bend towards what their users want to hear. We ask the reverse question: when an LLM is confident, consistent, and wrong, do users bend towards it? In a within-subjects experi…",
+     "url": "https://arxiv.org/abs/2610.31579v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30047",
-     "title": "SWE-DIVE: Multi-Turn Coding Agent Evaluation with Dynamic User Simulation",
+     "id": "2610.31576",
+     "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
      "authors": "",
-     "summary": "Coding agents are typically evaluated using one-shot, well-formulated prompts. Benchmarks such as SWE-bench use existing GitHub issues as input for a coding agent and evaluate whether the agent successfully solves the task. However, in real…",
-     "url": "https://arxiv.org/abs/2610.30047v1",
-     "date": "2026-10-21"
+     "summary": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity…",
+     "url": "https://arxiv.org/abs/2610.31576v1",
+     "date": "2026-10-22"
     },
     {
-     "id": "2610.30045",
-     "title": "Which Differences Matter? Controlled Tests of Rule Transfer, Joint Reliability, and Information Use in Decision Models",
+     "id": "2610.31573",
+     "title": "Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure",
      "authors": "",
-     "summary": "Decision models map stated rules and observed states to discrete answers. Aggregate accuracy leaves unresolved which rule and information changes guide those answers. We connect controlled input changes to transfer, joint reliability, and d…",
-     "url": "https://arxiv.org/abs/2610.30045v1",
-     "date": "2026-10-21"
+     "summary": "In the post-API landscape, social-media profiling has become inexpensive and automated: Large Language Models (LLMs) can extract structured information from unstructured content and deduce attributes users never disclosed. A person's true e…",
+     "url": "https://arxiv.org/abs/2610.31573v1",
+     "date": "2026-10-22"
+    },
+    {
+     "id": "2610.31563",
+     "title": "When to Follow the Teacher: Advantage-Based On-Policy Distillation",
+     "authors": "",
+     "summary": "Online Policy Distillation (OPD) often outperforms offline methods such as Supervised Fine-Tuning (SFT) by training on trajectories sampled directly from the student. However, standard OPD trains the student to follow the teacher at every s…",
+     "url": "https://arxiv.org/abs/2610.31563v1",
+     "date": "2026-10-22"
     }
    ],
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "total": 15
   },
   "artificial_analysis": {
@@ -316,7 +324,7 @@
      "intelligence": 57.6,
      "price_in": 4,
      "price_out": 20,
-     "tps": 95.6860567134025,
+     "tps": 95.8510129559586,
      "context": 1000000,
      "open": false
     },
@@ -327,7 +335,7 @@
      "intelligence": 56.0,
      "price_in": 2,
      "price_out": 10,
-     "tps": 133.861845018562,
+     "tps": 133.818391860326,
      "context": 1000000,
      "open": false
     },
@@ -349,7 +357,7 @@
      "intelligence": 53.4,
      "price_in": 10,
      "price_out": 50,
-     "tps": 69.1961051080191,
+     "tps": 68.3997643462126,
      "context": 1000000,
      "open": false
     },
@@ -360,7 +368,7 @@
      "intelligence": 52.7,
      "price_in": 10,
      "price_out": 50,
-     "tps": 56.2535705567599,
+     "tps": 56.7399029920059,
      "context": 1000000,
      "open": false
     },
@@ -371,7 +379,7 @@
      "intelligence": 52.6,
      "price_in": 2,
      "price_out": 10,
-     "tps": 81.3492706266484,
+     "tps": 81.7288871144569,
      "context": 1000000,
      "open": false
     },
@@ -382,7 +390,7 @@
      "intelligence": 52.4,
      "price_in": 4,
      "price_out": 20,
-     "tps": 145.137944782008,
+     "tps": 148.643617904862,
      "context": 1048576,
      "open": false
     },
@@ -393,7 +401,7 @@
      "intelligence": 51.8,
      "price_in": 2,
      "price_out": 10,
-     "tps": 54.3281820685133,
+     "tps": 55.2424542283701,
      "context": 1000000,
      "open": false
     },
@@ -404,7 +412,7 @@
      "intelligence": 46.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 88.374473107448,
+     "tps": 96.7339925818028,
      "context": 500000,
      "open": false
     },
@@ -415,7 +423,7 @@
      "intelligence": 46.3,
      "price_in": 0.435,
      "price_out": 0.87,
-     "tps": 48.1702536153181,
+     "tps": 52.6200256226423,
      "context": 1000000,
      "open": true
     },
@@ -426,7 +434,7 @@
      "intelligence": 45.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 40.6902904400574,
+     "tps": 41.6598568044525,
      "context": 983616,
      "open": false
     },
@@ -437,7 +445,7 @@
      "intelligence": 45.1,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 205.811149310413,
+     "tps": 203.742544335617,
      "context": 1000000,
      "open": true
     }
@@ -450,7 +458,7 @@
      "intelligence": 57.6,
      "price_in": 4,
      "price_out": 20,
-     "tps": 95.6860567134025,
+     "tps": 95.8510129559586,
      "context": 1000000,
      "open": false
     },
@@ -461,7 +469,7 @@
      "intelligence": 56.0,
      "price_in": 2,
      "price_out": 10,
-     "tps": 133.861845018562,
+     "tps": 133.818391860326,
      "context": 1000000,
      "open": false
     },
@@ -483,7 +491,7 @@
      "intelligence": 53.4,
      "price_in": 10,
      "price_out": 50,
-     "tps": 69.1961051080191,
+     "tps": 68.3997643462126,
      "context": 1000000,
      "open": false
     },
@@ -494,7 +502,7 @@
      "intelligence": 52.7,
      "price_in": 10,
      "price_out": 50,
-     "tps": 56.2535705567599,
+     "tps": 56.7399029920059,
      "context": 1000000,
      "open": false
     },
@@ -505,7 +513,7 @@
      "intelligence": 52.6,
      "price_in": 2,
      "price_out": 10,
-     "tps": 81.3492706266484,
+     "tps": 81.7288871144569,
      "context": 1000000,
      "open": false
     },
@@ -516,7 +524,7 @@
      "intelligence": 52.4,
      "price_in": 4,
      "price_out": 20,
-     "tps": 145.137944782008,
+     "tps": 148.643617904862,
      "context": 1048576,
      "open": false
     },
@@ -527,7 +535,7 @@
      "intelligence": 51.8,
      "price_in": 2,
      "price_out": 10,
-     "tps": 54.3281820685133,
+     "tps": 55.2424542283701,
      "context": 1000000,
      "open": false
     },
@@ -538,7 +546,7 @@
      "intelligence": 46.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 88.374473107448,
+     "tps": 96.7339925818028,
      "context": 500000,
      "open": false
     },
@@ -549,7 +557,7 @@
      "intelligence": 46.3,
      "price_in": 0.435,
      "price_out": 0.87,
-     "tps": 48.1702536153181,
+     "tps": 52.6200256226423,
      "context": 1000000,
      "open": true
     },
@@ -560,7 +568,7 @@
      "intelligence": 45.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 40.6902904400574,
+     "tps": 41.6598568044525,
      "context": 983616,
      "open": false
     },
@@ -571,7 +579,7 @@
      "intelligence": 45.1,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 205.811149310413,
+     "tps": 203.742544335617,
      "context": 1000000,
      "open": true
     },
@@ -582,9 +590,20 @@
      "intelligence": 44.8,
      "price_in": 1.4,
      "price_out": 4.4,
-     "tps": 76.7529715952132,
+     "tps": 77.7247128275094,
      "context": 1000000,
      "open": true
+    },
+    {
+     "name": "Ling 3.1 Flash 1019",
+     "family": "Ling 3.1 Flash 1019",
+     "creator": "InclusionAI",
+     "intelligence": 43.9,
+     "price_in": 0.3,
+     "price_out": 0.9,
+     "tps": null,
+     "context": 1048576,
+     "open": false
     },
     {
      "name": "Step 5 Preview",
@@ -593,7 +612,7 @@
      "intelligence": 43.7,
      "price_in": 1,
      "price_out": 2.7,
-     "tps": 93.9809472020994,
+     "tps": 216.760053476246,
      "context": 1000000,
      "open": true
     },
@@ -604,7 +623,7 @@
      "intelligence": 43.6,
      "price_in": 3,
      "price_out": 15,
-     "tps": 37.8746888998688,
+     "tps": 37.0393859696814,
      "context": 1048576,
      "open": true
     },
@@ -615,7 +634,7 @@
      "intelligence": 43.4,
      "price_in": 0.1,
      "price_out": 0.5,
-     "tps": 235.007521973794,
+     "tps": 236.088025658715,
      "context": 1000000,
      "open": false
     },
@@ -626,7 +645,7 @@
      "intelligence": 42.7,
      "price_in": 0.15,
      "price_out": 0.6,
-     "tps": 93.1119234389769,
+     "tps": 95.5531649197315,
      "context": 1000000,
      "open": false
     },
@@ -637,7 +656,7 @@
      "intelligence": 42.1,
      "price_in": 2,
      "price_out": 12,
-     "tps": 118.090313823662,
+     "tps": 124.92801998848,
      "context": 1000000,
      "open": false
     },
@@ -648,7 +667,7 @@
      "intelligence": 41.8,
      "price_in": 0.15,
      "price_out": 0.5,
-     "tps": 68.5290879674535,
+     "tps": 69.3109396008383,
      "context": 1000000,
      "open": true
     },
@@ -659,7 +678,7 @@
      "intelligence": 41.1,
      "price_in": 0.3,
      "price_out": 0.9,
-     "tps": 215.897702082571,
+     "tps": 220.824201616043,
      "context": 1000000,
      "open": true
     },
@@ -670,7 +689,7 @@
      "intelligence": 40.9,
      "price_in": 0.75,
      "price_out": 3.75,
-     "tps": 136.870523307751,
+     "tps": 141.521760096549,
      "context": 1000000,
      "open": false
     },
@@ -692,7 +711,7 @@
      "intelligence": 39.8,
      "price_in": 0.15,
      "price_out": 0.47,
-     "tps": 51.513857139104,
+     "tps": 51.5625479600989,
      "context": 256000,
      "open": true
     },
@@ -703,7 +722,7 @@
      "intelligence": 38.9,
      "price_in": 1.25,
      "price_out": 4.25,
-     "tps": 140.277606121253,
+     "tps": 161.537444537507,
      "context": 1048576,
      "open": true
     },
@@ -714,7 +733,7 @@
      "intelligence": 38.4,
      "price_in": 1.36,
      "price_out": 4.18,
-     "tps": 74.0079557594316,
+     "tps": 86.95852057544,
      "context": 524288,
      "open": false
     },
@@ -725,7 +744,7 @@
      "intelligence": 38.1,
      "price_in": 0.1,
      "price_out": 0.5,
-     "tps": 118.804919736686,
+     "tps": 135.214499121147,
      "context": 1000000,
      "open": false
     },
@@ -736,7 +755,7 @@
      "intelligence": 37.9,
      "price_in": 0.14,
      "price_out": 0.28,
-     "tps": 53.7322844159183,
+     "tps": 58.3170051304456,
      "context": 1000000,
      "open": true
     },
@@ -747,7 +766,7 @@
      "intelligence": 36.0,
      "price_in": 1.32,
      "price_out": 3.96,
-     "tps": 85.0347189553743,
+     "tps": 91.5738658711711,
      "context": 1000000,
      "open": true
     },
@@ -758,7 +777,7 @@
      "intelligence": 35.2,
      "price_in": 0.1,
      "price_out": 0.3,
-     "tps": 110.47734705381,
+     "tps": 108.02720336229,
      "context": 1000000,
      "open": false
     },
@@ -769,7 +788,7 @@
      "intelligence": 34.8,
      "price_in": 0.44,
      "price_out": 1.32,
-     "tps": 199.303000203767,
+     "tps": 198.79431406418,
      "context": 1000000,
      "open": false
     },
@@ -791,7 +810,7 @@
      "intelligence": 33.7,
      "price_in": 0.5,
      "price_out": 3,
-     "tps": 40.3026950667572,
+     "tps": 42.786826991058,
      "context": 256000,
      "open": true
     },
@@ -813,7 +832,7 @@
      "intelligence": 32.5,
      "price_in": 1.75,
      "price_out": 14,
-     "tps": 84.1946779354095,
+     "tps": 82.8131212833776,
      "context": 400000,
      "open": false
     },
@@ -824,7 +843,7 @@
      "intelligence": 30.5,
      "price_in": 0,
      "price_out": 0,
-     "tps": 1066.79172473581,
+     "tps": 991.481847560603,
      "context": 524288,
      "open": true
     },
@@ -835,7 +854,7 @@
      "intelligence": 30.3,
      "price_in": 0.4,
      "price_out": 1.2,
-     "tps": 326.652829774166,
+     "tps": 327.147410542536,
      "context": 1048576,
      "open": true
     },
@@ -846,7 +865,7 @@
      "intelligence": 29.7,
      "price_in": 2,
      "price_out": 12,
-     "tps": 123.027333446897,
+     "tps": 132.074459498771,
      "context": 1000000,
      "open": false
     },
@@ -857,7 +876,7 @@
      "intelligence": 29.2,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 84.9776695054838,
+     "tps": 87.3253666649359,
      "context": 1000000,
      "open": true
     },
@@ -877,10 +896,21 @@
      "family": "Quasar 438B",
      "creator": "Multiverse Computing",
      "intelligence": 26.7,
-     "price_in": 0.6,
-     "price_out": 1.8,
-     "tps": 169.761660939546,
+     "price_in": 0.11,
+     "price_out": 0.33,
+     "tps": 185.139674581715,
      "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Solar Pro 4",
+     "family": "Solar Pro 4",
+     "creator": "Upstage",
+     "intelligence": 26.6,
+     "price_in": 0.3,
+     "price_out": 1.2,
+     "tps": 119.673719414631,
+     "context": 512000,
      "open": false
     },
     {
@@ -890,7 +920,7 @@
      "intelligence": 26.5,
      "price_in": 0.225,
      "price_out": 0.575,
-     "tps": 426.954846409608,
+     "tps": 432.79229983997,
      "context": 1000000,
      "open": true
     },
@@ -912,7 +942,7 @@
      "intelligence": 26.0,
      "price_in": 5,
      "price_out": 30,
-     "tps": 155.077744904396,
+     "tps": 154.739290629232,
      "context": 400000,
      "open": false
     },
@@ -923,7 +953,7 @@
      "intelligence": 25.8,
      "price_in": 0.95,
      "price_out": 4,
-     "tps": 51.7495209584259,
+     "tps": 49.2102708433194,
      "context": 256000,
      "open": true
     },
@@ -934,7 +964,7 @@
      "intelligence": 25.7,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 214.615290920962,
+     "tps": 221.727177334172,
      "context": 1000000,
      "open": true
     },
@@ -956,7 +986,7 @@
      "intelligence": 25.3,
      "price_in": 0.136,
      "price_out": 0.5549999999999999,
-     "tps": 83.1351620453646,
+     "tps": 84.3533096700513,
      "context": 256000,
      "open": true
     },
@@ -967,7 +997,7 @@
      "intelligence": 25.2,
      "price_in": 0.4,
      "price_out": 1.6,
-     "tps": 58.9692377328838,
+     "tps": 59.2626109796051,
      "context": 1000000,
      "open": false
     },
@@ -978,7 +1008,7 @@
      "intelligence": 25.0,
      "price_in": 1,
      "price_out": 4.05,
-     "tps": 164.874660341257,
+     "tps": 170.999838534698,
      "context": 1000000,
      "open": true
     },
@@ -1011,7 +1041,7 @@
      "intelligence": 24.1,
      "price_in": 0.1,
      "price_out": 0.4,
-     "tps": 128.963013830111,
+     "tps": 103.677274041888,
      "context": 1048576,
      "open": false
     },
@@ -1022,7 +1052,7 @@
      "intelligence": 22.9,
      "price_in": 0.6,
      "price_out": 2.7,
-     "tps": 151.438914358481,
+     "tps": 154.20990181002,
      "context": 262144,
      "open": true
     },
@@ -1033,7 +1063,7 @@
      "intelligence": 22.6,
      "price_in": 0.075,
      "price_out": 0.22,
-     "tps": 306.545468762424,
+     "tps": null,
      "context": 262144,
      "open": true
     },
@@ -1044,7 +1074,7 @@
      "intelligence": 22.2,
      "price_in": 0.3,
      "price_out": 2.5,
-     "tps": 433.142561299005,
+     "tps": 430.164873198974,
      "context": 1000000,
      "open": false
     },
@@ -1088,7 +1118,7 @@
      "intelligence": 21.4,
      "price_in": 0.6,
      "price_out": 3.6,
-     "tps": 56.4699527186412,
+     "tps": 56.9567073790733,
      "context": 262144,
      "open": true
     },
@@ -1121,7 +1151,7 @@
      "intelligence": 20.4,
      "price_in": 0.4,
      "price_out": 4.8,
-     "tps": 87.4308282229262,
+     "tps": 110.123472602761,
      "context": 256000,
      "open": false
     },
@@ -1132,7 +1162,7 @@
      "intelligence": 20.2,
      "price_in": 2,
      "price_out": 8,
-     "tps": 108.290510641171,
+     "tps": 108.125877907317,
      "context": 200000,
      "open": false
     },
@@ -1154,7 +1184,7 @@
      "intelligence": 19.1,
      "price_in": 0.75,
      "price_out": 2.95,
-     "tps": 63.4018932827714,
+     "tps": 76.2985464205947,
      "context": 1000000,
      "open": true
     },
@@ -1176,7 +1206,7 @@
      "intelligence": 18.2,
      "price_in": 0.375,
      "price_out": 2.25,
-     "tps": 134.998198552862,
+     "tps": 138.688657897103,
      "context": 262144,
      "open": true
     },
@@ -1187,7 +1217,7 @@
      "intelligence": 17.7,
      "price_in": 0.4,
      "price_out": 3.2,
-     "tps": 142.361994669188,
+     "tps": 144.966325259936,
      "context": 262144,
      "open": true
     },
@@ -1198,7 +1228,7 @@
      "intelligence": 17.5,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 114.774118906526,
+     "tps": 127.865544775237,
      "context": 131072,
      "open": true
     },
@@ -1220,7 +1250,7 @@
      "intelligence": 16.7,
      "price_in": 0.1,
      "price_out": 0.34,
-     "tps": 77.3079838608748,
+     "tps": 78.5523255739224,
      "context": 256000,
      "open": true
     },
@@ -1231,7 +1261,7 @@
      "intelligence": 16.6,
      "price_in": 0.3,
      "price_out": 2.5,
-     "tps": 114.993080886415,
+     "tps": 117.895468409779,
      "context": 262144,
      "open": true
     },
@@ -1253,7 +1283,7 @@
      "intelligence": 14.7,
      "price_in": 0,
      "price_out": 0,
-     "tps": 35.5872589431504,
+     "tps": 35.9452411126957,
      "context": 256000,
      "open": true
     },
@@ -1275,7 +1305,7 @@
      "intelligence": 14.2,
      "price_in": 0.1,
      "price_out": 0.3,
-     "tps": 114.899491046585,
+     "tps": 121.011333277265,
      "context": 262144,
      "open": true
     },
@@ -1286,7 +1316,7 @@
      "intelligence": 14.2,
      "price_in": 1.25,
      "price_out": 10,
-     "tps": 120.74243227295,
+     "tps": 124.880620946756,
      "context": 256000,
      "open": false
     },
@@ -1297,7 +1327,7 @@
      "intelligence": 14.2,
      "price_in": 1.5,
      "price_out": 7.5,
-     "tps": 153.236761026423,
+     "tps": 160.557660102822,
      "context": 256000,
      "open": true
     },
@@ -1319,7 +1349,7 @@
      "intelligence": 13.4,
      "price_in": 0.3,
      "price_out": 2.5,
-     "tps": 177.132381354359,
+     "tps": 182.150044726712,
      "context": 1000000,
      "open": false
     },
@@ -1341,7 +1371,7 @@
      "intelligence": 13.3,
      "price_in": 0.17,
      "price_out": 0.25,
-     "tps": 80.1513113843678,
+     "tps": 78.7234228006294,
      "context": 262144,
      "open": true
     },
@@ -1363,7 +1393,7 @@
      "intelligence": 13.1,
      "price_in": 0,
      "price_out": 0,
-     "tps": 150.11131710966,
+     "tps": 148.76030294507,
      "context": 192000,
      "open": true
     },
@@ -1374,7 +1404,7 @@
      "intelligence": 13.1,
      "price_in": 0.03,
      "price_out": 0.15,
-     "tps": 16.1505413279423,
+     "tps": 16.400854259713,
      "context": 262144,
      "open": true
     },
@@ -1385,7 +1415,7 @@
      "intelligence": 12.9,
      "price_in": 0.06,
      "price_out": 0.2,
-     "tps": 302.043521919779,
+     "tps": 292.554183293137,
      "context": 1000000,
      "open": true
     },
@@ -1396,7 +1426,7 @@
      "intelligence": 12.7,
      "price_in": 0.16,
      "price_out": 0.65,
-     "tps": 64.4989378114055,
+     "tps": 74.5264545347446,
      "context": 131072,
      "open": true
     },
@@ -1418,7 +1448,7 @@
      "intelligence": 12.5,
      "price_in": 0.1,
      "price_out": 0.8,
-     "tps": 228.607538614483,
+     "tps": 236.470397219352,
      "context": 256000,
      "open": false
     },
@@ -1429,7 +1459,7 @@
      "intelligence": 12.3,
      "price_in": 0.25,
      "price_out": 0.75,
-     "tps": 788.487580253003,
+     "tps": 766.754256778526,
      "context": 260000,
      "open": false
     },
@@ -1484,7 +1514,7 @@
      "intelligence": 11.6,
      "price_in": 0.15,
      "price_out": 0.6,
-     "tps": 226.764674791961,
+     "tps": 219.41931337145,
      "context": 131072,
      "open": true
     },
@@ -1528,7 +1558,7 @@
      "intelligence": 11.3,
      "price_in": 0.15,
      "price_out": 0.6,
-     "tps": 176.528017335375,
+     "tps": 184.817288421453,
      "context": 256000,
      "open": true
     },
@@ -1539,7 +1569,7 @@
      "intelligence": 11.2,
      "price_in": 0.15,
      "price_out": 1.2,
-     "tps": 166.504147011238,
+     "tps": 182.620436457212,
      "context": 262144,
      "open": true
     },
@@ -1550,7 +1580,7 @@
      "intelligence": 11.1,
      "price_in": 0,
      "price_out": 0,
-     "tps": 31.0313916515213,
+     "tps": 56.7246478418996,
      "context": 262144,
      "open": true
     },
@@ -1561,7 +1591,7 @@
      "intelligence": 11.1,
      "price_in": 0.06,
      "price_out": 0.25,
-     "tps": 65.7443345898361,
+     "tps": 92.0635026505383,
      "context": 131072,
      "open": true
     },
@@ -1594,7 +1624,7 @@
      "intelligence": 10.8,
      "price_in": 0.25,
      "price_out": 0.8,
-     "tps": 347.672717637105,
+     "tps": 356.932301440532,
      "context": 512000,
      "open": true
     },
@@ -1627,7 +1657,7 @@
      "intelligence": 10.3,
      "price_in": 0.4,
      "price_out": 1.365,
-     "tps": 235.723034640875,
+     "tps": 234.568467616751,
      "context": 256000,
      "open": true
     },
@@ -1638,7 +1668,7 @@
      "intelligence": 10.0,
      "price_in": 0.07,
      "price_out": 0.275,
-     "tps": 262.809086830035,
+     "tps": 199.95498600476,
      "context": 131072,
      "open": true
     },
@@ -1649,7 +1679,7 @@
      "intelligence": 9.9,
      "price_in": 0,
      "price_out": 0,
-     "tps": 70.7432536841525,
+     "tps": 60.0929066991906,
      "context": 256000,
      "open": true
     },
@@ -1671,7 +1701,7 @@
      "intelligence": 9.6,
      "price_in": 0.125,
      "price_out": 1.15,
-     "tps": 119.724813245368,
+     "tps": 110.312593019082,
      "context": 262144,
      "open": true
     },
@@ -1693,7 +1723,7 @@
      "intelligence": 9.3,
      "price_in": 0.25,
      "price_out": 0.9199999999999999,
-     "tps": 43.0946115475842,
+     "tps": 47.7291590804068,
      "context": 1000000,
      "open": true
     },
@@ -1726,7 +1756,7 @@
      "intelligence": 9.2,
      "price_in": 0.31,
      "price_out": 1,
-     "tps": 79.3549009724926,
+     "tps": 79.680073586072,
      "context": 256000,
      "open": true
     },
@@ -1737,7 +1767,7 @@
      "intelligence": 9.1,
      "price_in": 0.03,
      "price_out": 0.12,
-     "tps": 66.787302757931,
+     "tps": 99.4201214723698,
      "context": 131072,
      "open": true
     },
@@ -1759,7 +1789,7 @@
      "intelligence": 8.9,
      "price_in": 0.05,
      "price_out": 0.2,
-     "tps": 226.960060048434,
+     "tps": 230.29184405355,
      "context": 1000000,
      "open": true
     },
@@ -1770,7 +1800,7 @@
      "intelligence": 8.9,
      "price_in": 0.02,
      "price_out": 0.1,
-     "tps": 30.6578331575536,
+     "tps": 34.8882918591805,
      "context": 128000,
      "open": true
     },
@@ -1781,7 +1811,7 @@
      "intelligence": 8.8,
      "price_in": 0.042,
      "price_out": 0.17,
-     "tps": 205.500606971657,
+     "tps": 199.393145056846,
      "context": 128000,
      "open": true
     },
@@ -1803,7 +1833,7 @@
      "intelligence": 8.6,
      "price_in": 0.5,
      "price_out": 1.5,
-     "tps": 90.4857684469395,
+     "tps": 85.3652023043564,
      "context": 128000,
      "open": true
     },
@@ -1869,7 +1899,7 @@
      "intelligence": 7.8,
      "price_in": 0.25,
      "price_out": 0.97,
-     "tps": 102.919265930377,
+     "tps": 102.641797574281,
      "context": 65536,
      "open": true
     },
@@ -1891,7 +1921,7 @@
      "intelligence": 7.7,
      "price_in": 0.71,
      "price_out": 0.72,
-     "tps": 91.594053804499,
+     "tps": 91.1243195246076,
      "context": 128000,
      "open": true
     },
@@ -1924,7 +1954,7 @@
      "intelligence": 7.5,
      "price_in": 1,
      "price_out": 3,
-     "tps": 39.7396876980643,
+     "tps": 40.7222850007821,
      "context": 128000,
      "open": true
     },
@@ -1957,7 +1987,7 @@
      "intelligence": 7.4,
      "price_in": 0.04,
      "price_out": 0.16,
-     "tps": 103.749646488337,
+     "tps": 99.9489110437781,
      "context": 131072,
      "open": true
     },
@@ -2023,7 +2053,7 @@
      "intelligence": 7.0,
      "price_in": 2.5,
      "price_out": 10,
-     "tps": 58.5629314328761,
+     "tps": 57.3659026945815,
      "context": 256000,
      "open": true
     },
@@ -2067,7 +2097,7 @@
      "intelligence": 6.5,
      "price_in": 0.18,
      "price_out": 0.66,
-     "tps": 108.579087083619,
+     "tps": 102.657229438512,
      "context": 10000000,
      "open": true
     },
@@ -2100,7 +2130,7 @@
      "intelligence": 6.3,
      "price_in": 0.2,
      "price_out": 0.7,
-     "tps": 1511.81595061835,
+     "tps": 1530.05581140686,
      "context": 131072,
      "open": false
     },
@@ -2111,7 +2141,7 @@
      "intelligence": 6.3,
      "price_in": 0.075,
      "price_out": 0.3,
-     "tps": 45.7513836810891,
+     "tps": 45.5547169097242,
      "context": 128000,
      "open": true
     },
@@ -2155,7 +2185,7 @@
      "intelligence": 6.0,
      "price_in": 0.25,
      "price_out": 0.97,
-     "tps": 96.1109269944962,
+     "tps": 96.0751184623064,
      "context": 65536,
      "open": true
     },
@@ -2177,7 +2207,7 @@
      "intelligence": 6.0,
      "price_in": 0.2,
      "price_out": 0.2,
-     "tps": 80.6570707997194,
+     "tps": 84.4931749130288,
      "context": 256000,
      "open": true
     },
@@ -2188,7 +2218,7 @@
      "intelligence": 5.9,
      "price_in": 0.035,
      "price_out": 0.14,
-     "tps": 276.305985441841,
+     "tps": 277.170695991963,
      "context": 130000,
      "open": false
     },
@@ -2199,7 +2229,7 @@
      "intelligence": 5.9,
      "price_in": 0.125,
      "price_out": 0.5,
-     "tps": 40.0945579554662,
+     "tps": 39.7994489246492,
      "context": 16000,
      "open": true
     },
@@ -2276,7 +2306,7 @@
      "intelligence": 5.6,
      "price_in": 0.2,
      "price_out": 0.8,
-     "tps": 86.795200366289,
+     "tps": 88.0626296974881,
      "context": 128000,
      "open": true
     },
@@ -2287,7 +2317,7 @@
      "intelligence": 5.5,
      "price_in": 0.15,
      "price_out": 0.15,
-     "tps": 109.274990262603,
+     "tps": 110.119794845703,
      "context": 256000,
      "open": true
     },
@@ -2298,7 +2328,7 @@
      "intelligence": 5.4,
      "price_in": 0.345,
      "price_out": 0.345,
-     "tps": 25.3677498092554,
+     "tps": 23.2928514047787,
      "context": 128000,
      "open": true
     },
@@ -2452,7 +2482,7 @@
      "intelligence": 4.8,
      "price_in": 0.1,
      "price_out": 0.1,
-     "tps": 208.899103456617,
+     "tps": 206.762032897973,
      "context": 256000,
      "open": true
     },
@@ -2474,7 +2504,7 @@
      "intelligence": 4.8,
      "price_in": 0.1,
      "price_out": 0.2,
-     "tps": 105.819064925786,
+     "tps": 124.562249085274,
      "context": 65536,
      "open": true
     },
@@ -2512,7 +2542,7 @@
      "open": true
     }
    ],
-   "total_models": 188
+   "total_models": 190
   },
   "alphaxiv": {
    "name": "alphaXiv",
