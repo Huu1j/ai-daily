@@ -1,5 +1,5 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "stats": "3 条要闻 · 27 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
@@ -50,11 +50,22 @@
    "url": "https://huggingface.co/papers",
    "papers": [
     {
+     "id": "2610.31329",
+     "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+     "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level per…",
+     "upvotes": 229,
+     "comments": 2,
+     "authors": "Tianming Liang, Junyi Pan, Yuxi Li, Canmiao Fu 等 8 人",
+     "org": "tencent",
+     "url": "https://huggingface.co/papers/2610.31329",
+     "arxiv": "https://arxiv.org/abs/2610.31329"
+    },
+    {
      "id": "2610.30926",
      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
      "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large langua…",
-     "upvotes": 132,
-     "comments": 1,
+     "upvotes": 165,
+     "comments": 2,
      "authors": "Songlin Yang, Zhe Wang, Xiaotong Zhao, Xi Wang 等 11 人",
      "org": "tencent",
      "url": "https://huggingface.co/papers/2610.30926",
@@ -64,122 +75,111 @@
      "id": "2610.30949",
      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
      "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, co…",
-     "upvotes": 38,
-     "comments": 1,
+     "upvotes": 66,
+     "comments": 2,
      "authors": "A. Jian Yang, An Huang, Bo Dan, Chen Mu 等 177 人",
      "org": "IQuestLab",
      "url": "https://huggingface.co/papers/2610.30949",
      "arxiv": "https://arxiv.org/abs/2610.30949"
     },
     {
-     "id": "2610.31329",
-     "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
-     "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level per…",
-     "upvotes": 27,
-     "comments": 1,
-     "authors": "Tianming Liang, Junyi Pan, Yuxi Li, Canmiao Fu 等 8 人",
-     "org": "tencent",
-     "url": "https://huggingface.co/papers/2610.31329",
-     "arxiv": "https://arxiv.org/abs/2610.31329"
-    },
-    {
-     "id": "2610.31305",
-     "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
-     "summary": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose…",
-     "upvotes": 13,
-     "comments": 1,
-     "authors": "Hongcan Guo, Yian Zhao, Feng Wang, Shen Nie 等 7 人",
-     "org": "ByteDance-Seed",
-     "url": "https://huggingface.co/papers/2610.31305",
-     "arxiv": "https://arxiv.org/abs/2610.31305"
+     "id": "2610.30753",
+     "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
+     "summary": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that conv…",
+     "upvotes": 26,
+     "comments": 2,
+     "authors": "Yiming Zhang, Jiarui Guo, Haojia Wei, Yifei Liu 等 8 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2610.30753",
+     "arxiv": "https://arxiv.org/abs/2610.30753"
     },
     {
      "id": "2610.31158",
      "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
      "summary": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video …",
-     "upvotes": 13,
-     "comments": 1,
+     "upvotes": 17,
+     "comments": 2,
      "authors": "Jiahao Meng, Qize Yang, Yuxuan Wang, Yunfei Chu 等 7 人",
      "org": "Qwen",
      "url": "https://huggingface.co/papers/2610.31158",
      "arxiv": "https://arxiv.org/abs/2610.31158"
     },
     {
-     "id": "2610.30866",
-     "title": "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
-     "summary": "Recent advances in video generation have made synthetic videos increasingly realistic, placing greater demands on reliable AI-generated video detection. Existing artifact-based detectors typically identify generation art…",
-     "upvotes": 11,
-     "comments": 1,
-     "authors": "Zhuoran Zhang, Yang Shi, Qixun Wang, Tengfei Liu 等 14 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2610.30866",
-     "arxiv": "https://arxiv.org/abs/2610.30866"
-    },
-    {
-     "id": "2610.31574",
-     "title": "Rethinking Sequence Compression with Test-time Regression",
-     "summary": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperform…",
-     "upvotes": 10,
-     "comments": 1,
-     "authors": "Sihan Yang, Jie Huang, Hanxuan Li, Yifan Guo 等 7 人",
-     "org": "SphereLab",
-     "url": "https://huggingface.co/papers/2610.31574",
-     "arxiv": "https://arxiv.org/abs/2610.31574"
-    },
-    {
      "id": "2610.30755",
      "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
      "summary": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always …",
-     "upvotes": 10,
-     "comments": 1,
+     "upvotes": 15,
+     "comments": 5,
      "authors": "Zhengye Bao, Shengtao Zhang, Haokai Zhang, Shiqi Lou 等 6 人",
      "org": "XianJiaotongUniversity",
      "url": "https://huggingface.co/papers/2610.30755",
      "arxiv": "https://arxiv.org/abs/2610.30755"
     },
     {
-     "id": "2610.31494",
-     "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
-     "summary": "Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world envi…",
-     "upvotes": 7,
-     "comments": 1,
-     "authors": "Advait Gupta, Sachin Konan, Tom Yin, Gabriel Sarch 等 5 人",
-     "org": "zlab-princeton",
-     "url": "https://huggingface.co/papers/2610.31494",
-     "arxiv": "https://arxiv.org/abs/2610.31494"
+     "id": "2610.31305",
+     "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
+     "summary": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose…",
+     "upvotes": 14,
+     "comments": 2,
+     "authors": "Hongcan Guo, Yian Zhao, Feng Wang, Shen Nie 等 7 人",
+     "org": "ByteDance-Seed",
+     "url": "https://huggingface.co/papers/2610.31305",
+     "arxiv": "https://arxiv.org/abs/2610.31305"
     },
     {
-     "id": "2610.31623",
-     "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
-     "summary": "This paper studies category-level RGB-D object pose estimation, which recovers an object's 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-c…",
-     "upvotes": 5,
-     "comments": 1,
-     "authors": "Jinyu Zhang, Haitao Lin, Jiashu Hou, Xiangyang Xue 等 5 人",
-     "org": "sii-research",
-     "url": "https://huggingface.co/papers/2610.31623",
-     "arxiv": "https://arxiv.org/abs/2610.31623"
+     "id": "2610.31574",
+     "title": "Rethinking Sequence Compression with Test-time Regression",
+     "summary": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperform…",
+     "upvotes": 12,
+     "comments": 3,
+     "authors": "Sihan Yang, Jie Huang, Hanxuan Li, Yifan Guo 等 7 人",
+     "org": "SphereLab",
+     "url": "https://huggingface.co/papers/2610.31574",
+     "arxiv": "https://arxiv.org/abs/2610.31574"
+    },
+    {
+     "id": "2610.30866",
+     "title": "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
+     "summary": "Recent advances in video generation have made synthetic videos increasingly realistic, placing greater demands on reliable AI-generated video detection. Existing artifact-based detectors typically identify generation art…",
+     "upvotes": 12,
+     "comments": 2,
+     "authors": "Zhuoran Zhang, Yang Shi, Qixun Wang, Tengfei Liu 等 14 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2610.30866",
+     "arxiv": "https://arxiv.org/abs/2610.30866"
     },
     {
      "id": "2610.31466",
      "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
      "summary": "AI coding agents can now build small playable games in minutes, but the results usually look like programmer art: gray blockouts, colored geometric primitives, and flat semantic blobs. We present AnyGameRenderer, a video…",
-     "upvotes": 5,
-     "comments": 1,
+     "upvotes": 11,
+     "comments": 2,
      "authors": "Ruicong Liu, Liangyang Ouyang, Fengbo Lan, Zhixiang Wang 等 5 人",
      "org": "AlayaLab",
      "url": "https://huggingface.co/papers/2610.31466",
      "arxiv": "https://arxiv.org/abs/2610.31466"
     },
     {
-     "id": "2610.30882",
-     "title": "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
-     "summary": "Reinforcement learning (RL) is credited with teaching reasoning models to write {wait} before reconsidering a step, yet large RL accuracy gains do not require the word. This view can confuse what RL discovers with what a…",
-     "upvotes": 5,
+     "id": "2610.31494",
+     "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
+     "summary": "Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world envi…",
+     "upvotes": 11,
+     "comments": 2,
+     "authors": "Advait Gupta, Sachin Konan, Tom Yin, Gabriel Sarch 等 5 人",
+     "org": "zlab-princeton",
+     "url": "https://huggingface.co/papers/2610.31494",
+     "arxiv": "https://arxiv.org/abs/2610.31494"
+    },
+    {
+     "id": "2610.31668",
+     "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+     "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objective…",
+     "upvotes": 8,
      "comments": 1,
-     "authors": "Zhizhuo Kou, Sizai Hou, Long Chen, Jian Yang 等 9 人",
-     "org": "huawei-noah",
-     "url": "https://huggingface.co/papers/2610.30882",
-     "arxiv": "https://arxiv.org/abs/2610.30882"
+     "authors": "Shengqiong Wu, Meng Luo, Bobo Li, Ziwei Liu 等 8 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2610.31668",
+     "arxiv": "https://arxiv.org/abs/2610.31668"
     }
    ],
    "date": "2026-10-22",
@@ -324,7 +324,7 @@
      "intelligence": 57.6,
      "price_in": 4,
      "price_out": 20,
-     "tps": 95.8510129559586,
+     "tps": 96.2932485108269,
      "context": 1000000,
      "open": false
     },
@@ -335,7 +335,7 @@
      "intelligence": 56.0,
      "price_in": 2,
      "price_out": 10,
-     "tps": 133.818391860326,
+     "tps": 132.7139358127,
      "context": 1000000,
      "open": false
     },
@@ -351,13 +351,24 @@
      "open": false
     },
     {
+     "name": "Kimi K3.1 Pro",
+     "family": "Kimi K3.1 Pro",
+     "creator": "Kimi",
+     "intelligence": 55.1,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": 73.4597669926874,
+     "context": 1000000,
+     "open": false
+    },
+    {
      "name": "Claude Fable 5.1 (Max, Default Fallback)",
      "family": "Claude Fable 5.1",
      "creator": "Anthropic",
      "intelligence": 53.4,
      "price_in": 10,
      "price_out": 50,
-     "tps": 68.3997643462126,
+     "tps": 68.4576696869576,
      "context": 1000000,
      "open": false
     },
@@ -368,7 +379,7 @@
      "intelligence": 52.7,
      "price_in": 10,
      "price_out": 50,
-     "tps": 56.7399029920059,
+     "tps": 58.1181143902355,
      "context": 1000000,
      "open": false
     },
@@ -379,7 +390,7 @@
      "intelligence": 52.6,
      "price_in": 2,
      "price_out": 10,
-     "tps": 81.7288871144569,
+     "tps": 79.1087598186695,
      "context": 1000000,
      "open": false
     },
@@ -390,7 +401,7 @@
      "intelligence": 52.4,
      "price_in": 4,
      "price_out": 20,
-     "tps": 148.643617904862,
+     "tps": 145.174852588055,
      "context": 1048576,
      "open": false
     },
@@ -401,7 +412,7 @@
      "intelligence": 51.8,
      "price_in": 2,
      "price_out": 10,
-     "tps": 55.2424542283701,
+     "tps": 57.3369712661238,
      "context": 1000000,
      "open": false
     },
@@ -412,7 +423,7 @@
      "intelligence": 46.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 96.7339925818028,
+     "tps": 96.6450617140349,
      "context": 500000,
      "open": false
     },
@@ -423,7 +434,7 @@
      "intelligence": 46.3,
      "price_in": 0.435,
      "price_out": 0.87,
-     "tps": 52.6200256226423,
+     "tps": 54.7461629430781,
      "context": 1000000,
      "open": true
     },
@@ -434,20 +445,9 @@
      "intelligence": 45.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 41.6598568044525,
+     "tps": 41.8032457118835,
      "context": 983616,
      "open": false
-    },
-    {
-     "name": "DeepSeek V4.1 Flash 1017 (Max)",
-     "family": "DeepSeek V4.1 Flash 1017",
-     "creator": "DeepSeek",
-     "intelligence": 45.1,
-     "price_in": 0.3,
-     "price_out": 1.2,
-     "tps": 203.742544335617,
-     "context": 1000000,
-     "open": true
     }
    ],
    "all": [
@@ -458,7 +458,7 @@
      "intelligence": 57.6,
      "price_in": 4,
      "price_out": 20,
-     "tps": 95.8510129559586,
+     "tps": 96.2932485108269,
      "context": 1000000,
      "open": false
     },
@@ -469,7 +469,7 @@
      "intelligence": 56.0,
      "price_in": 2,
      "price_out": 10,
-     "tps": 133.818391860326,
+     "tps": 132.7139358127,
      "context": 1000000,
      "open": false
     },
@@ -485,13 +485,24 @@
      "open": false
     },
     {
+     "name": "Kimi K3.1 Pro",
+     "family": "Kimi K3.1 Pro",
+     "creator": "Kimi",
+     "intelligence": 55.1,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": 73.4597669926874,
+     "context": 1000000,
+     "open": false
+    },
+    {
      "name": "Claude Fable 5.1 (Max, Default Fallback)",
      "family": "Claude Fable 5.1",
      "creator": "Anthropic",
      "intelligence": 53.4,
      "price_in": 10,
      "price_out": 50,
-     "tps": 68.3997643462126,
+     "tps": 68.4576696869576,
      "context": 1000000,
      "open": false
     },
@@ -502,7 +513,7 @@
      "intelligence": 52.7,
      "price_in": 10,
      "price_out": 50,
-     "tps": 56.7399029920059,
+     "tps": 58.1181143902355,
      "context": 1000000,
      "open": false
     },
@@ -513,7 +524,7 @@
      "intelligence": 52.6,
      "price_in": 2,
      "price_out": 10,
-     "tps": 81.7288871144569,
+     "tps": 79.1087598186695,
      "context": 1000000,
      "open": false
     },
@@ -524,7 +535,7 @@
      "intelligence": 52.4,
      "price_in": 4,
      "price_out": 20,
-     "tps": 148.643617904862,
+     "tps": 145.174852588055,
      "context": 1048576,
      "open": false
     },
@@ -535,7 +546,7 @@
      "intelligence": 51.8,
      "price_in": 2,
      "price_out": 10,
-     "tps": 55.2424542283701,
+     "tps": 57.3369712661238,
      "context": 1000000,
      "open": false
     },
@@ -546,7 +557,7 @@
      "intelligence": 46.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 96.7339925818028,
+     "tps": 96.6450617140349,
      "context": 500000,
      "open": false
     },
@@ -557,7 +568,7 @@
      "intelligence": 46.3,
      "price_in": 0.435,
      "price_out": 0.87,
-     "tps": 52.6200256226423,
+     "tps": 54.7461629430781,
      "context": 1000000,
      "open": true
     },
@@ -568,7 +579,7 @@
      "intelligence": 45.4,
      "price_in": 2,
      "price_out": 6,
-     "tps": 41.6598568044525,
+     "tps": 41.8032457118835,
      "context": 983616,
      "open": false
     },
@@ -579,7 +590,7 @@
      "intelligence": 45.1,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 203.742544335617,
+     "tps": 195.157086034074,
      "context": 1000000,
      "open": true
     },
@@ -590,7 +601,7 @@
      "intelligence": 44.8,
      "price_in": 1.4,
      "price_out": 4.4,
-     "tps": 77.7247128275094,
+     "tps": 84.9535132213852,
      "context": 1000000,
      "open": true
     },
@@ -612,19 +623,8 @@
      "intelligence": 43.7,
      "price_in": 1,
      "price_out": 2.7,
-     "tps": 216.760053476246,
+     "tps": 228.929004650371,
      "context": 1000000,
-     "open": true
-    },
-    {
-     "name": "Kimi K3 (Max)",
-     "family": "Kimi K3",
-     "creator": "Kimi",
-     "intelligence": 43.6,
-     "price_in": 3,
-     "price_out": 15,
-     "tps": 37.0393859696814,
-     "context": 1048576,
      "open": true
     },
     {
@@ -634,7 +634,7 @@
      "intelligence": 43.4,
      "price_in": 0.1,
      "price_out": 0.5,
-     "tps": 236.088025658715,
+     "tps": 235.628653400028,
      "context": 1000000,
      "open": false
     },
@@ -656,7 +656,7 @@
      "intelligence": 42.1,
      "price_in": 2,
      "price_out": 12,
-     "tps": 124.92801998848,
+     "tps": 125.632501685259,
      "context": 1000000,
      "open": false
     },
@@ -667,7 +667,7 @@
      "intelligence": 41.8,
      "price_in": 0.15,
      "price_out": 0.5,
-     "tps": 69.3109396008383,
+     "tps": 68.8605818769465,
      "context": 1000000,
      "open": true
     },
@@ -678,7 +678,7 @@
      "intelligence": 41.1,
      "price_in": 0.3,
      "price_out": 0.9,
-     "tps": 220.824201616043,
+     "tps": 218.946635962805,
      "context": 1000000,
      "open": true
     },
@@ -689,7 +689,7 @@
      "intelligence": 40.9,
      "price_in": 0.75,
      "price_out": 3.75,
-     "tps": 141.521760096549,
+     "tps": 141.403267108262,
      "context": 1000000,
      "open": false
     },
@@ -700,7 +700,7 @@
      "intelligence": 39.9,
      "price_in": 2,
      "price_out": 6,
-     "tps": 41.3040646505667,
+     "tps": 43.0064806562278,
      "context": 262000,
      "open": true
     },
@@ -711,7 +711,7 @@
      "intelligence": 39.8,
      "price_in": 0.15,
      "price_out": 0.47,
-     "tps": 51.5625479600989,
+     "tps": 51.513857139104,
      "context": 256000,
      "open": true
     },
@@ -722,7 +722,7 @@
      "intelligence": 38.9,
      "price_in": 1.25,
      "price_out": 4.25,
-     "tps": 161.537444537507,
+     "tps": 150.852574838856,
      "context": 1048576,
      "open": true
     },
@@ -733,7 +733,7 @@
      "intelligence": 38.4,
      "price_in": 1.36,
      "price_out": 4.18,
-     "tps": 86.95852057544,
+     "tps": 94.5168991835342,
      "context": 524288,
      "open": false
     },
@@ -744,7 +744,7 @@
      "intelligence": 38.1,
      "price_in": 0.1,
      "price_out": 0.5,
-     "tps": 135.214499121147,
+     "tps": 137.030135328048,
      "context": 1000000,
      "open": false
     },
@@ -755,7 +755,7 @@
      "intelligence": 37.9,
      "price_in": 0.14,
      "price_out": 0.28,
-     "tps": 58.3170051304456,
+     "tps": 59.4249999270331,
      "context": 1000000,
      "open": true
     },
@@ -766,7 +766,7 @@
      "intelligence": 36.0,
      "price_in": 1.32,
      "price_out": 3.96,
-     "tps": 91.5738658711711,
+     "tps": 97.0337681361021,
      "context": 1000000,
      "open": true
     },
@@ -777,7 +777,7 @@
      "intelligence": 35.2,
      "price_in": 0.1,
      "price_out": 0.3,
-     "tps": 108.02720336229,
+     "tps": 113.084196380469,
      "context": 1000000,
      "open": false
     },
@@ -788,7 +788,7 @@
      "intelligence": 34.8,
      "price_in": 0.44,
      "price_out": 1.32,
-     "tps": 198.79431406418,
+     "tps": 189.843426217937,
      "context": 1000000,
      "open": false
     },
@@ -810,7 +810,7 @@
      "intelligence": 33.7,
      "price_in": 0.5,
      "price_out": 3,
-     "tps": 42.786826991058,
+     "tps": 43.538366446435,
      "context": 256000,
      "open": true
     },
@@ -832,7 +832,7 @@
      "intelligence": 32.5,
      "price_in": 1.75,
      "price_out": 14,
-     "tps": 82.8131212833776,
+     "tps": 86.614023432458,
      "context": 400000,
      "open": false
     },
@@ -843,7 +843,7 @@
      "intelligence": 30.5,
      "price_in": 0,
      "price_out": 0,
-     "tps": 991.481847560603,
+     "tps": 909.189384541859,
      "context": 524288,
      "open": true
     },
@@ -854,7 +854,7 @@
      "intelligence": 30.3,
      "price_in": 0.4,
      "price_out": 1.2,
-     "tps": 327.147410542536,
+     "tps": 336.739579348529,
      "context": 1048576,
      "open": true
     },
@@ -865,7 +865,7 @@
      "intelligence": 29.7,
      "price_in": 2,
      "price_out": 12,
-     "tps": 132.074459498771,
+     "tps": 132.086124569807,
      "context": 1000000,
      "open": false
     },
@@ -876,7 +876,7 @@
      "intelligence": 29.2,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 87.3253666649359,
+     "tps": 88.7245235883505,
      "context": 1000000,
      "open": true
     },
@@ -898,7 +898,7 @@
      "intelligence": 26.7,
      "price_in": 0.11,
      "price_out": 0.33,
-     "tps": 185.139674581715,
+     "tps": 171.587479318445,
      "context": 1000000,
      "open": false
     },
@@ -909,7 +909,7 @@
      "intelligence": 26.6,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 119.673719414631,
+     "tps": null,
      "context": 512000,
      "open": false
     },
@@ -920,7 +920,7 @@
      "intelligence": 26.5,
      "price_in": 0.225,
      "price_out": 0.575,
-     "tps": 432.79229983997,
+     "tps": 453.383218759152,
      "context": 1000000,
      "open": true
     },
@@ -953,7 +953,7 @@
      "intelligence": 25.8,
      "price_in": 0.95,
      "price_out": 4,
-     "tps": 49.2102708433194,
+     "tps": 59.9561235789781,
      "context": 256000,
      "open": true
     },
@@ -964,7 +964,7 @@
      "intelligence": 25.7,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 221.727177334172,
+     "tps": 223.99836135598,
      "context": 1000000,
      "open": true
     },
@@ -986,7 +986,7 @@
      "intelligence": 25.3,
      "price_in": 0.136,
      "price_out": 0.5549999999999999,
-     "tps": 84.3533096700513,
+     "tps": 82.3949792753023,
      "context": 256000,
      "open": true
     },
@@ -997,7 +997,7 @@
      "intelligence": 25.2,
      "price_in": 0.4,
      "price_out": 1.6,
-     "tps": 59.2626109796051,
+     "tps": 59.2185154630422,
      "context": 1000000,
      "open": false
     },
@@ -1008,7 +1008,7 @@
      "intelligence": 25.0,
      "price_in": 1,
      "price_out": 4.05,
-     "tps": 170.999838534698,
+     "tps": 194.414009820784,
      "context": 1000000,
      "open": true
     },
@@ -1041,7 +1041,7 @@
      "intelligence": 24.1,
      "price_in": 0.1,
      "price_out": 0.4,
-     "tps": 103.677274041888,
+     "tps": 95.2246437255575,
      "context": 1048576,
      "open": false
     },
@@ -1061,8 +1061,8 @@
      "family": "Ling-3.0-flash-Fin",
      "creator": "InclusionAI",
      "intelligence": 22.6,
-     "price_in": 0.075,
-     "price_out": 0.22,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 262144,
      "open": true
@@ -1118,7 +1118,7 @@
      "intelligence": 21.4,
      "price_in": 0.6,
      "price_out": 3.6,
-     "tps": 56.9567073790733,
+     "tps": 59.1481612242436,
      "context": 262144,
      "open": true
     },
@@ -1151,7 +1151,7 @@
      "intelligence": 20.4,
      "price_in": 0.4,
      "price_out": 4.8,
-     "tps": 110.123472602761,
+     "tps": 112.347673393648,
      "context": 256000,
      "open": false
     },
@@ -1162,7 +1162,7 @@
      "intelligence": 20.2,
      "price_in": 2,
      "price_out": 8,
-     "tps": 108.125877907317,
+     "tps": 133.98728354155,
      "context": 200000,
      "open": false
     },
@@ -1184,7 +1184,7 @@
      "intelligence": 19.1,
      "price_in": 0.75,
      "price_out": 2.95,
-     "tps": 76.2985464205947,
+     "tps": 76.7873682312517,
      "context": 1000000,
      "open": true
     },
@@ -1206,7 +1206,7 @@
      "intelligence": 18.2,
      "price_in": 0.375,
      "price_out": 2.25,
-     "tps": 138.688657897103,
+     "tps": 136.420106486181,
      "context": 262144,
      "open": true
     },
@@ -1217,7 +1217,7 @@
      "intelligence": 17.7,
      "price_in": 0.4,
      "price_out": 3.2,
-     "tps": 144.966325259936,
+     "tps": 142.452776677266,
      "context": 262144,
      "open": true
     },
@@ -1228,7 +1228,7 @@
      "intelligence": 17.5,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 127.865544775237,
+     "tps": 118.909878525429,
      "context": 131072,
      "open": true
     },
@@ -1250,7 +1250,7 @@
      "intelligence": 16.7,
      "price_in": 0.1,
      "price_out": 0.34,
-     "tps": 78.5523255739224,
+     "tps": 81.4730889753222,
      "context": 256000,
      "open": true
     },
@@ -1261,7 +1261,7 @@
      "intelligence": 16.6,
      "price_in": 0.3,
      "price_out": 2.5,
-     "tps": 117.895468409779,
+     "tps": 120.685133997056,
      "context": 262144,
      "open": true
     },
@@ -1283,7 +1283,7 @@
      "intelligence": 14.7,
      "price_in": 0,
      "price_out": 0,
-     "tps": 35.9452411126957,
+     "tps": 35.9477059936716,
      "context": 256000,
      "open": true
     },
@@ -1305,7 +1305,7 @@
      "intelligence": 14.2,
      "price_in": 0.1,
      "price_out": 0.3,
-     "tps": 121.011333277265,
+     "tps": 119.763705410717,
      "context": 262144,
      "open": true
     },
@@ -1327,7 +1327,7 @@
      "intelligence": 14.2,
      "price_in": 1.5,
      "price_out": 7.5,
-     "tps": 160.557660102822,
+     "tps": 159.137333513867,
      "context": 256000,
      "open": true
     },
@@ -1371,7 +1371,7 @@
      "intelligence": 13.3,
      "price_in": 0.17,
      "price_out": 0.25,
-     "tps": 78.7234228006294,
+     "tps": 78.2421271088243,
      "context": 262144,
      "open": true
     },
@@ -1404,7 +1404,7 @@
      "intelligence": 13.1,
      "price_in": 0.03,
      "price_out": 0.15,
-     "tps": 16.400854259713,
+     "tps": 16.8165162279045,
      "context": 262144,
      "open": true
     },
@@ -1415,7 +1415,7 @@
      "intelligence": 12.9,
      "price_in": 0.06,
      "price_out": 0.2,
-     "tps": 292.554183293137,
+     "tps": 287.766283853996,
      "context": 1000000,
      "open": true
     },
@@ -1448,7 +1448,7 @@
      "intelligence": 12.5,
      "price_in": 0.1,
      "price_out": 0.8,
-     "tps": 236.470397219352,
+     "tps": 233.971040448268,
      "context": 256000,
      "open": false
     },
@@ -1459,7 +1459,7 @@
      "intelligence": 12.3,
      "price_in": 0.25,
      "price_out": 0.75,
-     "tps": 766.754256778526,
+     "tps": 689.382795588267,
      "context": 260000,
      "open": false
     },
@@ -1514,7 +1514,7 @@
      "intelligence": 11.6,
      "price_in": 0.15,
      "price_out": 0.6,
-     "tps": 219.41931337145,
+     "tps": 208.118818775637,
      "context": 131072,
      "open": true
     },
@@ -1558,7 +1558,7 @@
      "intelligence": 11.3,
      "price_in": 0.15,
      "price_out": 0.6,
-     "tps": 184.817288421453,
+     "tps": 183.133592658442,
      "context": 256000,
      "open": true
     },
@@ -1567,9 +1567,9 @@
      "family": "Qwen3 Next 80B A3B",
      "creator": "Alibaba",
      "intelligence": 11.2,
-     "price_in": 0.15,
-     "price_out": 1.2,
-     "tps": 182.620436457212,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
      "context": 262144,
      "open": true
     },
@@ -1580,7 +1580,7 @@
      "intelligence": 11.1,
      "price_in": 0,
      "price_out": 0,
-     "tps": 56.7246478418996,
+     "tps": 57.280498625112,
      "context": 262144,
      "open": true
     },
@@ -1591,7 +1591,7 @@
      "intelligence": 11.1,
      "price_in": 0.06,
      "price_out": 0.25,
-     "tps": 92.0635026505383,
+     "tps": 86.6189047519768,
      "context": 131072,
      "open": true
     },
@@ -1657,7 +1657,7 @@
      "intelligence": 10.3,
      "price_in": 0.4,
      "price_out": 1.365,
-     "tps": 234.568467616751,
+     "tps": 233.880941223035,
      "context": 256000,
      "open": true
     },
@@ -1667,8 +1667,8 @@
      "creator": "OpenAI",
      "intelligence": 10.0,
      "price_in": 0.07,
-     "price_out": 0.275,
-     "tps": 199.95498600476,
+     "price_out": 0.3,
+     "tps": 175.254947323444,
      "context": 131072,
      "open": true
     },
@@ -1679,7 +1679,7 @@
      "intelligence": 9.9,
      "price_in": 0,
      "price_out": 0,
-     "tps": 60.0929066991906,
+     "tps": 60.2585541194219,
      "context": 256000,
      "open": true
     },
@@ -1699,9 +1699,9 @@
      "family": "Qwen3 Next 80B A3B Instruct",
      "creator": "Alibaba",
      "intelligence": 9.6,
-     "price_in": 0.125,
-     "price_out": 1.15,
-     "tps": 110.312593019082,
+     "price_in": 0.1,
+     "price_out": 1.1,
+     "tps": 96.2213223760374,
      "context": 262144,
      "open": true
     },
@@ -1723,7 +1723,7 @@
      "intelligence": 9.3,
      "price_in": 0.25,
      "price_out": 0.9199999999999999,
-     "tps": 47.7291590804068,
+     "tps": 52.1174143377827,
      "context": 1000000,
      "open": true
     },
@@ -1756,7 +1756,7 @@
      "intelligence": 9.2,
      "price_in": 0.31,
      "price_out": 1,
-     "tps": 79.680073586072,
+     "tps": 87.6171538949575,
      "context": 256000,
      "open": true
     },
@@ -1789,7 +1789,7 @@
      "intelligence": 8.9,
      "price_in": 0.05,
      "price_out": 0.2,
-     "tps": 230.29184405355,
+     "tps": 234.620563017979,
      "context": 1000000,
      "open": true
     },
@@ -1800,7 +1800,7 @@
      "intelligence": 8.9,
      "price_in": 0.02,
      "price_out": 0.1,
-     "tps": 34.8882918591805,
+     "tps": 40.5604071354965,
      "context": 128000,
      "open": true
     },
@@ -1811,7 +1811,7 @@
      "intelligence": 8.8,
      "price_in": 0.042,
      "price_out": 0.17,
-     "tps": 199.393145056846,
+     "tps": 192.173194754851,
      "context": 128000,
      "open": true
     },
@@ -1833,7 +1833,7 @@
      "intelligence": 8.6,
      "price_in": 0.5,
      "price_out": 1.5,
-     "tps": 85.3652023043564,
+     "tps": 78.1828676604879,
      "context": 128000,
      "open": true
     },
@@ -1899,7 +1899,7 @@
      "intelligence": 7.8,
      "price_in": 0.25,
      "price_out": 0.97,
-     "tps": 102.641797574281,
+     "tps": 102.466628822164,
      "context": 65536,
      "open": true
     },
@@ -1919,9 +1919,9 @@
      "family": "Llama 3.3 Instruct 70B",
      "creator": "Meta",
      "intelligence": 7.7,
-     "price_in": 0.71,
-     "price_out": 0.72,
-     "tps": 91.1243195246076,
+     "price_in": 0.655,
+     "price_out": 0.715,
+     "tps": 85.7120216258369,
      "context": 128000,
      "open": true
     },
@@ -1954,7 +1954,7 @@
      "intelligence": 7.5,
      "price_in": 1,
      "price_out": 3,
-     "tps": 40.7222850007821,
+     "tps": 40.9558840666286,
      "context": 128000,
      "open": true
     },
@@ -1987,7 +1987,7 @@
      "intelligence": 7.4,
      "price_in": 0.04,
      "price_out": 0.16,
-     "tps": 99.9489110437781,
+     "tps": 95.0787111965213,
      "context": 131072,
      "open": true
     },
@@ -2053,7 +2053,7 @@
      "intelligence": 7.0,
      "price_in": 2.5,
      "price_out": 10,
-     "tps": 57.3659026945815,
+     "tps": 50.5124132479221,
      "context": 256000,
      "open": true
     },
@@ -2130,7 +2130,7 @@
      "intelligence": 6.3,
      "price_in": 0.2,
      "price_out": 0.7,
-     "tps": 1530.05581140686,
+     "tps": 1580.64562591139,
      "context": 131072,
      "open": false
     },
@@ -2141,7 +2141,7 @@
      "intelligence": 6.3,
      "price_in": 0.075,
      "price_out": 0.3,
-     "tps": 45.5547169097242,
+     "tps": 45.6172165677031,
      "context": 128000,
      "open": true
     },
@@ -2185,7 +2185,7 @@
      "intelligence": 6.0,
      "price_in": 0.25,
      "price_out": 0.97,
-     "tps": 96.0751184623064,
+     "tps": 96.3117395645235,
      "context": 65536,
      "open": true
     },
@@ -2207,7 +2207,7 @@
      "intelligence": 6.0,
      "price_in": 0.2,
      "price_out": 0.2,
-     "tps": 84.4931749130288,
+     "tps": 83.0008292127636,
      "context": 256000,
      "open": true
     },
@@ -2218,7 +2218,7 @@
      "intelligence": 5.9,
      "price_in": 0.035,
      "price_out": 0.14,
-     "tps": 277.170695991963,
+     "tps": 279.741865000502,
      "context": 130000,
      "open": false
     },
@@ -2229,7 +2229,7 @@
      "intelligence": 5.9,
      "price_in": 0.125,
      "price_out": 0.5,
-     "tps": 39.7994489246492,
+     "tps": 37.9947443448887,
      "context": 16000,
      "open": true
     },
@@ -2306,7 +2306,7 @@
      "intelligence": 5.6,
      "price_in": 0.2,
      "price_out": 0.8,
-     "tps": 88.0626296974881,
+     "tps": 88.0242860874207,
      "context": 128000,
      "open": true
     },
@@ -2317,7 +2317,7 @@
      "intelligence": 5.5,
      "price_in": 0.15,
      "price_out": 0.15,
-     "tps": 110.119794845703,
+     "tps": 113.104034471304,
      "context": 256000,
      "open": true
     },
@@ -2328,7 +2328,7 @@
      "intelligence": 5.4,
      "price_in": 0.345,
      "price_out": 0.345,
-     "tps": 23.2928514047787,
+     "tps": 22.8725995293842,
      "context": 128000,
      "open": true
     },
@@ -2482,7 +2482,7 @@
      "intelligence": 4.8,
      "price_in": 0.1,
      "price_out": 0.1,
-     "tps": 206.762032897973,
+     "tps": 207.33418018142,
      "context": 256000,
      "open": true
     },
@@ -2504,7 +2504,7 @@
      "intelligence": 4.8,
      "price_in": 0.1,
      "price_out": 0.2,
-     "tps": 124.562249085274,
+     "tps": 130.853930915026,
      "context": 65536,
      "open": true
     },
