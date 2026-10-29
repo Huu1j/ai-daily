@@ -1,6 +1,7 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "models": {
+  "Gemini 4 Carbon": 59.4,
   "Claude Opus 5.5": 58.4,
   "GPT-6 Astra": 56.9,
   "GPT-6.1 Sol": 54.5,
