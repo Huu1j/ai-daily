@@ -1,5 +1,5 @@
 {
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "models": {
   "Gemini 4 Carbon": 59.4,
   "Claude Opus 5.5": 58.4,
@@ -22,9 +22,10 @@
   "Ling 3.1 Flash 1019": 29.5,
   "MiniMax-M3.1-Flash": 28.9,
   "Step 5 Preview": 28.5,
+  "GLM-5.3-Flash": 27.8,
   "GPT-6 Luna": 27.8,
   "MiMo-V2.6-Flash": 26.7,
-  "Mistral Large 4 Preview": 25.3,
+  "Mistral Large 4": 26.0,
   "Muse Spark Open": 24.7,
   "DeepSeek V4 Pro 0813": 23.1,
   "Qwen3.8 27B": 20.1,
@@ -38,6 +39,8 @@
   "Gemini 3.5 Flash-Lite": 11.7,
   "Muse Glimmer": 6.3,
   "Command A+": 6.2,
+  "Nemotron 3.5 Lightning": 5.5,
+  "Mistral Small 4": 4.3,
   "NVIDIA Nemotron 3 Nano 4B": 1.8
  }
 }
