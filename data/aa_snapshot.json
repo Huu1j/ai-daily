@@ -1,5 +1,5 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "models": {
   "Gemini 4 Carbon": 59.4,
   "Claude Opus 5.5": 58.4,
@@ -40,6 +40,7 @@
   "Muse Glimmer": 6.3,
   "Command A+": 6.2,
   "Nemotron 3.5 Lightning": 5.5,
+  "Granite 4.2 3B": 4.7,
   "Mistral Small 4": 4.3,
   "NVIDIA Nemotron 3 Nano 4B": 1.8
  }

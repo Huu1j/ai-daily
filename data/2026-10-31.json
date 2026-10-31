@@ -1,0 +1,919 @@
+{
+ "date": "2026-10-31",
+ "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
+ "sources": {
+  "smolai": {
+   "name": "AINews (smol.ai)",
+   "url": "https://news.smol.ai/",
+   "issues": [
+    {
+     "title": "not much happened today",
+     "url": "https://news.smol.ai/issues/26-09-09-not-much/",
+     "date": "2026-09-09",
+     "points": [
+      "**Anthropic** disclosed four cyber incidents involving **Claude** during third-party security tests, revealing failures in situational awareness and monitorability, with an independent investigation by **METR** underway.",
+      "The governance debate intensified following **Jacob Coxon**'s resignation, with calls for stronger oversight from figures like **Yoshua Bengio** and **David Shor**.",
+      "**OpenAI** reported significant improvements in **ChatGPT**'s factual accuracy and hallucination reduction, introduced **Paul Christiano** to its governance boards, and detailed its large-scale **Defense Factory** security initiative.",
+      "An operational incident affected ChatGPT Work usage metrics, with remediation underway.",
+      "*\"Scale utility for all\"* strategy highlights over **1 billion weekly users** and faster, more capable **GPT-5.6** models."
+     ]
+    },
+    {
+     "title": "not much happened today",
+     "url": "https://news.smol.ai/issues/26-09-10-not-much/",
+     "date": "2026-09-09",
+     "points": [
+      "**DeepSeek** launched **V4.1-Flash**, a new open-weight flagship model focused on extreme inference efficiency and low cost, featuring a **763B total-parameter** causal encoder-decoder architecture with **8B active input** and **16B active output** parameters …",
+      "It scored **40 on the Artificial Analysis Intelligence Index**, outperforming its predecessor and ranking just below **GLM-5.3-Flash**.",
+      "The model supports text and image input, is available under an **MIT license**, and is accessible via US/API.",
+      "The architecture introduces a novel causal encoder-decoder design aimed at reducing active compute and KV/cache costs, with a hybrid sparse/local approach and a unique vision encoder differing from recent Chinese models.",
+      "Early layers use a **SWA-only** pattern, and the model has an effective depth of about **40 layers** with **20 decoder layers**."
+     ]
+    },
+    {
+     "title": "OpenAI reports Navier-Stokes singularity find, a contender for second ever Millenium Prize awarded, overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5",
+     "url": "https://news.smol.ai/issues/26-09-08-navier-stokes/",
+     "date": "2026-09-08",
+     "points": [
+      "**OpenAI** announced a proposed Navier–Stokes proof by an internal model \"**significantly more capable than GPT-6 Astra**\" using **10,000 agents** over **88 hours** plus **17 hours** of formal verification.",
+      "The effort highlights the emergence of **massive test-time compute scaling** as a new axis beyond pretraining, with estimated costs of **$10M–$40M** and **130B output tokens**.",
+      "Controversy arose over priority, data contamination, and scientific norms, with key figures like **Sam Altman**, **Sébastien Bubeck**, and **Terence Tao** weighing in on governance and open science risks.",
+      "Meanwhile, **Meta** launched **Muse**, a consumer personal AI agent featuring persistent isolated Linux VMs, browser integration, and connectors to various apps including Meta-native services like Instagram and Messenger, emphasizing security and broad service…"
+     ]
+    }
+   ],
+   "stale": true,
+   "latest_date": "2026-09-09"
+  },
+  "hf_papers": {
+   "name": "Hugging Face Daily Papers",
+   "url": "https://huggingface.co/papers",
+   "papers": [
+    {
+     "id": "2610.39633",
+     "title": "Intrinsic Distribution Matching",
+     "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to b…",
+     "upvotes": 239,
+     "comments": 4,
+     "authors": "Deyuan Liu, Yansen Han, Kaiwen Zheng, Jun Xie 等 10 人",
+     "org": "inclusionAI",
+     "url": "https://huggingface.co/papers/2610.39633",
+     "arxiv": "https://arxiv.org/abs/2610.39633"
+    },
+    {
+     "id": "2610.39301",
+     "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+     "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cit…",
+     "upvotes": 134,
+     "comments": 3,
+     "authors": "Yunhang Shen, Zhangquan Chen, Xiaotian Li, Zhongpeng Cai 等 30 人",
+     "org": "tencent",
+     "url": "https://huggingface.co/papers/2610.39301",
+     "arxiv": "https://arxiv.org/abs/2610.39301"
+    },
+    {
+     "id": "2610.39302",
+     "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+     "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof i…",
+     "upvotes": 55,
+     "comments": 4,
+     "authors": "Randall Balestriero, Yann LeCun",
+     "org": "galilai-group",
+     "url": "https://huggingface.co/papers/2610.39302",
+     "arxiv": "https://arxiv.org/abs/2610.39302"
+    },
+    {
+     "id": "2610.40614",
+     "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+     "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either tempora…",
+     "upvotes": 37,
+     "comments": 5,
+     "authors": "Jinhyeok Choi, JoungBin Lee, Jongmin Lee, Minkyeong Jeon 等 8 人",
+     "org": "kaist-ai",
+     "url": "https://huggingface.co/papers/2610.40614",
+     "arxiv": "https://arxiv.org/abs/2610.40614"
+    },
+    {
+     "id": "2610.40647",
+     "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+     "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessa…",
+     "upvotes": 36,
+     "comments": 6,
+     "authors": "Jiongfan Yang, Weichen Fan, Haiwen Diao, Zhongang Cai 等 5 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2610.40647",
+     "arxiv": "https://arxiv.org/abs/2610.40647"
+    },
+    {
+     "id": "2610.40599",
+     "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+     "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a …",
+     "upvotes": 18,
+     "comments": 2,
+     "authors": "Yuze He, Yixiang Wei, Wang Zhao, Chuhao Chen 等 6 人",
+     "org": "Tsinghua",
+     "url": "https://huggingface.co/papers/2610.40599",
+     "arxiv": "https://arxiv.org/abs/2610.40599"
+    },
+    {
+     "id": "2610.40453",
+     "title": "PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions",
+     "summary": "We present PhysInsert, a framework for physically plausible reference-based object insertion that jointly adapts objects and their surrounding scenes. Existing methods often rely on masked inputs, generation-based pairs,…",
+     "upvotes": 13,
+     "comments": 2,
+     "authors": "Yue Gong, Le Zhang, Rui Chen, Song Chang 等 8 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2610.40453",
+     "arxiv": "https://arxiv.org/abs/2610.40453"
+    },
+    {
+     "id": "2610.40454",
+     "title": "Glance: The Generator Is Its Own Reranker",
+     "summary": "Retrieval-augmented generation commonly serves separate models for reranking and answering, duplicating model residency and passage processing. We introduce Glance, which equips the generator with a lightweight decision …",
+     "upvotes": 10,
+     "comments": 2,
+     "authors": "Adilet Metinov, Chingiz Arziev",
+     "org": "airun-ai",
+     "url": "https://huggingface.co/papers/2610.40454",
+     "arxiv": "https://arxiv.org/abs/2610.40454"
+    },
+    {
+     "id": "2610.39664",
+     "title": "EditAgent: Rethinking Agentic Image Editing",
+     "summary": "Agentic image editors decompose complex requests into steps, but when a step fails, they mostly retry with the same narrow set of tools and a judge that scores each output by eye directly. We argue that such agents are b…",
+     "upvotes": 9,
+     "comments": 2,
+     "authors": "Haiyang Xu, Tianyu Wang, Jialu Li, Jiteng Mu 等 8 人",
+     "org": "adobe",
+     "url": "https://huggingface.co/papers/2610.39664",
+     "arxiv": "https://arxiv.org/abs/2610.39664"
+    },
+    {
+     "id": "2610.39264",
+     "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
+     "summary": "While frontier vision-language models demonstrate strong capabilities in user interface (UI) navigation, their high inference costs prohibit everyday use. Conversely, smaller models trained via supervised fine-tuning (SF…",
+     "upvotes": 7,
+     "comments": 2,
+     "authors": "Peitong Duan, Khashayar Gatmiry, Jeffrey Nichols, Samy Bengio 等 5 人",
+     "org": "apple",
+     "url": "https://huggingface.co/papers/2610.39264",
+     "arxiv": "https://arxiv.org/abs/2610.39264"
+    },
+    {
+     "id": "2610.40564",
+     "title": "Training Foundation Models with a Single Algorithm",
+     "summary": "Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms. We show that this algorithmic…",
+     "upvotes": 5,
+     "comments": 2,
+     "authors": "Yuda Song, Alvin Zhang, Fahim Tajwar, Daman Arora 等 10 人",
+     "org": "CarnegieMellonU",
+     "url": "https://huggingface.co/papers/2610.40564",
+     "arxiv": "https://arxiv.org/abs/2610.40564"
+    },
+    {
+     "id": "2610.39663",
+     "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+     "summary": "Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their inference. Dynamic block-sparse attention reduces this cost by computing exact attention only on key/…",
+     "upvotes": 5,
+     "comments": 2,
+     "authors": "Bin Xu, Mo Zhang, Zhengfeiyang Zhang, Xinfeng Yang 等 9 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2610.39663",
+     "arxiv": "https://arxiv.org/abs/2610.39663"
+    }
+   ],
+   "date": "2026-10-29",
+   "stale": true
+  },
+  "arxiv": {
+   "name": "arXiv cs.AI",
+   "url": "https://arxiv.org/list/cs.AI/recent",
+   "papers": [
+    {
+     "id": "2610.40649",
+     "title": "Rethinking Neural Thickets Without Weight Perturbations",
+     "authors": "",
+     "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they …",
+     "url": "https://arxiv.org/abs/2610.40649v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40643",
+     "title": "Luggage re-identification: A study of strategies towards a real-world application",
+     "authors": "",
+     "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the asso…",
+     "url": "https://arxiv.org/abs/2610.40643v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40641",
+     "title": "From extreme weather to agricultural consequences with agentic AI",
+     "authors": "",
+     "summary": "Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many so…",
+     "url": "https://arxiv.org/abs/2610.40641v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40636",
+     "title": "Probing Spatial State Representations in Visual Foundation Models",
+     "authors": "",
+     "summary": "An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls for a persistent spatial state that is up…",
+     "url": "https://arxiv.org/abs/2610.40636v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40613",
+     "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+     "authors": "",
+     "summary": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. I…",
+     "url": "https://arxiv.org/abs/2610.40613v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40611",
+     "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
+     "authors": "",
+     "summary": "Proactive assistants offer short, memory-grounded hints during a conversation, deciding when to assist and what to suggest. Current systems split this between a gate and a larger generator; we evaluate both together on 28,058 decision point…",
+     "url": "https://arxiv.org/abs/2610.40611v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40589",
+     "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
+     "authors": "",
+     "summary": "An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may…",
+     "url": "https://arxiv.org/abs/2610.40589v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40588",
+     "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
+     "authors": "",
+     "summary": "When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an ag…",
+     "url": "https://arxiv.org/abs/2610.40588v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40586",
+     "title": "Multistatic ISAC with Deep Learning-Based Clutter Suppression for 5G and Beyond",
+     "authors": "",
+     "summary": "Integrated sensing and communications (ISAC) systems using 5G and beyond signals of opportunity enable joint wireless sensing and communication using shared infrastructure and spectrum resources. While multistatic ISAC can increase sensing …",
+     "url": "https://arxiv.org/abs/2610.40586v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40578",
+     "title": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
+     "authors": "",
+     "summary": "Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vis…",
+     "url": "https://arxiv.org/abs/2610.40578v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40565",
+     "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+     "authors": "",
+     "summary": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and phys…",
+     "url": "https://arxiv.org/abs/2610.40565v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40563",
+     "title": "Comparing Human Role-Players and LLM-Simulated Clients in Online Counselling Training: An Analysis of Counselling Patterns",
+     "authors": "",
+     "summary": "This study investigates the capabilities of Large Language Models to simulate counselling clients in educational role-plays in comparison to human role-players. Initially, we recorded role-playing sessions, where novice counsellors interact…",
+     "url": "https://arxiv.org/abs/2610.40563v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40560",
+     "title": "FARMS: A Verifiable Foundation for Automated Computational Science",
+     "authors": "",
+     "summary": "Automated computational science could accelerate discovery by selecting, adapting and developing numerical methods. This prospect requires mathematical knowledge that AI systems can interpret and reuse with explicit guarantees. Here we pres…",
+     "url": "https://arxiv.org/abs/2610.40560v1",
+     "date": "2026-10-29"
+    },
+    {
+     "id": "2610.40556",
+     "title": "Advancing Clinical Genomic Analysis with a Skill-Centred Agent",
+     "authors": "",
+     "summary": "Clinical genomic analysis requires experts to integrate evolving guidelines, databases, and computational evidence. As sequencing has become increasingly accessible, this complex and labor-intensive process has become a major bottleneck to …",
+     "url": "https://arxiv.org/abs/2610.40556v1",
+     "date": "2026-10-29"
+    }
+   ],
+   "date": "2026-10-29",
+   "total": 15
+  },
+  "artificial_analysis": {
+   "name": "Artificial Analysis",
+   "url": "https://artificialanalysis.ai/",
+   "models": [
+    {
+     "name": "Gemini 4 Carbon (High)",
+     "family": "Gemini 4 Carbon",
+     "creator": "Google",
+     "intelligence": 59.4,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": 84.6333185256928,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Claude Opus 5.5 (Max, Default Fallback)",
+     "family": "Claude Opus 5.5",
+     "creator": "Anthropic",
+     "intelligence": 58.4,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": 96.6267211164451,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6 Astra (Max)",
+     "family": "GPT-6 Astra",
+     "creator": "OpenAI",
+     "intelligence": 56.9,
+     "price_in": 10,
+     "price_out": 50,
+     "tps": 78.1964721583345,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6.1 Sol (Max)",
+     "family": "GPT-6.1 Sol",
+     "creator": "OpenAI",
+     "intelligence": 54.5,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": 79.2951935612369,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+     "family": "Claude Sonnet 5.5",
+     "creator": "Anthropic",
+     "intelligence": 54.2,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": 139.303387988559,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6.1 Terra (Max)",
+     "family": "GPT-6.1 Terra",
+     "creator": "OpenAI",
+     "intelligence": 51.0,
+     "price_in": 1,
+     "price_out": 5,
+     "tps": 97.2439411272109,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Gemini 4 Argon (High)",
+     "family": "Gemini 4 Argon",
+     "creator": "Google",
+     "intelligence": 50.4,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": 82.9347842378254,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+     "family": "Claude Fable 5.1",
+     "creator": "Anthropic",
+     "intelligence": 49.7,
+     "price_in": 10,
+     "price_out": 50,
+     "tps": 62.1676719679436,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Muse Wonder Full (Max)",
+     "family": "Muse Wonder Full",
+     "creator": "Meta",
+     "intelligence": 49.7,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Kimi K3.1 Pro",
+     "family": "Kimi K3.1 Pro",
+     "creator": "Kimi",
+     "intelligence": 46.0,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": 30.8813475833363,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Muse Wonder (Max)",
+     "family": "Muse Wonder",
+     "creator": "Meta",
+     "intelligence": 43.3,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": 143.062950497251,
+     "context": 1048576,
+     "open": false
+    },
+    {
+     "name": "Claude Haiku 5.5 (Max)",
+     "family": "Claude Haiku 5.5",
+     "creator": "Anthropic",
+     "intelligence": 36.2,
+     "price_in": 0.1,
+     "price_out": 0.5,
+     "tps": 235.23979828462,
+     "context": 1000000,
+     "open": false
+    }
+   ],
+   "all": [
+    {
+     "name": "Gemini 4 Carbon (High)",
+     "family": "Gemini 4 Carbon",
+     "creator": "Google",
+     "intelligence": 59.4,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": 84.6333185256928,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Claude Opus 5.5 (Max, Default Fallback)",
+     "family": "Claude Opus 5.5",
+     "creator": "Anthropic",
+     "intelligence": 58.4,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": 96.6267211164451,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6 Astra (Max)",
+     "family": "GPT-6 Astra",
+     "creator": "OpenAI",
+     "intelligence": 56.9,
+     "price_in": 10,
+     "price_out": 50,
+     "tps": 78.1964721583345,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6.1 Sol (Max)",
+     "family": "GPT-6.1 Sol",
+     "creator": "OpenAI",
+     "intelligence": 54.5,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": 79.2951935612369,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+     "family": "Claude Sonnet 5.5",
+     "creator": "Anthropic",
+     "intelligence": 54.2,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": 139.303387988559,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6.1 Terra (Max)",
+     "family": "GPT-6.1 Terra",
+     "creator": "OpenAI",
+     "intelligence": 51.0,
+     "price_in": 1,
+     "price_out": 5,
+     "tps": 97.2439411272109,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Gemini 4 Argon (High)",
+     "family": "Gemini 4 Argon",
+     "creator": "Google",
+     "intelligence": 50.4,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": 82.9347842378254,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+     "family": "Claude Fable 5.1",
+     "creator": "Anthropic",
+     "intelligence": 49.7,
+     "price_in": 10,
+     "price_out": 50,
+     "tps": 62.1676719679436,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Muse Wonder Full (Max)",
+     "family": "Muse Wonder Full",
+     "creator": "Meta",
+     "intelligence": 49.7,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Kimi K3.1 Pro",
+     "family": "Kimi K3.1 Pro",
+     "creator": "Kimi",
+     "intelligence": 46.0,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": 30.8813475833363,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Muse Wonder (Max)",
+     "family": "Muse Wonder",
+     "creator": "Meta",
+     "intelligence": 43.3,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": 143.062950497251,
+     "context": 1048576,
+     "open": false
+    },
+    {
+     "name": "Claude Haiku 5.5 (Max)",
+     "family": "Claude Haiku 5.5",
+     "creator": "Anthropic",
+     "intelligence": 36.2,
+     "price_in": 0.1,
+     "price_out": 0.5,
+     "tps": 235.23979828462,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Grok 4.7 (High)",
+     "family": "Grok 4.7",
+     "creator": "SpaceXAI",
+     "intelligence": 35.0,
+     "price_in": 2,
+     "price_out": 6,
+     "tps": 78.4904251562959,
+     "context": 500000,
+     "open": false
+    },
+    {
+     "name": "Qwen3.8 Max (0902)",
+     "family": "Qwen3.8 Max",
+     "creator": "Alibaba",
+     "intelligence": 33.6,
+     "price_in": 2,
+     "price_out": 6,
+     "tps": 40.0606361718744,
+     "context": 983616,
+     "open": false
+    },
+    {
+     "name": "DeepSeek V4.1 Flash 1017 (Max)",
+     "family": "DeepSeek V4.1 Flash 1017",
+     "creator": "DeepSeek",
+     "intelligence": 32.5,
+     "price_in": 0.3,
+     "price_out": 1.2,
+     "tps": 174.977934757459,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "GLM-5.3 (Max)",
+     "family": "GLM-5.3",
+     "creator": "Z AI",
+     "intelligence": 31.7,
+     "price_in": 1.4,
+     "price_out": 4.4,
+     "tps": 75.7620651010601,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Gemini 3.8 Flash (High)",
+     "family": "Gemini 3.8 Flash",
+     "creator": "Google",
+     "intelligence": 30.5,
+     "price_in": 0.75,
+     "price_out": 3.75,
+     "tps": 120.296466726518,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "MiMo-V2.6-Pro",
+     "family": "MiMo-V2.6-Pro",
+     "creator": "Xiaomi",
+     "intelligence": 29.9,
+     "price_in": 0.435,
+     "price_out": 0.87,
+     "tps": 49.3553855539778,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Ling 3.1 Flash 1019",
+     "family": "Ling 3.1 Flash 1019",
+     "creator": "InclusionAI",
+     "intelligence": 29.5,
+     "price_in": 0.3,
+     "price_out": 0.9,
+     "tps": null,
+     "context": 1048576,
+     "open": true
+    },
+    {
+     "name": "MiniMax-M3.1-Flash",
+     "family": "MiniMax-M3.1-Flash",
+     "creator": "MiniMax",
+     "intelligence": 28.9,
+     "price_in": 0.15,
+     "price_out": 0.6,
+     "tps": 118.914130891033,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Step 5 Preview",
+     "family": "Step 5 Preview",
+     "creator": "StepFun",
+     "intelligence": 28.5,
+     "price_in": 1,
+     "price_out": 2.7,
+     "tps": 165.446758769985,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "GLM-5.3-Flash",
+     "family": "GLM-5.3-Flash",
+     "creator": "Z AI",
+     "intelligence": 27.8,
+     "price_in": 0.15,
+     "price_out": 0.5,
+     "tps": 68.6759098865896,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "GPT-6 Luna (Max)",
+     "family": "GPT-6 Luna",
+     "creator": "OpenAI",
+     "intelligence": 27.8,
+     "price_in": 0.1,
+     "price_out": 0.5,
+     "tps": 118.287890387621,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "MiMo-V2.6-Flash",
+     "family": "MiMo-V2.6-Flash",
+     "creator": "Xiaomi",
+     "intelligence": 26.7,
+     "price_in": 0.14,
+     "price_out": 0.28,
+     "tps": 45.2510534659492,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Mistral Large 4 (High)",
+     "family": "Mistral Large 4",
+     "creator": "Mistral",
+     "intelligence": 26.0,
+     "price_in": 0.7,
+     "price_out": 2.1,
+     "tps": 161.325594293071,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Muse Spark Open (Xhigh)",
+     "family": "Muse Spark Open",
+     "creator": "Meta",
+     "intelligence": 24.7,
+     "price_in": 1.25,
+     "price_out": 4.25,
+     "tps": 139.311979491262,
+     "context": 1048576,
+     "open": true
+    },
+    {
+     "name": "DeepSeek V4 Pro 0813 (Max)",
+     "family": "DeepSeek V4 Pro 0813",
+     "creator": "DeepSeek",
+     "intelligence": 23.1,
+     "price_in": 1.32,
+     "price_out": 3.96,
+     "tps": 80.7300918886368,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Qwen3.8 27B (Xhigh)",
+     "family": "Qwen3.8 27B",
+     "creator": "Alibaba",
+     "intelligence": 20.1,
+     "price_in": 0.5,
+     "price_out": 3,
+     "tps": 38.3166466812196,
+     "context": 256000,
+     "open": true
+    },
+    {
+     "name": "MiniMax-M3",
+     "family": "MiniMax-M3",
+     "creator": "MiniMax",
+     "intelligence": 18.7,
+     "price_in": 0.3,
+     "price_out": 1.2,
+     "tps": 106.243009056501,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "K2 Horizon 375B A23B",
+     "family": "K2 Horizon 375B A23B",
+     "creator": "Institute of Foundation Models",
+     "intelligence": 17.8,
+     "price_in": 0,
+     "price_out": 0,
+     "tps": 154.149336522841,
+     "context": 524288,
+     "open": true
+    },
+    {
+     "name": "Beam 1.0",
+     "family": "Beam 1.0",
+     "creator": "Reflection",
+     "intelligence": 17.7,
+     "price_in": 0.4,
+     "price_out": 1.2,
+     "tps": 299.26279147471,
+     "context": 1048576,
+     "open": true
+    },
+    {
+     "name": "Nemotron 3.5 Super VL",
+     "family": "Nemotron 3.5 Super VL",
+     "creator": "NVIDIA",
+     "intelligence": 13.6,
+     "price_in": 0.2,
+     "price_out": 0.5,
+     "tps": 474.092726737,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Inkling Small",
+     "family": "Inkling Small",
+     "creator": "Thinking Machines",
+     "intelligence": 12.9,
+     "price_in": 0.3,
+     "price_out": 1.2,
+     "tps": 204.195137027056,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Inkling (Xhigh)",
+     "family": "Inkling",
+     "creator": "Thinking Machines",
+     "intelligence": 12.5,
+     "price_in": 1,
+     "price_out": 4.05,
+     "tps": 195.711959101576,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+     "family": "Nemotron 3 Ultra 550B A55B",
+     "creator": "NVIDIA",
+     "intelligence": 11.8,
+     "price_in": 0.6,
+     "price_out": 2.7,
+     "tps": 152.798000208272,
+     "context": 262144,
+     "open": true
+    },
+    {
+     "name": "Gemini 3.5 Flash-Lite",
+     "family": "Gemini 3.5 Flash-Lite",
+     "creator": "Google",
+     "intelligence": 11.7,
+     "price_in": 0.3,
+     "price_out": 2.5,
+     "tps": 406.351027494845,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Muse Glimmer (High)",
+     "family": "Muse Glimmer",
+     "creator": "Meta",
+     "intelligence": 6.3,
+     "price_in": 0.3,
+     "price_out": 1.2,
+     "tps": 106.307228042557,
+     "context": 131072,
+     "open": true
+    },
+    {
+     "name": "Command A+",
+     "family": "Command A+",
+     "creator": "Cohere",
+     "intelligence": 6.2,
+     "price_in": 0,
+     "price_out": 0,
+     "tps": 148.172579365217,
+     "context": 192000,
+     "open": true
+    },
+    {
+     "name": "Nemotron 3.5 Lightning",
+     "family": "Nemotron 3.5 Lightning",
+     "creator": "NVIDIA",
+     "intelligence": 5.5,
+     "price_in": 0.06,
+     "price_out": 0.2,
+     "tps": 292.767141531482,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Granite 4.2 3B",
+     "family": "Granite 4.2 3B",
+     "creator": "IBM",
+     "intelligence": 4.7,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 131072,
+     "open": true
+    },
+    {
+     "name": "Mistral Small 4 (Reasoning)",
+     "family": "Mistral Small 4",
+     "creator": "Mistral",
+     "intelligence": 4.3,
+     "price_in": 0.15,
+     "price_out": 0.6,
+     "tps": 171.656960340343,
+     "context": 256000,
+     "open": true
+    },
+    {
+     "name": "NVIDIA Nemotron 3 Nano 4B",
+     "family": "NVIDIA Nemotron 3 Nano 4B",
+     "creator": "NVIDIA",
+     "intelligence": 1.8,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 262000,
+     "open": true
+    }
+   ],
+   "total_models": 42
+  },
+  "alphaxiv": {
+   "name": "alphaXiv",
+   "url": "https://www.alphaxiv.org/",
+   "items": [],
+   "mode": "link",
+   "note": "纯前端渲染站点，本期以论文直达链接形式呈现"
+  }
+ }
+}

@@ -1,5 +1,5 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
@@ -53,52 +53,74 @@
      "id": "2610.39633",
      "title": "Intrinsic Distribution Matching",
      "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to b…",
-     "upvotes": 232,
-     "comments": 2,
+     "upvotes": 239,
+     "comments": 4,
      "authors": "Deyuan Liu, Yansen Han, Kaiwen Zheng, Jun Xie 等 10 人",
      "org": "inclusionAI",
      "url": "https://huggingface.co/papers/2610.39633",
      "arxiv": "https://arxiv.org/abs/2610.39633"
     },
     {
+     "id": "2610.39301",
+     "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+     "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cit…",
+     "upvotes": 134,
+     "comments": 3,
+     "authors": "Yunhang Shen, Zhangquan Chen, Xiaotian Li, Zhongpeng Cai 等 30 人",
+     "org": "tencent",
+     "url": "https://huggingface.co/papers/2610.39301",
+     "arxiv": "https://arxiv.org/abs/2610.39301"
+    },
+    {
+     "id": "2610.39302",
+     "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+     "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof i…",
+     "upvotes": 55,
+     "comments": 4,
+     "authors": "Randall Balestriero, Yann LeCun",
+     "org": "galilai-group",
+     "url": "https://huggingface.co/papers/2610.39302",
+     "arxiv": "https://arxiv.org/abs/2610.39302"
+    },
+    {
      "id": "2610.40614",
      "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
      "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either tempora…",
-     "upvotes": 29,
-     "comments": 1,
+     "upvotes": 37,
+     "comments": 5,
      "authors": "Jinhyeok Choi, JoungBin Lee, Jongmin Lee, Minkyeong Jeon 等 8 人",
      "org": "kaist-ai",
      "url": "https://huggingface.co/papers/2610.40614",
      "arxiv": "https://arxiv.org/abs/2610.40614"
     },
     {
-     "id": "2610.40599",
-     "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
-     "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a …",
-     "upvotes": 15,
-     "comments": 1,
-     "authors": "Yuze He, Yixiang Wei, Wang Zhao, Chuhao Chen 等 6 人",
-     "org": "Tsinghua",
-     "url": "https://huggingface.co/papers/2610.40599",
-     "arxiv": "https://arxiv.org/abs/2610.40599"
-    },
-    {
      "id": "2610.40647",
      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessa…",
-     "upvotes": 11,
-     "comments": 4,
+     "upvotes": 36,
+     "comments": 6,
      "authors": "Jiongfan Yang, Weichen Fan, Haiwen Diao, Zhongang Cai 等 5 人",
      "org": "",
      "url": "https://huggingface.co/papers/2610.40647",
      "arxiv": "https://arxiv.org/abs/2610.40647"
     },
     {
+     "id": "2610.40599",
+     "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+     "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a …",
+     "upvotes": 18,
+     "comments": 2,
+     "authors": "Yuze He, Yixiang Wei, Wang Zhao, Chuhao Chen 等 6 人",
+     "org": "Tsinghua",
+     "url": "https://huggingface.co/papers/2610.40599",
+     "arxiv": "https://arxiv.org/abs/2610.40599"
+    },
+    {
      "id": "2610.40453",
      "title": "PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions",
      "summary": "We present PhysInsert, a framework for physically plausible reference-based object insertion that jointly adapts objects and their surrounding scenes. Existing methods often rely on masked inputs, generation-based pairs,…",
-     "upvotes": 11,
-     "comments": 1,
+     "upvotes": 13,
+     "comments": 2,
      "authors": "Yue Gong, Le Zhang, Rui Chen, Song Chang 等 8 人",
      "org": "",
      "url": "https://huggingface.co/papers/2610.40453",
@@ -108,8 +130,8 @@
      "id": "2610.40454",
      "title": "Glance: The Generator Is Its Own Reranker",
      "summary": "Retrieval-augmented generation commonly serves separate models for reranking and answering, duplicating model residency and passage processing. We introduce Glance, which equips the generator with a lightweight decision …",
-     "upvotes": 8,
-     "comments": 1,
+     "upvotes": 10,
+     "comments": 2,
      "authors": "Adilet Metinov, Chingiz Arziev",
      "org": "airun-ai",
      "url": "https://huggingface.co/papers/2610.40454",
@@ -119,67 +141,45 @@
      "id": "2610.39664",
      "title": "EditAgent: Rethinking Agentic Image Editing",
      "summary": "Agentic image editors decompose complex requests into steps, but when a step fails, they mostly retry with the same narrow set of tools and a judge that scores each output by eye directly. We argue that such agents are b…",
-     "upvotes": 7,
-     "comments": 1,
+     "upvotes": 9,
+     "comments": 2,
      "authors": "Haiyang Xu, Tianyu Wang, Jialu Li, Jiteng Mu 等 8 人",
      "org": "adobe",
      "url": "https://huggingface.co/papers/2610.39664",
      "arxiv": "https://arxiv.org/abs/2610.39664"
     },
     {
-     "id": "2610.39663",
-     "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
-     "summary": "Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their inference. Dynamic block-sparse attention reduces this cost by computing exact attention only on key/…",
-     "upvotes": 3,
-     "comments": 1,
-     "authors": "Bin Xu, Mo Zhang, Zhengfeiyang Zhang, Xinfeng Yang 等 9 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2610.39663",
-     "arxiv": "https://arxiv.org/abs/2610.39663"
-    },
-    {
-     "id": "2610.39301",
-     "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
-     "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cit…",
-     "upvotes": 2,
-     "comments": 1,
-     "authors": "Yunhang Shen, Zhangquan Chen, Xiaotian Li, Zhongpeng Cai 等 30 人",
-     "org": "tencent",
-     "url": "https://huggingface.co/papers/2610.39301",
-     "arxiv": "https://arxiv.org/abs/2610.39301"
-    },
-    {
      "id": "2610.39264",
      "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
      "summary": "While frontier vision-language models demonstrate strong capabilities in user interface (UI) navigation, their high inference costs prohibit everyday use. Conversely, smaller models trained via supervised fine-tuning (SF…",
-     "upvotes": 2,
-     "comments": 1,
+     "upvotes": 7,
+     "comments": 2,
      "authors": "Peitong Duan, Khashayar Gatmiry, Jeffrey Nichols, Samy Bengio 等 5 人",
      "org": "apple",
      "url": "https://huggingface.co/papers/2610.39264",
      "arxiv": "https://arxiv.org/abs/2610.39264"
     },
     {
-     "id": "2610.40362",
-     "title": "Your LR Schedule May Not Be Principled: Effective Learning Rate Scheduling in Weight-Normalized Training",
-     "summary": "Weight-normalized (WN) training is emerging as a compelling alternative to conventional weight decay (WD), with recent studies reporting substantial pretraining loss gains. We show that these gains are driven primarily b…",
-     "upvotes": 2,
-     "comments": 1,
-     "authors": "Qifan Yu, Xinyu Ma, Xingyan Bin, Di He",
-     "org": "ByteDance-Seed",
-     "url": "https://huggingface.co/papers/2610.40362",
-     "arxiv": "https://arxiv.org/abs/2610.40362"
+     "id": "2610.40564",
+     "title": "Training Foundation Models with a Single Algorithm",
+     "summary": "Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms. We show that this algorithmic…",
+     "upvotes": 5,
+     "comments": 2,
+     "authors": "Yuda Song, Alvin Zhang, Fahim Tajwar, Daman Arora 等 10 人",
+     "org": "CarnegieMellonU",
+     "url": "https://huggingface.co/papers/2610.40564",
+     "arxiv": "https://arxiv.org/abs/2610.40564"
     },
     {
-     "id": "2610.39287",
-     "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
-     "summary": "Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entities, reason about spatial relationships, and act. Endowing aerial robots with an analogous functional…",
-     "upvotes": 1,
-     "comments": 1,
-     "authors": "Junli Liu, Zhongrui You, Chenhui Li, Zhen Li 等 12 人",
-     "org": "IPEC-COMMUNITY",
-     "url": "https://huggingface.co/papers/2610.39287",
-     "arxiv": "https://arxiv.org/abs/2610.39287"
+     "id": "2610.39663",
+     "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+     "summary": "Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their inference. Dynamic block-sparse attention reduces this cost by computing exact attention only on key/…",
+     "upvotes": 5,
+     "comments": 2,
+     "authors": "Bin Xu, Mo Zhang, Zhengfeiyang Zhang, Xinfeng Yang 等 9 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2610.39663",
+     "arxiv": "https://arxiv.org/abs/2610.39663"
     }
    ],
    "date": "2026-10-29",
@@ -316,7 +316,7 @@
      "intelligence": 59.4,
      "price_in": 4,
      "price_out": 20,
-     "tps": 82.5287626381766,
+     "tps": 84.6333185256928,
      "context": 1000000,
      "open": false
     },
@@ -338,7 +338,7 @@
      "intelligence": 56.9,
      "price_in": 10,
      "price_out": 50,
-     "tps": 78.7422108152443,
+     "tps": 78.1964721583345,
      "context": 1000000,
      "open": false
     },
@@ -349,7 +349,7 @@
      "intelligence": 54.5,
      "price_in": 2,
      "price_out": 10,
-     "tps": 81.0724688683688,
+     "tps": 79.2951935612369,
      "context": 1000000,
      "open": false
     },
@@ -360,7 +360,7 @@
      "intelligence": 54.2,
      "price_in": 2,
      "price_out": 10,
-     "tps": 140.152659917892,
+     "tps": 139.303387988559,
      "context": 1000000,
      "open": false
     },
@@ -371,7 +371,7 @@
      "intelligence": 51.0,
      "price_in": 1,
      "price_out": 5,
-     "tps": 90.9311087736644,
+     "tps": 97.2439411272109,
      "context": 1000000,
      "open": false
     },
@@ -382,7 +382,7 @@
      "intelligence": 50.4,
      "price_in": 4,
      "price_out": 20,
-     "tps": 83.4480791297251,
+     "tps": 82.9347842378254,
      "context": 1000000,
      "open": false
     },
@@ -393,7 +393,7 @@
      "intelligence": 49.7,
      "price_in": 10,
      "price_out": 50,
-     "tps": 62.718680119706,
+     "tps": 62.1676719679436,
      "context": 1000000,
      "open": false
     },
@@ -415,7 +415,7 @@
      "intelligence": 46.0,
      "price_in": 2,
      "price_out": 10,
-     "tps": 32.075458362873,
+     "tps": 30.8813475833363,
      "context": 1000000,
      "open": false
     },
@@ -426,7 +426,7 @@
      "intelligence": 43.3,
      "price_in": 4,
      "price_out": 20,
-     "tps": 145.857290667606,
+     "tps": 143.062950497251,
      "context": 1048576,
      "open": false
     },
@@ -437,7 +437,7 @@
      "intelligence": 36.2,
      "price_in": 0.1,
      "price_out": 0.5,
-     "tps": 233.910230933531,
+     "tps": 235.23979828462,
      "context": 1000000,
      "open": false
     }
@@ -450,7 +450,7 @@
      "intelligence": 59.4,
      "price_in": 4,
      "price_out": 20,
-     "tps": 82.5287626381766,
+     "tps": 84.6333185256928,
      "context": 1000000,
      "open": false
     },
@@ -472,7 +472,7 @@
      "intelligence": 56.9,
      "price_in": 10,
      "price_out": 50,
-     "tps": 78.7422108152443,
+     "tps": 78.1964721583345,
      "context": 1000000,
      "open": false
     },
@@ -483,7 +483,7 @@
      "intelligence": 54.5,
      "price_in": 2,
      "price_out": 10,
-     "tps": 81.0724688683688,
+     "tps": 79.2951935612369,
      "context": 1000000,
      "open": false
     },
@@ -494,7 +494,7 @@
      "intelligence": 54.2,
      "price_in": 2,
      "price_out": 10,
-     "tps": 140.152659917892,
+     "tps": 139.303387988559,
      "context": 1000000,
      "open": false
     },
@@ -505,7 +505,7 @@
      "intelligence": 51.0,
      "price_in": 1,
      "price_out": 5,
-     "tps": 90.9311087736644,
+     "tps": 97.2439411272109,
      "context": 1000000,
      "open": false
     },
@@ -516,7 +516,7 @@
      "intelligence": 50.4,
      "price_in": 4,
      "price_out": 20,
-     "tps": 83.4480791297251,
+     "tps": 82.9347842378254,
      "context": 1000000,
      "open": false
     },
@@ -527,7 +527,7 @@
      "intelligence": 49.7,
      "price_in": 10,
      "price_out": 50,
-     "tps": 62.718680119706,
+     "tps": 62.1676719679436,
      "context": 1000000,
      "open": false
     },
@@ -549,7 +549,7 @@
      "intelligence": 46.0,
      "price_in": 2,
      "price_out": 10,
-     "tps": 32.075458362873,
+     "tps": 30.8813475833363,
      "context": 1000000,
      "open": false
     },
@@ -560,7 +560,7 @@
      "intelligence": 43.3,
      "price_in": 4,
      "price_out": 20,
-     "tps": 145.857290667606,
+     "tps": 143.062950497251,
      "context": 1048576,
      "open": false
     },
@@ -571,7 +571,7 @@
      "intelligence": 36.2,
      "price_in": 0.1,
      "price_out": 0.5,
-     "tps": 233.910230933531,
+     "tps": 235.23979828462,
      "context": 1000000,
      "open": false
     },
@@ -582,7 +582,7 @@
      "intelligence": 35.0,
      "price_in": 2,
      "price_out": 6,
-     "tps": 85.4283786160935,
+     "tps": 78.4904251562959,
      "context": 500000,
      "open": false
     },
@@ -593,7 +593,7 @@
      "intelligence": 33.6,
      "price_in": 2,
      "price_out": 6,
-     "tps": 40.7639026325547,
+     "tps": 40.0606361718744,
      "context": 983616,
      "open": false
     },
@@ -604,7 +604,7 @@
      "intelligence": 32.5,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 175.606986935985,
+     "tps": 174.977934757459,
      "context": 1000000,
      "open": true
     },
@@ -615,7 +615,7 @@
      "intelligence": 31.7,
      "price_in": 1.4,
      "price_out": 4.4,
-     "tps": 77.5680808534673,
+     "tps": 75.7620651010601,
      "context": 1000000,
      "open": true
     },
@@ -626,7 +626,7 @@
      "intelligence": 30.5,
      "price_in": 0.75,
      "price_out": 3.75,
-     "tps": 125.986269613847,
+     "tps": 120.296466726518,
      "context": 1000000,
      "open": false
     },
@@ -637,7 +637,7 @@
      "intelligence": 29.9,
      "price_in": 0.435,
      "price_out": 0.87,
-     "tps": 53.4269818535828,
+     "tps": 49.3553855539778,
      "context": 1000000,
      "open": true
     },
@@ -659,7 +659,7 @@
      "intelligence": 28.9,
      "price_in": 0.15,
      "price_out": 0.6,
-     "tps": 120.69443548576,
+     "tps": 118.914130891033,
      "context": 1000000,
      "open": true
     },
@@ -670,7 +670,7 @@
      "intelligence": 28.5,
      "price_in": 1,
      "price_out": 2.7,
-     "tps": 170.165759350239,
+     "tps": 165.446758769985,
      "context": 1000000,
      "open": true
     },
@@ -681,7 +681,7 @@
      "intelligence": 27.8,
      "price_in": 0.15,
      "price_out": 0.5,
-     "tps": 70.5099196841853,
+     "tps": 68.6759098865896,
      "context": 1000000,
      "open": true
     },
@@ -692,7 +692,7 @@
      "intelligence": 27.8,
      "price_in": 0.1,
      "price_out": 0.5,
-     "tps": 121.636243627136,
+     "tps": 118.287890387621,
      "context": 1000000,
      "open": false
     },
@@ -703,7 +703,7 @@
      "intelligence": 26.7,
      "price_in": 0.14,
      "price_out": 0.28,
-     "tps": 55.0749208947063,
+     "tps": 45.2510534659492,
      "context": 1000000,
      "open": true
     },
@@ -725,7 +725,7 @@
      "intelligence": 24.7,
      "price_in": 1.25,
      "price_out": 4.25,
-     "tps": 139.722222199585,
+     "tps": 139.311979491262,
      "context": 1048576,
      "open": true
     },
@@ -736,7 +736,7 @@
      "intelligence": 23.1,
      "price_in": 1.32,
      "price_out": 3.96,
-     "tps": 74.4230565238077,
+     "tps": 80.7300918886368,
      "context": 1000000,
      "open": true
     },
@@ -747,7 +747,7 @@
      "intelligence": 20.1,
      "price_in": 0.5,
      "price_out": 3,
-     "tps": 37.0939951436135,
+     "tps": 38.3166466812196,
      "context": 256000,
      "open": true
     },
@@ -758,7 +758,7 @@
      "intelligence": 18.7,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 100.967735774062,
+     "tps": 106.243009056501,
      "context": 1000000,
      "open": true
     },
@@ -769,7 +769,7 @@
      "intelligence": 17.8,
      "price_in": 0,
      "price_out": 0,
-     "tps": 681.063238547944,
+     "tps": 154.149336522841,
      "context": 524288,
      "open": true
     },
@@ -780,7 +780,7 @@
      "intelligence": 17.7,
      "price_in": 0.4,
      "price_out": 1.2,
-     "tps": 294.668097264198,
+     "tps": 299.26279147471,
      "context": 1048576,
      "open": true
     },
@@ -789,9 +789,9 @@
      "family": "Nemotron 3.5 Super VL",
      "creator": "NVIDIA",
      "intelligence": 13.6,
-     "price_in": 0.225,
-     "price_out": 0.575,
-     "tps": 438.721221242517,
+     "price_in": 0.2,
+     "price_out": 0.5,
+     "tps": 474.092726737,
      "context": 1000000,
      "open": true
     },
@@ -813,7 +813,7 @@
      "intelligence": 12.5,
      "price_in": 1,
      "price_out": 4.05,
-     "tps": 203.78211886259,
+     "tps": 195.711959101576,
      "context": 1000000,
      "open": true
     },
@@ -824,7 +824,7 @@
      "intelligence": 11.8,
      "price_in": 0.6,
      "price_out": 2.7,
-     "tps": 150.754847741876,
+     "tps": 152.798000208272,
      "context": 262144,
      "open": true
     },
@@ -835,7 +835,7 @@
      "intelligence": 11.7,
      "price_in": 0.3,
      "price_out": 2.5,
-     "tps": 439.154945234114,
+     "tps": 406.351027494845,
      "context": 1000000,
      "open": false
     },
@@ -846,7 +846,7 @@
      "intelligence": 6.3,
      "price_in": 0.3,
      "price_out": 1.2,
-     "tps": 113.015529274165,
+     "tps": 106.307228042557,
      "context": 131072,
      "open": true
     },
@@ -857,7 +857,7 @@
      "intelligence": 6.2,
      "price_in": 0,
      "price_out": 0,
-     "tps": 160.005811907194,
+     "tps": 148.172579365217,
      "context": 192000,
      "open": true
     },
@@ -868,8 +868,19 @@
      "intelligence": 5.5,
      "price_in": 0.06,
      "price_out": 0.2,
-     "tps": 292.530392187194,
+     "tps": 292.767141531482,
      "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Granite 4.2 3B",
+     "family": "Granite 4.2 3B",
+     "creator": "IBM",
+     "intelligence": 4.7,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 131072,
      "open": true
     },
     {
@@ -879,7 +890,7 @@
      "intelligence": 4.3,
      "price_in": 0.15,
      "price_out": 0.6,
-     "tps": 177.227854805632,
+     "tps": 171.656960340343,
      "context": 256000,
      "open": true
     },
@@ -895,7 +906,7 @@
      "open": true
     }
    ],
-   "total_models": 41
+   "total_models": 42
   },
   "alphaxiv": {
    "name": "alphaXiv",
