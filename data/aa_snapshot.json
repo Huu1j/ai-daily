@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "models": {
   "Gemini 4 Carbon": 59.4,
   "Claude Opus 5.5": 58.4,
@@ -28,6 +28,7 @@
   "Mistral Large 4": 26.0,
   "Muse Spark Open": 24.7,
   "DeepSeek V4 Pro 0813": 23.1,
+  "Nanbeige4.3-33B": 20.4,
   "Qwen3.8 27B": 20.1,
   "MiniMax-M3": 18.7,
   "K2 Horizon 375B A23B": 17.8,
