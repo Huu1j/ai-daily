@@ -1,5 +1,5 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "models": {
   "Gemini 4 Carbon": 59.4,
   "Claude Opus 5.5": 58.4,
@@ -13,7 +13,7 @@
   "Kimi K3.1 Pro": 46.0,
   "Muse Wonder": 43.3,
   "Claude Haiku 5.5": 36.2,
-  "Grok 4.7": 35.0,
+  "Grok 4.7": 35.3,
   "Qwen3.8 Max": 33.6,
   "DeepSeek V4.1 Flash 1017": 32.5,
   "GLM-5.3": 31.7,
@@ -41,6 +41,7 @@
   "Muse Glimmer": 6.3,
   "Command A+": 6.2,
   "Nemotron 3.5 Lightning": 5.5,
+  "Granite 4.2 8B": 5.1,
   "Granite 4.2 3B": 4.7,
   "Mistral Small 4": 4.3,
   "NVIDIA Nemotron 3 Nano 4B": 1.8
