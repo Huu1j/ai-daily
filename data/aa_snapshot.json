@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "models": {
   "Gemini 4 Carbon": 60.0,
   "Claude Opus 5.5": 59.1,
@@ -19,6 +19,7 @@
   "DeepSeek V4.1 Flash 1017": 32.6,
   "GLM-5.3": 31.7,
   "Gemini 3.8 Flash": 30.8,
+  "Inkling 2 Small": 30.6,
   "MiMo-V2.6-Pro": 29.9,
   "Ling 3.1 Flash 1019": 29.6,
   "MiniMax-M3.1-Flash": 29.1,
@@ -47,6 +48,7 @@
   "Mistral Medium 3.5": 4.6,
   "Gemma 4 31B": 4.4,
   "Mistral Small 4": 4.3,
+  "North Mini Code": 3.4,
   "NVIDIA Nemotron 3 Nano 4B": 1.8
  }
 }
