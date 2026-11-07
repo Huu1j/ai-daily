@@ -1,6 +1,6 @@
 {
- "date": "2026-11-06",
- "stats": "3 条要闻 · 24 篇论文 · 12 个模型",
+ "date": "2026-11-07",
+ "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
    "name": "AINews (smol.ai)",
@@ -53,41 +53,41 @@
      "id": "2611.08449",
      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate mo…",
-     "upvotes": 62,
-     "comments": 0,
+     "upvotes": 96,
+     "comments": 1,
      "authors": "Yu-Cheng Chou, Shihao Wang, Jin Huang, Chi-Pin Huang 等 19 人",
      "org": "nvidia",
      "url": "https://huggingface.co/papers/2611.08449",
      "arxiv": "https://arxiv.org/abs/2611.08449"
     },
     {
-     "id": "2611.07392",
-     "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
-     "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deploymen…",
-     "upvotes": 33,
-     "comments": 0,
-     "authors": "Canmiao Fu, Chen Li, Guohui Zhang, Hao Lu 等 16 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.07392",
-     "arxiv": "https://arxiv.org/abs/2611.07392"
-    },
-    {
      "id": "2611.08373",
      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-l…",
-     "upvotes": 24,
-     "comments": 1,
+     "upvotes": 76,
+     "comments": 2,
      "authors": "Fuhao Li, Wenxuan Song, Qizhou Huang, Ziyang Zhou 等 10 人",
      "org": "HKUSTGZ",
      "url": "https://huggingface.co/papers/2611.08373",
      "arxiv": "https://arxiv.org/abs/2611.08373"
     },
     {
+     "id": "2611.07392",
+     "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+     "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deploymen…",
+     "upvotes": 40,
+     "comments": 1,
+     "authors": "Canmiao Fu, Chen Li, Guohui Zhang, Hao Lu 等 16 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.07392",
+     "arxiv": "https://arxiv.org/abs/2611.07392"
+    },
+    {
      "id": "2611.07854",
      "title": "Towards Foundation Decision Models: Drex",
      "summary": "Autoregressive approaches with large language models, such as long chain-of-thought reasoning, have become the default for new AI applications because they reach higher accuracy on a wide range of tasks. In production, h…",
-     "upvotes": 14,
-     "comments": 1,
+     "upvotes": 20,
+     "comments": 3,
      "authors": "Nischay Dhankhar, Alisher Amantay, Zhanibek Datbayev, Darkhan Akhmetov 等 9 人",
      "org": "nace-ai",
      "url": "https://huggingface.co/papers/2611.07854",
@@ -97,56 +97,89 @@
      "id": "2611.07909",
      "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
      "summary": "Recent advances in Gaussian splatting have enabled efficient and photorealistic head avatar reconstruction, yet monocular video-based or image-based methods still suffer from under-constrained geometry and texture, leadi…",
-     "upvotes": 8,
-     "comments": 1,
+     "upvotes": 12,
+     "comments": 2,
      "authors": "Kwan Yun, Minhyeok Bang, Colette Suhjung Koo, Junyong Noh",
      "org": "KAIST",
      "url": "https://huggingface.co/papers/2611.07909",
      "arxiv": "https://arxiv.org/abs/2611.07909"
     },
     {
+     "id": "2611.08237",
+     "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
+     "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically…",
+     "upvotes": 8,
+     "comments": 3,
+     "authors": "Xiaojun Wu, Cehao Yang, Xuhui Jiang, Chengjin Xu 等 6 人",
+     "org": "IDEA-FinAI",
+     "url": "https://huggingface.co/papers/2611.08237",
+     "arxiv": "https://arxiv.org/abs/2611.08237"
+    },
+    {
      "id": "2611.08089",
      "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
      "summary": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled. Existing analyses count how often an expert is selected on domain-labeled cor…",
-     "upvotes": 5,
-     "comments": 1,
+     "upvotes": 7,
+     "comments": 2,
      "authors": "Anyuan Zhuo, Shaohua Zhang, Yuan Lin, Pinyan Lu",
      "org": "ByteDance-Seed",
      "url": "https://huggingface.co/papers/2611.08089",
      "arxiv": "https://arxiv.org/abs/2611.08089"
     },
     {
+     "id": "2611.08376",
+     "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+     "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before w…",
+     "upvotes": 6,
+     "comments": 2,
+     "authors": "Tushaar Gangavarapu, Gil Tabak, Clemens JS Schaefer",
+     "org": "google",
+     "url": "https://huggingface.co/papers/2611.08376",
+     "arxiv": "https://arxiv.org/abs/2611.08376"
+    },
+    {
+     "id": "2611.08483",
+     "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+     "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow becau…",
+     "upvotes": 5,
+     "comments": 2,
+     "authors": "Qile Jiang, George Em Karniadakis",
+     "org": "brownu",
+     "url": "https://huggingface.co/papers/2611.08483",
+     "arxiv": "https://arxiv.org/abs/2611.08483"
+    },
+    {
      "id": "2611.07613",
      "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
      "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses th…",
-     "upvotes": 2,
-     "comments": 1,
+     "upvotes": 4,
+     "comments": 2,
      "authors": "Kotaro Oishi, Kazuma Ikeda, Ryosei Hara, Ryo Yoshida 等 6 人",
      "org": "",
      "url": "https://huggingface.co/papers/2611.07613",
      "arxiv": "https://arxiv.org/abs/2611.07613"
     },
     {
-     "id": "2611.08369",
-     "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
-     "summary": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a mod…",
-     "upvotes": 2,
-     "comments": 1,
-     "authors": "Pengkai Wang, Wei-Wei Zhang, Yan Li, Min Tang 等 16 人",
-     "org": "InfiX-ai",
-     "url": "https://huggingface.co/papers/2611.08369",
-     "arxiv": "https://arxiv.org/abs/2611.08369"
-    },
-    {
      "id": "2611.07298",
      "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
      "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual token-level information, such as artifacts arising from attention si…",
-     "upvotes": 0,
-     "comments": 0,
+     "upvotes": 4,
+     "comments": 1,
      "authors": "Seongtae Hong, Youngjoon Jang, Jungseob Lee, Chanjun Park 等 5 人",
      "org": "nlpai-lab",
      "url": "https://huggingface.co/papers/2611.07298",
      "arxiv": "https://arxiv.org/abs/2611.07298"
+    },
+    {
+     "id": "2609.37820",
+     "title": "Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space",
+     "summary": "When firms respond to new market opportunities, their capacity choices alter the future discounted free cash flows available to both competitors and investors. In competitive markets, these investment decisions publicize…",
+     "upvotes": 3,
+     "comments": 2,
+     "authors": "Marcus Gawronsky, Chun-Sung Huang",
+     "org": "uct",
+     "url": "https://huggingface.co/papers/2609.37820",
+     "arxiv": "https://arxiv.org/abs/2609.37820"
     }
    ],
    "date": "2026-11-05",
@@ -156,14 +189,6 @@
    "name": "arXiv cs.AI",
    "url": "https://arxiv.org/list/cs.AI/recent",
    "papers": [
-    {
-     "id": "2611.08483",
-     "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-     "authors": "",
-     "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates…",
-     "url": "https://arxiv.org/abs/2611.08483v1",
-     "date": "2026-11-05"
-    },
     {
      "id": "2611.08478",
      "title": "Scientist World: Grow a Research World for AI-Scientists",
@@ -797,7 +822,7 @@
      "family": "Nemotron 3.5 Super VL",
      "creator": "NVIDIA",
      "intelligence": 13.6,
-     "price_in": 0.2,
+     "price_in": 0.175,
      "price_out": 0.5,
      "tps": null,
      "context": 1000000,
@@ -846,6 +871,17 @@
      "tps": null,
      "context": 1000000,
      "open": false
+    },
+    {
+     "name": "K-EXAONE 2.0",
+     "family": "K-EXAONE 2.0",
+     "creator": "LG AI Research",
+     "intelligence": 7.6,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 262144,
+     "open": true
     },
     {
      "name": "Muse Glimmer (High)",
@@ -958,7 +994,7 @@
      "open": true
     }
    ],
-   "total_models": 49
+   "total_models": 50
   },
   "alphaxiv": {
    "name": "alphaXiv",

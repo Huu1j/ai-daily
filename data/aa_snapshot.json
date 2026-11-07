@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "models": {
   "Gemini 4 Carbon": 60.0,
   "Claude Opus 5.5": 59.1,
@@ -40,6 +40,7 @@
   "Inkling": 12.5,
   "Nemotron 3 Ultra 550B A55B": 11.8,
   "Gemini 3.5 Flash-Lite": 11.7,
+  "K-EXAONE 2.0": 7.6,
   "Muse Glimmer": 6.3,
   "Command A+": 6.2,
   "Nemotron 3.5 Lightning": 5.5,
