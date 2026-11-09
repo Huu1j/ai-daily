@@ -1,6 +1,6 @@
 {
- "date": "2026-11-08",
- "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
+ "date": "2026-11-09",
+ "stats": "3 条要闻 · 20 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
    "name": "AINews (smol.ai)",
@@ -50,139 +50,62 @@
    "url": "https://huggingface.co/papers",
    "papers": [
     {
-     "id": "2611.08449",
-     "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
-     "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate mo…",
-     "upvotes": 104,
+     "id": "2611.09894",
+     "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+     "summary": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllab…",
+     "upvotes": 10,
      "comments": 1,
-     "authors": "Yu-Cheng Chou, Shihao Wang, Jin Huang, Chi-Pin Huang 等 19 人",
-     "org": "nvidia",
-     "url": "https://huggingface.co/papers/2611.08449",
-     "arxiv": "https://arxiv.org/abs/2611.08449"
+     "authors": "Chaoyang Wang, Sicheng Gao, Junan Hu, Kunyang Li 等 10 人",
+     "org": "UCF-Ai-LLMs",
+     "url": "https://huggingface.co/papers/2611.09894",
+     "arxiv": "https://arxiv.org/abs/2611.09894"
     },
     {
-     "id": "2611.08373",
-     "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
-     "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-l…",
-     "upvotes": 84,
-     "comments": 3,
-     "authors": "Fuhao Li, Wenxuan Song, Qizhou Huang, Ziyang Zhou 等 10 人",
-     "org": "HKUSTGZ",
-     "url": "https://huggingface.co/papers/2611.08373",
-     "arxiv": "https://arxiv.org/abs/2611.08373"
-    },
-    {
-     "id": "2611.07392",
-     "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
-     "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deploymen…",
-     "upvotes": 43,
+     "id": "2611.09382",
+     "title": "Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
+     "summary": "Weight-Space Programming (WSP) enables reasoning agents to directly inspect and modify neural network parameters, offering an alternative to gradient-based model adaptation. However, its capabilities, cross-task generali…",
+     "upvotes": 7,
      "comments": 1,
-     "authors": "Canmiao Fu, Chen Li, Guohui Zhang, Hao Lu 等 16 人",
+     "authors": "Junru Hu, Cheng Tang, Wei Li, Hongze Zhu 等 8 人",
      "org": "",
-     "url": "https://huggingface.co/papers/2611.07392",
-     "arxiv": "https://arxiv.org/abs/2611.07392"
+     "url": "https://huggingface.co/papers/2611.09382",
+     "arxiv": "https://arxiv.org/abs/2611.09382"
     },
     {
-     "id": "2611.07854",
-     "title": "Towards Foundation Decision Models: Drex",
-     "summary": "Autoregressive approaches with large language models, such as long chain-of-thought reasoning, have become the default for new AI applications because they reach higher accuracy on a wide range of tasks. In production, h…",
-     "upvotes": 22,
-     "comments": 3,
-     "authors": "Nischay Dhankhar, Alisher Amantay, Zhanibek Datbayev, Darkhan Akhmetov 等 9 人",
-     "org": "nace-ai",
-     "url": "https://huggingface.co/papers/2611.07854",
-     "arxiv": "https://arxiv.org/abs/2611.07854"
-    },
-    {
-     "id": "2611.07909",
-     "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure",
-     "summary": "Recent advances in Gaussian splatting have enabled efficient and photorealistic head avatar reconstruction, yet monocular video-based or image-based methods still suffer from under-constrained geometry and texture, leadi…",
-     "upvotes": 14,
-     "comments": 2,
-     "authors": "Kwan Yun, Minhyeok Bang, Colette Suhjung Koo, Junyong Noh",
-     "org": "KAIST",
-     "url": "https://huggingface.co/papers/2611.07909",
-     "arxiv": "https://arxiv.org/abs/2611.07909"
-    },
-    {
-     "id": "2611.08376",
-     "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
-     "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before w…",
-     "upvotes": 12,
-     "comments": 5,
-     "authors": "Tushaar Gangavarapu, Gil Tabak, Clemens JS Schaefer",
-     "org": "google",
-     "url": "https://huggingface.co/papers/2611.08376",
-     "arxiv": "https://arxiv.org/abs/2611.08376"
-    },
-    {
-     "id": "2611.08237",
-     "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
-     "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically…",
-     "upvotes": 11,
-     "comments": 3,
-     "authors": "Xiaojun Wu, Cehao Yang, Xuhui Jiang, Chengjin Xu 等 6 人",
-     "org": "IDEA-FinAI",
-     "url": "https://huggingface.co/papers/2611.08237",
-     "arxiv": "https://arxiv.org/abs/2611.08237"
-    },
-    {
-     "id": "2611.08483",
-     "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-     "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow becau…",
-     "upvotes": 9,
-     "comments": 4,
-     "authors": "Qile Jiang, George Em Karniadakis",
-     "org": "brownu",
-     "url": "https://huggingface.co/papers/2611.08483",
-     "arxiv": "https://arxiv.org/abs/2611.08483"
-    },
-    {
-     "id": "2611.08089",
-     "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
-     "summary": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled. Existing analyses count how often an expert is selected on domain-labeled cor…",
-     "upvotes": 9,
-     "comments": 3,
-     "authors": "Anyuan Zhuo, Shaohua Zhang, Yuan Lin, Pinyan Lu",
-     "org": "ByteDance-Seed",
-     "url": "https://huggingface.co/papers/2611.08089",
-     "arxiv": "https://arxiv.org/abs/2611.08089"
-    },
-    {
-     "id": "2611.07298",
-     "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
-     "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual token-level information, such as artifacts arising from attention si…",
+     "id": "2611.09017",
+     "title": "Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds",
+     "summary": "Coding agents combine visual understanding with program execution, offering a new route to automated 3D creation. By translating images and instructions into editable programs, they bring reconstruction, generation, and …",
      "upvotes": 6,
-     "comments": 3,
-     "authors": "Seongtae Hong, Youngjoon Jang, Jungseob Lee, Chanjun Park 等 5 人",
-     "org": "nlpai-lab",
-     "url": "https://huggingface.co/papers/2611.07298",
-     "arxiv": "https://arxiv.org/abs/2611.07298"
-    },
-    {
-     "id": "2611.07613",
-     "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation",
-     "summary": "LiDAR is a critical sensor for autonomous driving and robotics, yet it remains vulnerable to adverse conditions such as fog, rain, transparent objects, and low-reflectance surfaces. Full-waveform LiDAR (FWL) addresses th…",
-     "upvotes": 5,
-     "comments": 3,
-     "authors": "Kotaro Oishi, Kazuma Ikeda, Ryosei Hara, Ryo Yoshida 等 6 人",
+     "comments": 0,
+     "authors": "Xinjie Lin, Qingle Liu, Wenyi Li, John Lam 等 13 人",
      "org": "",
-     "url": "https://huggingface.co/papers/2611.07613",
-     "arxiv": "https://arxiv.org/abs/2611.07613"
+     "url": "https://huggingface.co/papers/2611.09017",
+     "arxiv": "https://arxiv.org/abs/2611.09017"
     },
     {
-     "id": "2611.08369",
-     "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
-     "summary": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a mod…",
+     "id": "2611.09055",
+     "title": "OmniLatent: Unified Latent for 3D Part Modeling",
+     "summary": "3D part decomposition is a central capability for editable asset creation, yet existing workflows typically segment a completed mesh as a post-processing step, making the result sensitive to geometric artifacts, texture …",
      "upvotes": 3,
-     "comments": 3,
-     "authors": "Pengkai Wang, Wei-Wei Zhang, Yan Li, Min Tang 等 16 人",
-     "org": "InfiX-ai",
-     "url": "https://huggingface.co/papers/2611.08369",
-     "arxiv": "https://arxiv.org/abs/2611.08369"
+     "comments": 0,
+     "authors": "Yunhan Yang, Yunfei Zhao, Zeqiang Lai, Jiachen Xu 等 9 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.09055",
+     "arxiv": "https://arxiv.org/abs/2611.09055"
+    },
+    {
+     "id": "2611.09113",
+     "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
+     "summary": "LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across data, tool, scope, and time, and introduce the Authorization…",
+     "upvotes": 2,
+     "comments": 1,
+     "authors": "Chuxue Cao, Jingru Zeng, Boqin Yin, Yujin Zhou 等 10 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.09113",
+     "arxiv": "https://arxiv.org/abs/2611.09113"
     }
    ],
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "stale": true
   },
   "arxiv": {
@@ -190,119 +113,127 @@
    "url": "https://arxiv.org/list/cs.AI/recent",
    "papers": [
     {
-     "id": "2611.08478",
-     "title": "Scientist World: Grow a Research World for AI-Scientists",
+     "id": "2611.09892",
+     "title": "On Agentic Manipulation Policies",
      "authors": "",
-     "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not…",
-     "url": "https://arxiv.org/abs/2611.08478v1",
-     "date": "2026-11-05"
+     "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) a…",
+     "url": "https://arxiv.org/abs/2611.09892v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08472",
-     "title": "XStack: A Benchmark for ML Repo Migration",
+     "id": "2611.09891",
+     "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
      "authors": "",
-     "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and …",
-     "url": "https://arxiv.org/abs/2611.08472v1",
-     "date": "2026-11-05"
+     "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the applicatio…",
+     "url": "https://arxiv.org/abs/2611.09891v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08469",
-     "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+     "id": "2611.09872",
+     "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
      "authors": "",
-     "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that…",
-     "url": "https://arxiv.org/abs/2611.08469v1",
-     "date": "2026-11-05"
+     "summary": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with on…",
+     "url": "https://arxiv.org/abs/2611.09872v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08465",
-     "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+     "id": "2611.09866",
+     "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
      "authors": "",
-     "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating E…",
-     "url": "https://arxiv.org/abs/2611.08465v1",
-     "date": "2026-11-05"
+     "summary": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensive manual review and clinical expertise. …",
+     "url": "https://arxiv.org/abs/2611.09866v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08452",
-     "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+     "id": "2611.09864",
+     "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
      "authors": "",
-     "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to …",
-     "url": "https://arxiv.org/abs/2611.08452v1",
-     "date": "2026-11-05"
+     "summary": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despit…",
+     "url": "https://arxiv.org/abs/2611.09864v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08439",
-     "title": "Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes",
+     "id": "2611.09863",
+     "title": "Flow-Guided Target-Space Alignment via Path Consistency",
      "authors": "",
-     "summary": "Typed-decision models score options that the caller supplies at request time, so their accuracy depends on label wording that the model's developer does not control. We compare two releases of a 307M-parameter multilingual cross-encoder, Ru…",
-     "url": "https://arxiv.org/abs/2611.08439v1",
-     "date": "2026-11-05"
+     "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream analysis. In this setti…",
+     "url": "https://arxiv.org/abs/2611.09863v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08438",
-     "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
+     "id": "2611.09846",
+     "title": "Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization",
      "authors": "",
-     "summary": "Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenge…",
-     "url": "https://arxiv.org/abs/2611.08438v1",
-     "date": "2026-11-05"
+     "summary": "This paper describes an approach and use case to estimate the correctness of LLM-generated COBOL summaries without access to human-authored references. The core intuition is that inter-model agreement on semantics is informative about truth…",
+     "url": "https://arxiv.org/abs/2611.09846v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08433",
-     "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+     "id": "2611.09836",
+     "title": "Can Agentic Systems Close the Gap in Radiology with Production AI Tools?",
      "authors": "",
-     "summary": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recur…",
-     "url": "https://arxiv.org/abs/2611.08433v1",
-     "date": "2026-11-05"
+     "summary": "Radiology AI has developed along two paths: specialized models that perform well on narrow tasks but cover few clinical findings, and generalist models that address a broader range of tasks but remain prone to hallucination and inaccurate m…",
+     "url": "https://arxiv.org/abs/2611.09836v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08428",
-     "title": "The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI",
+     "id": "2611.09825",
+     "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
      "authors": "",
-     "summary": "Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta acce…",
-     "url": "https://arxiv.org/abs/2611.08428v1",
-     "date": "2026-11-05"
+     "summary": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving. While 4-bit microscaling formats (NVFP4, MXFP4) shrink the cache and run attention on FP4 Tensor Cores, a fundamental gap remains between algorith…",
+     "url": "https://arxiv.org/abs/2611.09825v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08425",
-     "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
+     "id": "2611.09822",
+     "title": "Discovering formally verified quantum programs with AI",
      "authors": "",
-     "summary": "Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where unanticipated failures can damage equipment or endanger people. Deploying VLAs in real-world…",
-     "url": "https://arxiv.org/abs/2611.08425v1",
-     "date": "2026-11-05"
+     "summary": "The timeline by which quantum computers can solve breakthrough problems in science depends on improved quantum algorithms as much as on better hardware. Such algorithmic advances are typically achieved through many years of expert human col…",
+     "url": "https://arxiv.org/abs/2611.09822v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08417",
-     "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
+     "id": "2611.09818",
+     "title": "Generative Latent Priors for Interpreting and Steering Protein Language Models",
      "authors": "",
-     "summary": "Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As models improve, the…",
-     "url": "https://arxiv.org/abs/2611.08417v1",
-     "date": "2026-11-05"
+     "summary": "Dominant methods for interpreting large models impose strong structural assumptions. Generative Latent Priors (GLP) are a complementary approach: a diffusion model that learns the distribution of a frozen model's activations directly, impos…",
+     "url": "https://arxiv.org/abs/2611.09818v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08412",
-     "title": "The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
+     "id": "2611.09805",
+     "title": "Scaling Graph Similarity Learning with Graph Neural Networks",
      "authors": "",
-     "summary": "The growing use of AI in mathematics raises a question: can we detect AI involvement in proofs, separately from AI assistance with writing? Historical arXiv papers, recent papers disclosing substantive AI use, and manuscripts released by Op…",
-     "url": "https://arxiv.org/abs/2611.08412v1",
-     "date": "2026-11-05"
+     "summary": "Graph similarity computation is an important task in graph mining with many real-world applications, such as chemical compound analysis, program dependence comparison, and social network analysis. The problem is computationally challenging:…",
+     "url": "https://arxiv.org/abs/2611.09805v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08403",
-     "title": "StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Reasoning",
+     "id": "2611.09802",
+     "title": "When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents",
      "authors": "",
-     "summary": "Self-consistency (SC) is a widely used decoding strategy for improving chain-of-thought reasoning, but it requires sampling many complete reasoning trajectories with a preset budget. Its efficient variants reduce the cost mainly by stopping…",
-     "url": "https://arxiv.org/abs/2611.08403v1",
-     "date": "2026-11-05"
+     "summary": "LLM-based coding agents such as Claude Code are guided by repository instruction files (also called context files or agent configuration files) like AGENTS.md and CLAUDE.md, which are read in every agent session. As any documentation artifa…",
+     "url": "https://arxiv.org/abs/2611.09802v1",
+     "date": "2026-11-06"
     },
     {
-     "id": "2611.08392",
-     "title": "Learning a patient world model for health system simulation in intensive care",
+     "id": "2611.09803",
+     "title": "Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model",
      "authors": "",
-     "summary": "Designing healthcare strategies requires anticipating their clinical and operational consequences before implementation, a task that often relies on health system simulation. Such a simulation necessitates modeling how patient states evolve…",
-     "url": "https://arxiv.org/abs/2611.08392v1",
-     "date": "2026-11-05"
+     "summary": "Laya answers typed multiple-choice questions in one forward pass by scoring a hidden state at one [MASK] marker per option. We re-engineer the checkpoint (421M parameters; a 2-layer option head with no positional tensor; a documented but un…",
+     "url": "https://arxiv.org/abs/2611.09803v1",
+     "date": "2026-11-06"
+    },
+    {
+     "id": "2611.09798",
+     "title": "Test-Time Compute Scales Better with Parallel Agent Teams",
+     "authors": "",
+     "summary": "Test-time scaling improves the performance of a fixed model by spending more computation at inference. There are two common ways to spend it on agents when a verifier can score every attempt. Best-of-N sampling runs many independent agents …",
+     "url": "https://arxiv.org/abs/2611.09798v1",
+     "date": "2026-11-06"
     }
    ],
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "total": 15
   },
   "artificial_analysis": {
@@ -752,6 +683,17 @@
      "open": true
     },
     {
+     "name": "Agnes 2.5 Pro Theta",
+     "family": "Agnes 2.5 Pro Theta",
+     "creator": "Sapiens AI",
+     "intelligence": 24.0,
+     "price_in": 0.1,
+     "price_out": 0.3,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
      "name": "DeepSeek V4 Pro 0813 (Max)",
      "family": "DeepSeek V4 Pro 0813",
      "creator": "DeepSeek",
@@ -994,7 +936,7 @@
      "open": true
     }
    ],
-   "total_models": 50
+   "total_models": 51
   },
   "alphaxiv": {
    "name": "alphaXiv",

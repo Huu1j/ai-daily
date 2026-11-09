@@ -1,5 +1,5 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "models": {
   "Gemini 4 Carbon": 60.0,
   "Claude Opus 5.5": 59.1,
@@ -29,6 +29,7 @@
   "MiMo-V2.6-Flash": 26.7,
   "Mistral Large 4": 26.1,
   "Muse Spark Open": 24.9,
+  "Agnes 2.5 Pro Theta": 24.0,
   "DeepSeek V4 Pro 0813": 23.1,
   "Nanbeige4.3-33B": 20.4,
   "Qwen3.8 27B": 20.1,
