@@ -1,0 +1,1059 @@
+{
+ "date": "2026-11-11",
+ "stats": "3 条要闻 · 27 篇论文 · 12 个模型",
+ "sources": {
+  "smolai": {
+   "name": "AINews (smol.ai)",
+   "url": "https://news.smol.ai/",
+   "issues": [
+    {
+     "title": "not much happened today",
+     "url": "https://news.smol.ai/issues/26-09-09-not-much/",
+     "date": "2026-09-09",
+     "points": [
+      "**Anthropic** disclosed four cyber incidents involving **Claude** during third-party security tests, revealing failures in situational awareness and monitorability, with an independent investigation by **METR** underway.",
+      "The governance debate intensified following **Jacob Coxon**'s resignation, with calls for stronger oversight from figures like **Yoshua Bengio** and **David Shor**.",
+      "**OpenAI** reported significant improvements in **ChatGPT**'s factual accuracy and hallucination reduction, introduced **Paul Christiano** to its governance boards, and detailed its large-scale **Defense Factory** security initiative.",
+      "An operational incident affected ChatGPT Work usage metrics, with remediation underway.",
+      "*\"Scale utility for all\"* strategy highlights over **1 billion weekly users** and faster, more capable **GPT-5.6** models."
+     ]
+    },
+    {
+     "title": "not much happened today",
+     "url": "https://news.smol.ai/issues/26-09-10-not-much/",
+     "date": "2026-09-09",
+     "points": [
+      "**DeepSeek** launched **V4.1-Flash**, a new open-weight flagship model focused on extreme inference efficiency and low cost, featuring a **763B total-parameter** causal encoder-decoder architecture with **8B active input** and **16B active output** parameters …",
+      "It scored **40 on the Artificial Analysis Intelligence Index**, outperforming its predecessor and ranking just below **GLM-5.3-Flash**.",
+      "The model supports text and image input, is available under an **MIT license**, and is accessible via US/API.",
+      "The architecture introduces a novel causal encoder-decoder design aimed at reducing active compute and KV/cache costs, with a hybrid sparse/local approach and a unique vision encoder differing from recent Chinese models.",
+      "Early layers use a **SWA-only** pattern, and the model has an effective depth of about **40 layers** with **20 decoder layers**."
+     ]
+    },
+    {
+     "title": "OpenAI reports Navier-Stokes singularity find, a contender for second ever Millenium Prize awarded, overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5",
+     "url": "https://news.smol.ai/issues/26-09-08-navier-stokes/",
+     "date": "2026-09-08",
+     "points": [
+      "**OpenAI** announced a proposed Navier–Stokes proof by an internal model \"**significantly more capable than GPT-6 Astra**\" using **10,000 agents** over **88 hours** plus **17 hours** of formal verification.",
+      "The effort highlights the emergence of **massive test-time compute scaling** as a new axis beyond pretraining, with estimated costs of **$10M–$40M** and **130B output tokens**.",
+      "Controversy arose over priority, data contamination, and scientific norms, with key figures like **Sam Altman**, **Sébastien Bubeck**, and **Terence Tao** weighing in on governance and open science risks.",
+      "Meanwhile, **Meta** launched **Muse**, a consumer personal AI agent featuring persistent isolated Linux VMs, browser integration, and connectors to various apps including Meta-native services like Instagram and Messenger, emphasizing security and broad service…"
+     ]
+    }
+   ],
+   "stale": true,
+   "latest_date": "2026-09-09"
+  },
+  "hf_papers": {
+   "name": "Hugging Face Daily Papers",
+   "url": "https://huggingface.co/papers",
+   "papers": [
+    {
+     "id": "2611.14320",
+     "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+     "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails…",
+     "upvotes": 41,
+     "comments": 4,
+     "authors": "Yukyeong Lee, Yumin Choi, Jinheon Baek, Sung Ju Hwang",
+     "org": "kaist-ai",
+     "url": "https://huggingface.co/papers/2611.14320",
+     "arxiv": "https://arxiv.org/abs/2611.14320"
+    },
+    {
+     "id": "2611.14210",
+     "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+     "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B…",
+     "upvotes": 37,
+     "comments": 1,
+     "authors": "Hadi Salloum, Ammar Ali",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.14210",
+     "arxiv": "https://arxiv.org/abs/2611.14210"
+    },
+    {
+     "id": "2611.14033",
+     "title": "Few-Step Streaming Video Generation via Condition Shifting",
+     "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and…",
+     "upvotes": 29,
+     "comments": 1,
+     "authors": "Deyuan Liu, Jungang Li, Kaiwen Zheng, Kai Jiang 等 11 人",
+     "org": "Tsinghua",
+     "url": "https://huggingface.co/papers/2611.14033",
+     "arxiv": "https://arxiv.org/abs/2611.14033"
+    },
+    {
+     "id": "2611.14309",
+     "title": "MMDM: Measuring Massive Multitask Decision Making",
+     "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual respons…",
+     "upvotes": 23,
+     "comments": 1,
+     "authors": "Junhao Shen, Qing Zong, Yue Guo, Zhanqiu Zhang 等 6 人",
+     "org": "CUHKDBGROUP",
+     "url": "https://huggingface.co/papers/2611.14309",
+     "arxiv": "https://arxiv.org/abs/2611.14309"
+    },
+    {
+     "id": "2611.11166",
+     "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+     "summary": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We intro…",
+     "upvotes": 23,
+     "comments": 1,
+     "authors": "Zhongxi Chen, Yi Yang, Xinyi Chen, Mingzhe Ye 等 9 人",
+     "org": "Sharpa-Robotics",
+     "url": "https://huggingface.co/papers/2611.11166",
+     "arxiv": "https://arxiv.org/abs/2611.11166"
+    },
+    {
+     "id": "2611.14488",
+     "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+     "summary": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time s…",
+     "upvotes": 5,
+     "comments": 1,
+     "authors": "Chubin Zhang, Bo An",
+     "org": "NanyangTechnologicalUniversity",
+     "url": "https://huggingface.co/papers/2611.14488",
+     "arxiv": "https://arxiv.org/abs/2611.14488"
+    },
+    {
+     "id": "2611.13572",
+     "title": "Market-Conditioned JEPA: Learning from Unpredictable Market Shocks",
+     "summary": "Much of the variation in financial time series is driven by market-wide shocks that cannot be predicted from an asset's own history. Per-asset self-supervised learning treats this variation as irreducible noise. Under a …",
+     "upvotes": 4,
+     "comments": 1,
+     "authors": "Yuqi Wang, Fengyuan Liu, Mukai Li, Haochen Luo 等 6 人",
+     "org": "OpenFinMind",
+     "url": "https://huggingface.co/papers/2611.13572",
+     "arxiv": "https://arxiv.org/abs/2611.13572"
+    },
+    {
+     "id": "2611.13482",
+     "title": "ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control",
+     "summary": "Predicting long action chunks, often spanning dozens of timesteps, has become a key ingredient in increasingly capable robot policies. In this paper, we find that adapting these long-chunk policies with existing reinforc…",
+     "upvotes": 4,
+     "comments": 1,
+     "authors": "Xu Luo, Jiaying Yang, Hao Wu, Junlin Xie 等 8 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.13482",
+     "arxiv": "https://arxiv.org/abs/2611.13482"
+    },
+    {
+     "id": "2611.13560",
+     "title": "Are Dense Rewards Worth Their Tokens in GRPO?",
+     "summary": "RLVR trains language models to reason by rewarding correct final answers. A widely used algorithm, group-relative policy optimization (GRPO), gives every token of a solution the same credit, so dense process rewards have…",
+     "upvotes": 3,
+     "comments": 2,
+     "authors": "Vikash Singh, Weicong Chen, Debargha Ganguly, Yanyan Zhang 等 19 人",
+     "org": "CWRU",
+     "url": "https://huggingface.co/papers/2611.13560",
+     "arxiv": "https://arxiv.org/abs/2611.13560"
+    },
+    {
+     "id": "2611.13907",
+     "title": "EVAThink: Evidence Sufficiency-Guided Training for Adaptive Thinking in Video Understanding",
+     "summary": "Under a fixed frame budget, video understanding with vision-language models (VLMs) depends on whether the sampled frames provide sufficient evidence for the question. Sufficient frame evidence supports direct answering, …",
+     "upvotes": 2,
+     "comments": 1,
+     "authors": "Changti Wu, Ruizhe Fan, Bin Wang, Lei Zhang 等 5 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.13907",
+     "arxiv": "https://arxiv.org/abs/2611.13907"
+    },
+    {
+     "id": "2611.13885",
+     "title": "Are Causal Neuron Circuits Unique and Transferable?",
+     "summary": "Interpretability demonstrations often show that intervening on a group of neurons changes a model's answer. A recent example removes an 18-neuron group in Qwen3-32B and the model answers \"Simba\" instead of \"Scar\" to a tw…",
+     "upvotes": 1,
+     "comments": 1,
+     "authors": "Ömer Tekin Yavuz",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.13885",
+     "arxiv": "https://arxiv.org/abs/2611.13885"
+    },
+    {
+     "id": "2611.14083",
+     "title": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models",
+     "summary": "We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given prompt, bit for bit. Sable fixes an integer functi…",
+     "upvotes": 1,
+     "comments": 1,
+     "authors": "Tomer Solberg",
+     "org": "MoonMath-ai",
+     "url": "https://huggingface.co/papers/2611.14083",
+     "arxiv": "https://arxiv.org/abs/2611.14083"
+    }
+   ],
+   "date": "2026-11-10",
+   "stale": true
+  },
+  "arxiv": {
+   "name": "arXiv cs.AI",
+   "url": "https://arxiv.org/list/cs.AI/recent",
+   "papers": [
+    {
+     "id": "2611.14519",
+     "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+     "authors": "",
+     "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the tr…",
+     "url": "https://arxiv.org/abs/2611.14519v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14518",
+     "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+     "authors": "",
+     "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the…",
+     "url": "https://arxiv.org/abs/2611.14518v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14514",
+     "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+     "authors": "",
+     "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent lea…",
+     "url": "https://arxiv.org/abs/2611.14514v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14493",
+     "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+     "authors": "",
+     "summary": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, ea…",
+     "url": "https://arxiv.org/abs/2611.14493v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14492",
+     "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+     "authors": "",
+     "summary": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every …",
+     "url": "https://arxiv.org/abs/2611.14492v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14487",
+     "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
+     "authors": "",
+     "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what lim…",
+     "url": "https://arxiv.org/abs/2611.14487v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14432",
+     "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+     "authors": "",
+     "summary": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vi…",
+     "url": "https://arxiv.org/abs/2611.14432v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14426",
+     "title": "Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling",
+     "authors": "",
+     "summary": "Branch-and-Bound (B&B) and $A^*$ are popular exact search methods originating from Operations Research and Artificial Intelligence, respectively. Although the two methods share fundamental search principles, their different ways of explorin…",
+     "url": "https://arxiv.org/abs/2611.14426v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14425",
+     "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
+     "authors": "",
+     "summary": "Time-Series Foundation Models (TSFMs) are increasingly used in sensor applications, where sampling frequency (SF) varies across sensors, devices, and operating modes (e.g., power saving). Ideally, TSFMs must remain effective during such SF …",
+     "url": "https://arxiv.org/abs/2611.14425v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14419",
+     "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+     "authors": "",
+     "summary": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible…",
+     "url": "https://arxiv.org/abs/2611.14419v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14418",
+     "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+     "authors": "",
+     "summary": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks …",
+     "url": "https://arxiv.org/abs/2611.14418v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14413",
+     "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
+     "authors": "",
+     "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We ask whether the first makes the second worse, and which is the cheaper…",
+     "url": "https://arxiv.org/abs/2611.14413v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14407",
+     "title": "Causal Concept Explanations for Deep Neural Models",
+     "authors": "",
+     "summary": "Concept-based explanations in neural models are important for the development, certification, and adoption of autonomous systems. Yet, interpretability remains correlational. Without methods to guide and quantify causal relationships betwee…",
+     "url": "https://arxiv.org/abs/2611.14407v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14387",
+     "title": "Blurring the Block Boundaries: Overlapping Block Denoising for Efficient Diffusion Language Models",
+     "authors": "",
+     "summary": "Diffusion Language Models (DLMs) have emerged as effective alternatives to autoregressive models for latency-critical tasks, enabling faster token generation. Recent advances employ block diffusion with self-editing capabilities, where each…",
+     "url": "https://arxiv.org/abs/2611.14387v1",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "2611.14383",
+     "title": "An Energy-Based Perspective on Machine Learning",
+     "authors": "",
+     "summary": "Energy-based models (EBMs) define a distribution through a scalar energy, $p_θ(x)\\propto\\exp(-E_θ(x))$, and are usually presented as one model family among many. This tutorial has a broader goal: beyond introducing EBMs, it uses them as a s…",
+     "url": "https://arxiv.org/abs/2611.14383v1",
+     "date": "2026-11-10"
+    }
+   ],
+   "date": "2026-11-10",
+   "total": 15
+  },
+  "artificial_analysis": {
+   "name": "Artificial Analysis",
+   "url": "https://artificialanalysis.ai/",
+   "models": [
+    {
+     "name": "Claude Fable 5.2 (Max, Default Fallback)",
+     "family": "Claude Fable 5.2",
+     "creator": "Anthropic",
+     "intelligence": 64.6,
+     "price_in": 8,
+     "price_out": 40,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Gemini 4 Carbon (High)",
+     "family": "Gemini 4 Carbon",
+     "creator": "Google",
+     "intelligence": 60.0,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Claude Opus 5.5 (Max, Default Fallback)",
+     "family": "Claude Opus 5.5",
+     "creator": "Anthropic",
+     "intelligence": 59.1,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6 Astra (Max)",
+     "family": "GPT-6 Astra",
+     "creator": "OpenAI",
+     "intelligence": 56.9,
+     "price_in": 10,
+     "price_out": 50,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6.1 Sol (Max)",
+     "family": "GPT-6.1 Sol",
+     "creator": "OpenAI",
+     "intelligence": 54.6,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+     "family": "Claude Sonnet 5.5",
+     "creator": "Anthropic",
+     "intelligence": 54.5,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6.1 Terra (Max)",
+     "family": "GPT-6.1 Terra",
+     "creator": "OpenAI",
+     "intelligence": 51.3,
+     "price_in": 1,
+     "price_out": 5,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Gemini 4 Argon (High)",
+     "family": "Gemini 4 Argon",
+     "creator": "Google",
+     "intelligence": 50.4,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Muse Wonder Full (Max)",
+     "family": "Muse Wonder Full",
+     "creator": "Meta",
+     "intelligence": 50.1,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Kimi K3.1 Pro",
+     "family": "Kimi K3.1 Pro",
+     "creator": "Kimi",
+     "intelligence": 46.5,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Muse Wonder (Max)",
+     "family": "Muse Wonder",
+     "creator": "Meta",
+     "intelligence": 43.6,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": null,
+     "context": 1048576,
+     "open": false
+    },
+    {
+     "name": "Claude Haiku 5.5 (Max)",
+     "family": "Claude Haiku 5.5",
+     "creator": "Anthropic",
+     "intelligence": 36.5,
+     "price_in": 0.1,
+     "price_out": 0.5,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    }
+   ],
+   "all": [
+    {
+     "name": "Claude Fable 5.2 (Max, Default Fallback)",
+     "family": "Claude Fable 5.2",
+     "creator": "Anthropic",
+     "intelligence": 64.6,
+     "price_in": 8,
+     "price_out": 40,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Gemini 4 Carbon (High)",
+     "family": "Gemini 4 Carbon",
+     "creator": "Google",
+     "intelligence": 60.0,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Claude Opus 5.5 (Max, Default Fallback)",
+     "family": "Claude Opus 5.5",
+     "creator": "Anthropic",
+     "intelligence": 59.1,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6 Astra (Max)",
+     "family": "GPT-6 Astra",
+     "creator": "OpenAI",
+     "intelligence": 56.9,
+     "price_in": 10,
+     "price_out": 50,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6.1 Sol (Max)",
+     "family": "GPT-6.1 Sol",
+     "creator": "OpenAI",
+     "intelligence": 54.6,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+     "family": "Claude Sonnet 5.5",
+     "creator": "Anthropic",
+     "intelligence": 54.5,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GPT-6.1 Terra (Max)",
+     "family": "GPT-6.1 Terra",
+     "creator": "OpenAI",
+     "intelligence": 51.3,
+     "price_in": 1,
+     "price_out": 5,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Gemini 4 Argon (High)",
+     "family": "Gemini 4 Argon",
+     "creator": "Google",
+     "intelligence": 50.4,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Muse Wonder Full (Max)",
+     "family": "Muse Wonder Full",
+     "creator": "Meta",
+     "intelligence": 50.1,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Kimi K3.1 Pro",
+     "family": "Kimi K3.1 Pro",
+     "creator": "Kimi",
+     "intelligence": 46.5,
+     "price_in": 2,
+     "price_out": 10,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Muse Wonder (Max)",
+     "family": "Muse Wonder",
+     "creator": "Meta",
+     "intelligence": 43.6,
+     "price_in": 4,
+     "price_out": 20,
+     "tps": null,
+     "context": 1048576,
+     "open": false
+    },
+    {
+     "name": "Claude Haiku 5.5 (Max)",
+     "family": "Claude Haiku 5.5",
+     "creator": "Anthropic",
+     "intelligence": 36.5,
+     "price_in": 0.1,
+     "price_out": 0.5,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Muse Ember (Max)",
+     "family": "Muse Ember",
+     "creator": "Meta",
+     "intelligence": 36.0,
+     "price_in": 0.1,
+     "price_out": 0.5,
+     "tps": null,
+     "context": 1048576,
+     "open": false
+    },
+    {
+     "name": "Grok 4.7 (Xhigh)",
+     "family": "Grok 4.7",
+     "creator": "SpaceXAI",
+     "intelligence": 35.5,
+     "price_in": 2,
+     "price_out": 6,
+     "tps": null,
+     "context": 500000,
+     "open": false
+    },
+    {
+     "name": "Tencent Hy4",
+     "family": "Tencent Hy4",
+     "creator": "Tencent",
+     "intelligence": 34.6,
+     "price_in": 0.834,
+     "price_out": 2.501,
+     "tps": null,
+     "context": 1048576,
+     "open": false
+    },
+    {
+     "name": "Qwen3.8 Max (0902)",
+     "family": "Qwen3.8 Max",
+     "creator": "Alibaba",
+     "intelligence": 33.7,
+     "price_in": 2,
+     "price_out": 6,
+     "tps": null,
+     "context": 983616,
+     "open": false
+    },
+    {
+     "name": "DeepSeek V4.1 Flash 1017 (Max)",
+     "family": "DeepSeek V4.1 Flash 1017",
+     "creator": "DeepSeek",
+     "intelligence": 32.6,
+     "price_in": 0.3,
+     "price_out": 1.2,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "GLM-5.3 (Max)",
+     "family": "GLM-5.3",
+     "creator": "Z AI",
+     "intelligence": 31.7,
+     "price_in": 1.4,
+     "price_out": 4.4,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Gemini 3.8 Flash (High)",
+     "family": "Gemini 3.8 Flash",
+     "creator": "Google",
+     "intelligence": 30.8,
+     "price_in": 0.75,
+     "price_out": 3.75,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "Inkling 2 Small",
+     "family": "Inkling 2 Small",
+     "creator": "Thinking Machines",
+     "intelligence": 30.6,
+     "price_in": 0.3,
+     "price_out": 1,
+     "tps": null,
+     "context": 1024000,
+     "open": false
+    },
+    {
+     "name": "MiMo-V2.6-Pro",
+     "family": "MiMo-V2.6-Pro",
+     "creator": "Xiaomi",
+     "intelligence": 29.9,
+     "price_in": 0.435,
+     "price_out": 0.87,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Ling 3.1 Flash 1019",
+     "family": "Ling 3.1 Flash 1019",
+     "creator": "InclusionAI",
+     "intelligence": 29.6,
+     "price_in": 0.3,
+     "price_out": 0.9,
+     "tps": null,
+     "context": 1048576,
+     "open": true
+    },
+    {
+     "name": "MiniMax-M3.1-Flash",
+     "family": "MiniMax-M3.1-Flash",
+     "creator": "MiniMax",
+     "intelligence": 29.1,
+     "price_in": 0.15,
+     "price_out": 0.6,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Step 5 Preview",
+     "family": "Step 5 Preview",
+     "creator": "StepFun",
+     "intelligence": 28.5,
+     "price_in": 1,
+     "price_out": 2.7,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "GPT-6 Luna (Max)",
+     "family": "GPT-6 Luna",
+     "creator": "OpenAI",
+     "intelligence": 27.9,
+     "price_in": 0.1,
+     "price_out": 0.5,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "GLM-5.3-Flash",
+     "family": "GLM-5.3-Flash",
+     "creator": "Z AI",
+     "intelligence": 27.8,
+     "price_in": 0.15,
+     "price_out": 0.5,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "MiMo-V2.6-Flash",
+     "family": "MiMo-V2.6-Flash",
+     "creator": "Xiaomi",
+     "intelligence": 26.7,
+     "price_in": 0.14,
+     "price_out": 0.28,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Mistral Large 4 (High)",
+     "family": "Mistral Large 4",
+     "creator": "Mistral",
+     "intelligence": 26.1,
+     "price_in": 0.7,
+     "price_out": 2.1,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Muse Spark Open (Xhigh)",
+     "family": "Muse Spark Open",
+     "creator": "Meta",
+     "intelligence": 24.9,
+     "price_in": 1.25,
+     "price_out": 4.25,
+     "tps": null,
+     "context": 1048576,
+     "open": true
+    },
+    {
+     "name": "Agnes 2.5 Pro Theta",
+     "family": "Agnes 2.5 Pro Theta",
+     "creator": "Sapiens AI",
+     "intelligence": 24.0,
+     "price_in": 0.1,
+     "price_out": 0.3,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "DeepSeek V4 Pro 0813 (Max)",
+     "family": "DeepSeek V4 Pro 0813",
+     "creator": "DeepSeek",
+     "intelligence": 23.1,
+     "price_in": 1.32,
+     "price_out": 3.96,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Nanbeige4.3-33B",
+     "family": "Nanbeige4.3-33B",
+     "creator": "Nanbeige",
+     "intelligence": 20.4,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 524288,
+     "open": true
+    },
+    {
+     "name": "Qwen3.8 27B (Xhigh)",
+     "family": "Qwen3.8 27B",
+     "creator": "Alibaba",
+     "intelligence": 20.1,
+     "price_in": 0.5,
+     "price_out": 3,
+     "tps": null,
+     "context": 256000,
+     "open": true
+    },
+    {
+     "name": "MiniMax-M3",
+     "family": "MiniMax-M3",
+     "creator": "MiniMax",
+     "intelligence": 18.9,
+     "price_in": 0.3,
+     "price_out": 1.2,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "K2 Horizon 375B A23B",
+     "family": "K2 Horizon 375B A23B",
+     "creator": "Institute of Foundation Models",
+     "intelligence": 17.8,
+     "price_in": 0,
+     "price_out": 0,
+     "tps": null,
+     "context": 524288,
+     "open": true
+    },
+    {
+     "name": "Beam 1.0",
+     "family": "Beam 1.0",
+     "creator": "Reflection",
+     "intelligence": 17.7,
+     "price_in": 0.4,
+     "price_out": 1.2,
+     "tps": null,
+     "context": 1048576,
+     "open": true
+    },
+    {
+     "name": "Apodex 1.1",
+     "family": "Apodex 1.1",
+     "creator": "Apodex",
+     "intelligence": 13.7,
+     "price_in": 0.3,
+     "price_out": 3,
+     "tps": null,
+     "context": 256000,
+     "open": false
+    },
+    {
+     "name": "Nemotron 3.5 Super VL",
+     "family": "Nemotron 3.5 Super VL",
+     "creator": "NVIDIA",
+     "intelligence": 13.6,
+     "price_in": 0.175,
+     "price_out": 0.5,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Inkling Small",
+     "family": "Inkling Small",
+     "creator": "Thinking Machines",
+     "intelligence": 12.9,
+     "price_in": 0.3,
+     "price_out": 1.2,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Inkling (Xhigh)",
+     "family": "Inkling",
+     "creator": "Thinking Machines",
+     "intelligence": 12.5,
+     "price_in": 1,
+     "price_out": 4.05,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+     "family": "Nemotron 3 Ultra 550B A55B",
+     "creator": "NVIDIA",
+     "intelligence": 11.8,
+     "price_in": 0.6,
+     "price_out": 2.7,
+     "tps": null,
+     "context": 262144,
+     "open": true
+    },
+    {
+     "name": "Gemini 3.5 Flash-Lite",
+     "family": "Gemini 3.5 Flash-Lite",
+     "creator": "Google",
+     "intelligence": 11.7,
+     "price_in": 0.3,
+     "price_out": 2.5,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
+     "name": "K-EXAONE 2.0",
+     "family": "K-EXAONE 2.0",
+     "creator": "LG AI Research",
+     "intelligence": 7.6,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 262144,
+     "open": true
+    },
+    {
+     "name": "Muse Glimmer (High)",
+     "family": "Muse Glimmer",
+     "creator": "Meta",
+     "intelligence": 6.3,
+     "price_in": 0.3,
+     "price_out": 1.2,
+     "tps": null,
+     "context": 131072,
+     "open": true
+    },
+    {
+     "name": "Command A+",
+     "family": "Command A+",
+     "creator": "Cohere",
+     "intelligence": 6.2,
+     "price_in": 0,
+     "price_out": 0,
+     "tps": null,
+     "context": 192000,
+     "open": true
+    },
+    {
+     "name": "Nemotron 3.5 Lightning",
+     "family": "Nemotron 3.5 Lightning",
+     "creator": "NVIDIA",
+     "intelligence": 5.5,
+     "price_in": 0.06,
+     "price_out": 0.2,
+     "tps": null,
+     "context": 1000000,
+     "open": true
+    },
+    {
+     "name": "Granite 4.2 8B",
+     "family": "Granite 4.2 8B",
+     "creator": "IBM",
+     "intelligence": 5.1,
+     "price_in": 0.06,
+     "price_out": 0.25,
+     "tps": null,
+     "context": 131072,
+     "open": true
+    },
+    {
+     "name": "Granite 4.2 3B",
+     "family": "Granite 4.2 3B",
+     "creator": "IBM",
+     "intelligence": 4.7,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 131072,
+     "open": true
+    },
+    {
+     "name": "Mistral Medium 3.5",
+     "family": "Mistral Medium 3.5",
+     "creator": "Mistral",
+     "intelligence": 4.6,
+     "price_in": 1.5,
+     "price_out": 7.5,
+     "tps": null,
+     "context": 256000,
+     "open": true
+    },
+    {
+     "name": "Gemma 4 31B (Reasoning)",
+     "family": "Gemma 4 31B",
+     "creator": "Google",
+     "intelligence": 4.4,
+     "price_in": 0,
+     "price_out": 0,
+     "tps": null,
+     "context": 256000,
+     "open": true
+    },
+    {
+     "name": "Mistral Small 4 (Reasoning)",
+     "family": "Mistral Small 4",
+     "creator": "Mistral",
+     "intelligence": 4.3,
+     "price_in": 0.15,
+     "price_out": 0.6,
+     "tps": null,
+     "context": 256000,
+     "open": true
+    },
+    {
+     "name": "gpt-oss-120b (High)",
+     "family": "gpt-oss-120b",
+     "creator": "OpenAI",
+     "intelligence": 3.8,
+     "price_in": 0.15,
+     "price_out": 0.6,
+     "tps": null,
+     "context": 131072,
+     "open": true
+    },
+    {
+     "name": "North Mini Code",
+     "family": "North Mini Code",
+     "creator": "Cohere",
+     "intelligence": 3.4,
+     "price_in": 0,
+     "price_out": 0,
+     "tps": null,
+     "context": 256000,
+     "open": true
+    },
+    {
+     "name": "NVIDIA Nemotron 3 Nano 4B",
+     "family": "NVIDIA Nemotron 3 Nano 4B",
+     "creator": "NVIDIA",
+     "intelligence": 1.8,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 262000,
+     "open": true
+    }
+   ],
+   "total_models": 54
+  },
+  "alphaxiv": {
+   "name": "alphaXiv",
+   "url": "https://www.alphaxiv.org/",
+   "items": [],
+   "mode": "link",
+   "note": "纯前端渲染站点，本期以论文直达链接形式呈现"
+  }
+ }
+}
