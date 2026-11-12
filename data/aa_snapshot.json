@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "models": {
   "Claude Fable 5.2": 64.6,
   "Gemini 4 Carbon": 60.0,
@@ -24,6 +24,7 @@
   "MiMo-V2.6-Pro": 29.9,
   "Ling 3.1 Flash 1019": 29.6,
   "MiniMax-M3.1-Flash": 29.1,
+  "Qwen3.8-Flash-Next": 28.6,
   "Step 5 Preview": 28.5,
   "GPT-6 Luna": 27.9,
   "GLM-5.3-Flash": 27.8,
@@ -34,9 +35,11 @@
   "DeepSeek V4 Pro 0813": 23.1,
   "Nanbeige4.3-33B": 20.4,
   "Qwen3.8 27B": 20.1,
+  "JT-4.1 Flash 236B A21B": 19.0,
   "MiniMax-M3": 18.9,
   "K2 Horizon 375B A23B": 17.8,
   "Beam 1.0": 17.7,
+  "Solar Pro 4": 14.2,
   "Apodex 1.1": 13.7,
   "Nemotron 3.5 Super VL": 13.6,
   "Inkling Small": 12.9,
