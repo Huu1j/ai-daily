@@ -1,5 +1,5 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "models": {
   "Claude Fable 5.2": 64.6,
   "Gemini 4 Carbon": 60.0,
@@ -7,6 +7,7 @@
   "GPT-6 Astra": 56.9,
   "GPT-6.1 Sol": 54.6,
   "Claude Sonnet 5.5": 54.5,
+  "Gemini 4 Hydrogen": 53.9,
   "GPT-6.1 Terra": 51.3,
   "Gemini 4 Argon": 50.4,
   "Muse Wonder Full": 50.1,

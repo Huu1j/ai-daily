@@ -1,6 +1,6 @@
 {
- "date": "2026-11-12",
- "stats": "3 条要闻 · 27 篇论文 · 12 个模型",
+ "date": "2026-11-13",
+ "stats": "3 条要闻 · 24 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
    "name": "AINews (smol.ai)",
@@ -50,139 +50,106 @@
    "url": "https://huggingface.co/papers",
    "papers": [
     {
-     "id": "2611.14210",
-     "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
-     "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B…",
-     "upvotes": 86,
+     "id": "2611.16748",
+     "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+     "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality …",
+     "upvotes": 30,
+     "comments": 1,
+     "authors": "Yuxuan Chen, Xiaojie Li, Hao Chen, Juncheng Ma 等 14 人",
+     "org": "DAGroup-PKU",
+     "url": "https://huggingface.co/papers/2611.16748",
+     "arxiv": "https://arxiv.org/abs/2611.16748"
+    },
+    {
+     "id": "2611.17167",
+     "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+     "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teac…",
+     "upvotes": 25,
+     "comments": 1,
+     "authors": "Haochen Liu, Qianhao Zhu, Zixuan Wang, Dingming Li 等 10 人",
+     "org": "ZhejiangUniversity",
+     "url": "https://huggingface.co/papers/2611.17167",
+     "arxiv": "https://arxiv.org/abs/2611.17167"
+    },
+    {
+     "id": "2611.17331",
+     "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+     "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (…",
+     "upvotes": 18,
+     "comments": 1,
+     "authors": "Chin-Yang Lin, Ryo Hachiuma, Jaesung Choe, Min-Hung Chen 等 9 人",
+     "org": "nvidia",
+     "url": "https://huggingface.co/papers/2611.17331",
+     "arxiv": "https://arxiv.org/abs/2611.17331"
+    },
+    {
+     "id": "2611.17060",
+     "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+     "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-…",
+     "upvotes": 15,
+     "comments": 1,
+     "authors": "Hao Li, Fangzhou Hong, Zhaoxi Chen, Hui En Pang 等 21 人",
+     "org": "ropedia-ai",
+     "url": "https://huggingface.co/papers/2611.17060",
+     "arxiv": "https://arxiv.org/abs/2611.17060"
+    },
+    {
+     "id": "2611.16217",
+     "title": "WorldDraft: If Code Builds the World, Can Video Models Just Render It?",
+     "summary": "Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code bu…",
+     "upvotes": 13,
+     "comments": 1,
+     "authors": "Zhiyu Hou, Wen-Jie Shu, Harold Haodong Chen, Weilin Ruan 等 10 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.16217",
+     "arxiv": "https://arxiv.org/abs/2611.16217"
+    },
+    {
+     "id": "2611.16905",
+     "title": "Factored One-sided Adam-Moment for Practical and Scalable SOAP",
+     "summary": "Second-order optimizers (e.g., Shampoo, SOAP) have emerged as compelling alternatives to Adam/AdamW and promise faster per-step convergence than AdamW in transformer training. However, they still remain costly in practic…",
+     "upvotes": 11,
+     "comments": 1,
+     "authors": "Jaemyung Yu, Byeongho Heo, Sangdoo Yun, Dongyoon Han",
+     "org": "naver-ai",
+     "url": "https://huggingface.co/papers/2611.16905",
+     "arxiv": "https://arxiv.org/abs/2611.16905"
+    },
+    {
+     "id": "2611.16517",
+     "title": "UniSpark: Exploring Hybrid Attention for Multimodal Understanding and Generation",
+     "summary": "We present UniSpark-9B, a unified multimodal model that investigates hybrid attention for visual understanding and generation. Built on a Mixture-of-Transformer-Experts backbone with approximately 9B parameters in each b…",
+     "upvotes": 11,
+     "comments": 1,
+     "authors": "Jiancheng Pan, Yuzheng Liu, Hengyuan Cao, Qiyuan Zhang 等 10 人",
+     "org": "antgroup",
+     "url": "https://huggingface.co/papers/2611.16517",
+     "arxiv": "https://arxiv.org/abs/2611.16517"
+    },
+    {
+     "id": "2607.13920",
+     "title": "DeepStress: Stress-Testing Deep Search Agents",
+     "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failur…",
+     "upvotes": 2,
      "comments": 2,
-     "authors": "Hadi Salloum, Ammar Ali",
+     "authors": "Ismael Rousseau, Geraldine Damnati, Frederic Bechet",
+     "org": "Orange",
+     "url": "https://huggingface.co/papers/2607.13920",
+     "arxiv": "https://arxiv.org/abs/2607.13920"
+    },
+    {
+     "id": "2611.16321",
+     "title": "From Large Language Models to Efficient System One Models via Adaptive Computation",
+     "summary": "Transferring LLMs into System One decision models typically replaces the language modeling head with a decision head while retaining the full backbone, making every decision pay for all layers. Yet it remains unclear how…",
+     "upvotes": 1,
+     "comments": 1,
+     "authors": "Minh-Anh Nguyen",
      "org": "",
-     "url": "https://huggingface.co/papers/2611.14210",
-     "arxiv": "https://arxiv.org/abs/2611.14210"
-    },
-    {
-     "id": "2611.14320",
-     "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
-     "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails…",
-     "upvotes": 62,
-     "comments": 7,
-     "authors": "Yukyeong Lee, Yumin Choi, Jinheon Baek, Sung Ju Hwang",
-     "org": "kaist-ai",
-     "url": "https://huggingface.co/papers/2611.14320",
-     "arxiv": "https://arxiv.org/abs/2611.14320"
-    },
-    {
-     "id": "2611.14309",
-     "title": "MMDM: Measuring Massive Multitask Decision Making",
-     "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual respons…",
-     "upvotes": 26,
-     "comments": 3,
-     "authors": "Junhao Shen, Qing Zong, Yue Guo, Zhanqiu Zhang 等 6 人",
-     "org": "CUHKDBGROUP",
-     "url": "https://huggingface.co/papers/2611.14309",
-     "arxiv": "https://arxiv.org/abs/2611.14309"
-    },
-    {
-     "id": "2611.11166",
-     "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
-     "summary": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We intro…",
-     "upvotes": 24,
-     "comments": 2,
-     "authors": "Zhongxi Chen, Yi Yang, Xinyi Chen, Mingzhe Ye 等 9 人",
-     "org": "Sharpa-Robotics",
-     "url": "https://huggingface.co/papers/2611.11166",
-     "arxiv": "https://arxiv.org/abs/2611.11166"
-    },
-    {
-     "id": "2611.13410",
-     "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
-     "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing en…",
-     "upvotes": 23,
-     "comments": 2,
-     "authors": "Genming Cui, Xiangyu Li, Zixu Hao, Xin Ding 等 6 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.13410",
-     "arxiv": "https://arxiv.org/abs/2611.13410"
-    },
-    {
-     "id": "2611.13576",
-     "title": "PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation",
-     "summary": "As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense. However, existing benchmarks rely on annotators who rate ea…",
-     "upvotes": 10,
-     "comments": 5,
-     "authors": "Huiyi Chen, Weitai Kang, Shicheng Fan, Xinshuo Wang 等 8 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.13576",
-     "arxiv": "https://arxiv.org/abs/2611.13576"
-    },
-    {
-     "id": "2611.14488",
-     "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
-     "summary": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time s…",
-     "upvotes": 7,
-     "comments": 6,
-     "authors": "Chubin Zhang, Bo An",
-     "org": "NanyangTechnologicalUniversity",
-     "url": "https://huggingface.co/papers/2611.14488",
-     "arxiv": "https://arxiv.org/abs/2611.14488"
-    },
-    {
-     "id": "2611.13885",
-     "title": "Are Causal Neuron Circuits Unique and Transferable?",
-     "summary": "Interpretability demonstrations often show that intervening on a group of neurons changes a model's answer. A recent example removes an 18-neuron group in Qwen3-32B and the model answers \"Simba\" instead of \"Scar\" to a tw…",
-     "upvotes": 6,
-     "comments": 5,
-     "authors": "Ömer Tekin Yavuz",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.13885",
-     "arxiv": "https://arxiv.org/abs/2611.13885"
-    },
-    {
-     "id": "2611.14115",
-     "title": "LEASH: Stay Safe in Agentic Robotics",
-     "summary": "Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence. These advances make agentic robotics a promising path toward artificial general intelligence in …",
-     "upvotes": 5,
-     "comments": 6,
-     "authors": "Qinfeng Zhu, Weiguang Zhao, Ke Sun, Xihao Guo 等 8 人",
-     "org": "UoLiverpool",
-     "url": "https://huggingface.co/papers/2611.14115",
-     "arxiv": "https://arxiv.org/abs/2611.14115"
-    },
-    {
-     "id": "2611.13572",
-     "title": "Market-Conditioned JEPA: Learning from Unpredictable Market Shocks",
-     "summary": "Much of the variation in financial time series is driven by market-wide shocks that cannot be predicted from an asset's own history. Per-asset self-supervised learning treats this variation as irreducible noise. Under a …",
-     "upvotes": 5,
-     "comments": 4,
-     "authors": "Yuqi Wang, Fengyuan Liu, Mukai Li, Haochen Luo 等 6 人",
-     "org": "OpenFinMind",
-     "url": "https://huggingface.co/papers/2611.13572",
-     "arxiv": "https://arxiv.org/abs/2611.13572"
-    },
-    {
-     "id": "2611.13560",
-     "title": "Are Dense Rewards Worth Their Tokens in GRPO?",
-     "summary": "RLVR trains language models to reason by rewarding correct final answers. A widely used algorithm, group-relative policy optimization (GRPO), gives every token of a solution the same credit, so dense process rewards have…",
-     "upvotes": 4,
-     "comments": 7,
-     "authors": "Vikash Singh, Weicong Chen, Debargha Ganguly, Yanyan Zhang 等 19 人",
-     "org": "CWRU",
-     "url": "https://huggingface.co/papers/2611.13560",
-     "arxiv": "https://arxiv.org/abs/2611.13560"
-    },
-    {
-     "id": "2611.13482",
-     "title": "ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control",
-     "summary": "Predicting long action chunks, often spanning dozens of timesteps, has become a key ingredient in increasingly capable robot policies. In this paper, we find that adapting these long-chunk policies with existing reinforc…",
-     "upvotes": 4,
-     "comments": 3,
-     "authors": "Xu Luo, Jiaying Yang, Hao Wu, Junlin Xie 等 8 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.13482",
-     "arxiv": "https://arxiv.org/abs/2611.13482"
+     "url": "https://huggingface.co/papers/2611.16321",
+     "arxiv": "https://arxiv.org/abs/2611.16321"
     }
    ],
-   "date": "2026-11-10",
+   "date": "2026-11-12",
    "stale": true
   },
   "arxiv": {
@@ -190,127 +157,127 @@
    "url": "https://arxiv.org/list/cs.AI/recent",
    "papers": [
     {
-     "id": "2611.14519",
-     "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+     "id": "2611.17323",
+     "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
      "authors": "",
-     "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the tr…",
-     "url": "https://arxiv.org/abs/2611.14519v1",
-     "date": "2026-11-10"
+     "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost excl…",
+     "url": "https://arxiv.org/abs/2611.17323v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14518",
-     "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+     "id": "2611.17316",
+     "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
      "authors": "",
-     "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the…",
-     "url": "https://arxiv.org/abs/2611.14518v1",
-     "date": "2026-11-10"
+     "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writ…",
+     "url": "https://arxiv.org/abs/2611.17316v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14514",
-     "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+     "id": "2611.17313",
+     "title": "Sketching Language Models for Context Attribution",
      "authors": "",
-     "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent lea…",
-     "url": "https://arxiv.org/abs/2611.14514v1",
-     "date": "2026-11-10"
+     "summary": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ …",
+     "url": "https://arxiv.org/abs/2611.17313v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14493",
-     "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+     "id": "2611.17309",
+     "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
      "authors": "",
-     "summary": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, ea…",
-     "url": "https://arxiv.org/abs/2611.14493v1",
-     "date": "2026-11-10"
+     "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to …",
+     "url": "https://arxiv.org/abs/2611.17309v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14492",
-     "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+     "id": "2611.17298",
+     "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
      "authors": "",
-     "summary": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every …",
-     "url": "https://arxiv.org/abs/2611.14492v1",
-     "date": "2026-11-10"
+     "summary": "Interactive video-to-video applications require real-time generation while maintaining long-range temporal consistency. However, recent methods achieve speed by restricting attention to a fixed-length causal window. This limits long-range c…",
+     "url": "https://arxiv.org/abs/2611.17298v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14487",
-     "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
+     "id": "2611.17297",
+     "title": "Goal Encoding in LLMs",
      "authors": "",
-     "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what lim…",
-     "url": "https://arxiv.org/abs/2611.14487v1",
-     "date": "2026-11-10"
+     "summary": "We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple…",
+     "url": "https://arxiv.org/abs/2611.17297v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14432",
-     "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+     "id": "2611.17294",
+     "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
      "authors": "",
-     "summary": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vi…",
-     "url": "https://arxiv.org/abs/2611.14432v1",
-     "date": "2026-11-10"
+     "summary": "On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessions. These sessions …",
+     "url": "https://arxiv.org/abs/2611.17294v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14426",
-     "title": "Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling",
+     "id": "2611.17280",
+     "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
      "authors": "",
-     "summary": "Branch-and-Bound (B&B) and $A^*$ are popular exact search methods originating from Operations Research and Artificial Intelligence, respectively. Although the two methods share fundamental search principles, their different ways of explorin…",
-     "url": "https://arxiv.org/abs/2611.14426v1",
-     "date": "2026-11-10"
+     "summary": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generat…",
+     "url": "https://arxiv.org/abs/2611.17280v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14425",
-     "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
+     "id": "2611.17267",
+     "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
      "authors": "",
-     "summary": "Time-Series Foundation Models (TSFMs) are increasingly used in sensor applications, where sampling frequency (SF) varies across sensors, devices, and operating modes (e.g., power saving). Ideally, TSFMs must remain effective during such SF …",
-     "url": "https://arxiv.org/abs/2611.14425v1",
-     "date": "2026-11-10"
+     "summary": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike ex…",
+     "url": "https://arxiv.org/abs/2611.17267v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14419",
-     "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+     "id": "2611.17241",
+     "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
      "authors": "",
-     "summary": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible…",
-     "url": "https://arxiv.org/abs/2611.14419v1",
-     "date": "2026-11-10"
+     "summary": "Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more powerful and more expensi…",
+     "url": "https://arxiv.org/abs/2611.17241v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14418",
-     "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+     "id": "2611.17239",
+     "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
      "authors": "",
-     "summary": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks …",
-     "url": "https://arxiv.org/abs/2611.14418v1",
-     "date": "2026-11-10"
+     "summary": "In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model responses can influence the …",
+     "url": "https://arxiv.org/abs/2611.17239v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14413",
-     "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
+     "id": "2611.17235",
+     "title": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
      "authors": "",
-     "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We ask whether the first makes the second worse, and which is the cheaper…",
-     "url": "https://arxiv.org/abs/2611.14413v1",
-     "date": "2026-11-10"
+     "summary": "This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational …",
+     "url": "https://arxiv.org/abs/2611.17235v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14407",
-     "title": "Causal Concept Explanations for Deep Neural Models",
+     "id": "2611.17220",
+     "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
      "authors": "",
-     "summary": "Concept-based explanations in neural models are important for the development, certification, and adoption of autonomous systems. Yet, interpretability remains correlational. Without methods to guide and quantify causal relationships betwee…",
-     "url": "https://arxiv.org/abs/2611.14407v1",
-     "date": "2026-11-10"
+     "summary": "Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly. In this paper, we p…",
+     "url": "https://arxiv.org/abs/2611.17220v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14387",
-     "title": "Blurring the Block Boundaries: Overlapping Block Denoising for Efficient Diffusion Language Models",
+     "id": "2611.17214",
+     "title": "Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs",
      "authors": "",
-     "summary": "Diffusion Language Models (DLMs) have emerged as effective alternatives to autoregressive models for latency-critical tasks, enabling faster token generation. Recent advances employ block diffusion with self-editing capabilities, where each…",
-     "url": "https://arxiv.org/abs/2611.14387v1",
-     "date": "2026-11-10"
+     "summary": "We study regret minimization in episodic Adversarial Markov Decision Processes (AMDPs) with unknown transitions and bandit feedback. In tabular AMDPs with $S$ states, $A$ actions, and horizon $H$, the best known $K$-episode regret is $\\tild…",
+     "url": "https://arxiv.org/abs/2611.17214v1",
+     "date": "2026-11-12"
     },
     {
-     "id": "2611.14383",
-     "title": "An Energy-Based Perspective on Machine Learning",
+     "id": "2611.17199",
+     "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
      "authors": "",
-     "summary": "Energy-based models (EBMs) define a distribution through a scalar energy, $p_θ(x)\\propto\\exp(-E_θ(x))$, and are usually presented as one model family among many. This tutorial has a broader goal: beyond introducing EBMs, it uses them as a s…",
-     "url": "https://arxiv.org/abs/2611.14383v1",
-     "date": "2026-11-10"
+     "summary": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these u…",
+     "url": "https://arxiv.org/abs/2611.17199v1",
+     "date": "2026-11-12"
     }
    ],
-   "date": "2026-11-10",
+   "date": "2026-11-12",
    "total": 15
   },
   "artificial_analysis": {
@@ -333,8 +300,8 @@
      "family": "Gemini 4 Carbon",
      "creator": "Google",
      "intelligence": 60.0,
-     "price_in": 4,
-     "price_out": 20,
+     "price_in": 2,
+     "price_out": 10,
      "tps": null,
      "context": 1000000,
      "open": false
@@ -384,6 +351,17 @@
      "open": false
     },
     {
+     "name": "Gemini 4 Hydrogen (Xhigh)",
+     "family": "Gemini 4 Hydrogen",
+     "creator": "Google",
+     "intelligence": 53.9,
+     "price_in": 1.5,
+     "price_out": 7.5,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
      "name": "GPT-6.1 Terra (Max)",
      "family": "GPT-6.1 Terra",
      "creator": "OpenAI",
@@ -399,8 +377,8 @@
      "family": "Gemini 4 Argon",
      "creator": "Google",
      "intelligence": 50.4,
-     "price_in": 4,
-     "price_out": 20,
+     "price_in": 2,
+     "price_out": 10,
      "tps": null,
      "context": 1000000,
      "open": false
@@ -437,17 +415,6 @@
      "tps": null,
      "context": 1048576,
      "open": false
-    },
-    {
-     "name": "Claude Haiku 5.5 (Max)",
-     "family": "Claude Haiku 5.5",
-     "creator": "Anthropic",
-     "intelligence": 36.5,
-     "price_in": 0.1,
-     "price_out": 0.5,
-     "tps": null,
-     "context": 1000000,
-     "open": false
     }
    ],
    "all": [
@@ -467,8 +434,8 @@
      "family": "Gemini 4 Carbon",
      "creator": "Google",
      "intelligence": 60.0,
-     "price_in": 4,
-     "price_out": 20,
+     "price_in": 2,
+     "price_out": 10,
      "tps": null,
      "context": 1000000,
      "open": false
@@ -518,6 +485,17 @@
      "open": false
     },
     {
+     "name": "Gemini 4 Hydrogen (Xhigh)",
+     "family": "Gemini 4 Hydrogen",
+     "creator": "Google",
+     "intelligence": 53.9,
+     "price_in": 1.5,
+     "price_out": 7.5,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
      "name": "GPT-6.1 Terra (Max)",
      "family": "GPT-6.1 Terra",
      "creator": "OpenAI",
@@ -533,8 +511,8 @@
      "family": "Gemini 4 Argon",
      "creator": "Google",
      "intelligence": 50.4,
-     "price_in": 4,
-     "price_out": 20,
+     "price_in": 2,
+     "price_out": 10,
      "tps": null,
      "context": 1000000,
      "open": false
@@ -669,7 +647,7 @@
      "price_out": 1,
      "tps": null,
      "context": 1024000,
-     "open": false
+     "open": true
     },
     {
      "name": "MiMo-V2.6-Pro",
@@ -1079,7 +1057,7 @@
      "open": true
     }
    ],
-   "total_models": 57
+   "total_models": 58
   },
   "alphaxiv": {
    "name": "alphaXiv",
