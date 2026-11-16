@@ -1,5 +1,5 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "models": {
   "Claude Fable 5.2": 64.6,
   "Gemini 4 Carbon": 60.0,
@@ -13,11 +13,11 @@
   "Muse Wonder Full": 50.1,
   "Kimi K3.1 Pro": 46.5,
   "Muse Wonder": 43.6,
+  "Qwen4 Max": 42.9,
   "Claude Haiku 5.5": 36.5,
   "Muse Ember": 36.0,
   "Grok 4.7": 35.5,
   "Tencent Hy4": 34.6,
-  "Qwen3.8 Max": 33.7,
   "DeepSeek V4.1 Flash 1017": 32.6,
   "GLM-5.3": 31.7,
   "Gemini 3.8 Flash": 30.8,
