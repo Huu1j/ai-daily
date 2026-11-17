@@ -1,5 +1,5 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "models": {
   "Claude Fable 5.2": 64.6,
   "Gemini 4 Carbon": 60.0,
@@ -20,7 +20,6 @@
   "Tencent Hy4": 34.6,
   "DeepSeek V4.1 Flash 1017": 32.6,
   "GLM-5.3": 31.7,
-  "Gemini 3.8 Flash": 30.8,
   "Inkling 2 Small": 30.6,
   "MiMo-V2.6-Pro": 29.9,
   "Ling 3.1 Flash 1019": 29.6,
@@ -43,7 +42,6 @@
   "Solar Pro 4": 14.2,
   "Apodex 1.1": 13.7,
   "Nemotron 3.5 Super VL": 13.6,
-  "Inkling Small": 12.9,
   "Inkling": 12.5,
   "Nemotron 3 Ultra 550B A55B": 11.8,
   "Gemini 3.5 Flash-Lite": 11.7,
@@ -52,6 +50,7 @@
   "Command A+": 6.2,
   "Nemotron 3.5 Lightning": 5.5,
   "Granite 4.2 8B": 5.1,
+  "Gemma 4 E4B": 4.8,
   "Granite 4.2 3B": 4.7,
   "Mistral Medium 3.5": 4.6,
   "Gemma 4 31B": 4.4,

@@ -1,6 +1,6 @@
 {
- "date": "2026-11-16",
- "stats": "3 条要闻 · 27 篇论文 · 12 个模型",
+ "date": "2026-11-17",
+ "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
    "name": "AINews (smol.ai)",
@@ -50,139 +50,128 @@
    "url": "https://huggingface.co/papers",
    "papers": [
     {
-     "id": "2611.18359",
-     "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
-     "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks.…",
-     "upvotes": 85,
-     "comments": 4,
-     "authors": "Grid Robotics, Qingfeng Lan, Duo Li, Siyao Li 等 13 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.18359",
-     "arxiv": "https://arxiv.org/abs/2611.18359"
-    },
-    {
-     "id": "2611.18397",
-     "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
-     "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared tr…",
-     "upvotes": 68,
-     "comments": 2,
-     "authors": "Run Luo, Kuan Zhang, Qi Deng, Yukun Chen 等 27 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.18397",
-     "arxiv": "https://arxiv.org/abs/2611.18397"
-    },
-    {
-     "id": "2611.18482",
-     "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
-     "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward…",
-     "upvotes": 33,
-     "comments": 2,
-     "authors": "Sicheng Feng, Zigeng Chen, Song Wang, Gongfan Fang 等 5 人",
-     "org": "NationalUniversityofSingapore",
-     "url": "https://huggingface.co/papers/2611.18482",
-     "arxiv": "https://arxiv.org/abs/2611.18482"
-    },
-    {
-     "id": "2611.17831",
-     "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
-     "summary": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs.…",
-     "upvotes": 18,
+     "id": "2611.21072",
+     "title": "Sage S2.1 Flash Technical Report",
+     "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders …",
+     "upvotes": 61,
      "comments": 1,
-     "authors": "Keuntae Kim, Dongjun Kim, Yong Suk Choi",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.17831",
-     "arxiv": "https://arxiv.org/abs/2611.17831"
+     "authors": "Kun Cai, Haodong Chen, Guangran Cheng, Qingxiu Cheng 等 206 人",
+     "org": "internlm",
+     "url": "https://huggingface.co/papers/2611.21072",
+     "arxiv": "https://arxiv.org/abs/2611.21072"
     },
     {
-     "id": "2611.17814",
-     "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
-     "summary": "With the rapid advancement of Large Language Models (LLMs), an increasing number of users are turning to LLM-powered agents for conversational shopping in e-commerce. However, the user needs continue to change as new pro…",
-     "upvotes": 15,
+     "id": "2611.21003",
+     "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+     "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep resea…",
+     "upvotes": 56,
      "comments": 1,
-     "authors": "Yuechun Yu, Wenzheng Kong, Xiaofeng Mao, Jin Zhang",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.17814",
-     "arxiv": "https://arxiv.org/abs/2611.17814"
+     "authors": "K2 Team, Zhengzhong Liu, Haonan Li, Xuezhe Ma 等 95 人",
+     "org": "IFM",
+     "url": "https://huggingface.co/papers/2611.21003",
+     "arxiv": "https://arxiv.org/abs/2611.21003"
     },
     {
-     "id": "2611.18549",
-     "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
-     "summary": "Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-s…",
+     "id": "2611.21218",
+     "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+     "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation…",
+     "upvotes": 52,
+     "comments": 1,
+     "authors": "The InclusionMed Collaboration",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.21218",
+     "arxiv": "https://arxiv.org/abs/2611.21218"
+    },
+    {
+     "id": "2611.21607",
+     "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+     "summary": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-La…",
+     "upvotes": 38,
+     "comments": 1,
+     "authors": "Ruixi Yu, Dairu Liu, Xuchuan Chen, Zekun Qi 等 12 人",
+     "org": "GalaxyGeneralRobotics",
+     "url": "https://huggingface.co/papers/2611.21607",
+     "arxiv": "https://arxiv.org/abs/2611.21607"
+    },
+    {
+     "id": "2611.20882",
+     "title": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
+     "summary": "Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU opt…",
      "upvotes": 14,
      "comments": 1,
-     "authors": "Jianjun Zhou, Hua Geng, Haoyu Guo",
+     "authors": "Bowen Liu, Yuhan Li, Nuo Chen, Weile Luo 等 10 人",
+     "org": "Tencent-Hunyuan",
+     "url": "https://huggingface.co/papers/2611.20882",
+     "arxiv": "https://arxiv.org/abs/2611.20882"
+    },
+    {
+     "id": "2611.20986",
+     "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
+     "summary": "Biomolecular foundation models predict the structures of proteins and their complexes accurately, and large language models (LLMs) reason in natural language, but the two remain separate: the abilities of the former are …",
+     "upvotes": 11,
+     "comments": 1,
+     "authors": "Yong Liu, Zhanpeng Shi, Peicong Lin, Zhenyi Zhong 等 8 人",
+     "org": "SJTU",
+     "url": "https://huggingface.co/papers/2611.20986",
+     "arxiv": "https://arxiv.org/abs/2611.20986"
+    },
+    {
+     "id": "2611.21339",
+     "title": "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
+     "summary": "Streaming video generation must sustain quality beyond the training horizon while handling self-generated history and growing cache costs. To address these challenges, we present MovieRoll, a base-to-distilled framework …",
+     "upvotes": 7,
+     "comments": 1,
+     "authors": "Yunyang Ge, Weijie Kong, Ryan Xu, Yue Wu 等 12 人",
      "org": "",
-     "url": "https://huggingface.co/papers/2611.18549",
-     "arxiv": "https://arxiv.org/abs/2611.18549"
+     "url": "https://huggingface.co/papers/2611.21339",
+     "arxiv": "https://arxiv.org/abs/2611.21339"
     },
     {
-     "id": "2611.18338",
-     "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
-     "summary": "Text-to-SQL systems translate natural language questions into SQL queries over increasingly complex databases. However, widely used benchmarks evaluate questions independently, overlooking settings where earlier queries …",
-     "upvotes": 14,
+     "id": "2611.20404",
+     "title": "Latent Feedback Is a Compute and Data Amplifier",
+     "summary": "When high-quality data runs out, a common practice is to train on it for several epochs, but each repeat is worth less than the last. Latent feedback, which feeds each token's top-layer state into the next token's input,…",
+     "upvotes": 5,
      "comments": 1,
-     "authors": "Xiaoqi Wang, Wenqi Pei, Shizheng Hou, Yilai Liu 等 8 人",
-     "org": "hkuhk",
-     "url": "https://huggingface.co/papers/2611.18338",
-     "arxiv": "https://arxiv.org/abs/2611.18338"
+     "authors": "Benhao Huang, Chaitanya Dwivedi, Xuezhe Ma, Alexander Moreno 等 5 人",
+     "org": "IFM",
+     "url": "https://huggingface.co/papers/2611.20404",
+     "arxiv": "https://arxiv.org/abs/2611.20404"
     },
     {
-     "id": "2611.18429",
-     "title": "Do Underwater Image Quality Metrics Agree with Human Perception? A Benchmark with Human Choices, Simple Edits and Generative Drift",
-     "summary": "Underwater image enhancement is challenging to evaluate due to the lack of clean reference images, so researchers rely on no-reference image quality assessment (NR-IQA) metrics. However, it remains unclear whether these …",
-     "upvotes": 10,
+     "id": "2611.20385",
+     "title": "DominoBench: Evaluating Multi-Step Physical Reasoning from Still Images",
+     "summary": "Can a vision-language model look at a picture of a chain reaction and tell what will happen? Recent multimodal models describe scenes fluently and solve textbook physics problems, which suggests they should also predict …",
+     "upvotes": 3,
      "comments": 1,
-     "authors": "Rishii Kumar Singh, Abhinav Rajput, Dinesh Kumar Vishwakarma",
-     "org": "DelhiTechnologicalUniversity",
-     "url": "https://huggingface.co/papers/2611.18429",
-     "arxiv": "https://arxiv.org/abs/2611.18429"
+     "authors": "Emilio Ferrara",
+     "org": "UniversityofSouthernCalifornia",
+     "url": "https://huggingface.co/papers/2611.20385",
+     "arxiv": "https://arxiv.org/abs/2611.20385"
     },
     {
-     "id": "2611.17820",
-     "title": "Aligning AI Teams",
-     "summary": "Previous work has shown that alignment training on individual LLM agents can fail to transfer to multi-agent settings. We investigate the underlying mechanisms for this failure, and explore interventions to preserve alig…",
-     "upvotes": 10,
-     "comments": 0,
-     "authors": "Siddarth Srinivasan, Morgan Jane Matthews, Jascha Sohl-Dickstein, Erik Jones",
+     "id": "2611.21479",
+     "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+     "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into …",
+     "upvotes": 1,
+     "comments": 1,
+     "authors": "Shaohao Rui, Chaoyang Zhang, Xiaofeng Mao, Weijie Ma",
      "org": "",
-     "url": "https://huggingface.co/papers/2611.17820",
-     "arxiv": "https://arxiv.org/abs/2611.17820"
+     "url": "https://huggingface.co/papers/2611.21479",
+     "arxiv": "https://arxiv.org/abs/2611.21479"
     },
     {
-     "id": "2611.18529",
-     "title": "eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings and Large Archives via e-means",
-     "summary": "Meetings last up to an hour, and nobody knows in advance how many people will speak. Neural diarizers with a fixed number of output slots, such as Streaming Sortformer and Nemotron-3, are accurate and run online, but the…",
-     "upvotes": 9,
+     "id": "2611.21439",
+     "title": "A Reinforcement Learning Method to Navigate SMEFT Operator Space",
+     "summary": "In particle physics, discrepancies between experimental measurements and Standard Model (SM) predictions are commonly interpreted within new theoretical models. In this context, the Standard Model Effective Field Theory …",
+     "upvotes": 0,
      "comments": 1,
-     "authors": "Kyudan Jung, Jihwan Kim, Minwoo Lee, Eunji Shin 等 5 人",
-     "org": "kaist-ai",
-     "url": "https://huggingface.co/papers/2611.18529",
-     "arxiv": "https://arxiv.org/abs/2611.18529"
-    },
-    {
-     "id": "2611.18442",
-     "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
-     "summary": "Open driving releases and usage-based insurance programs often claim to prevent privacy breaches by omitting GPS records when sharing or collecting vehicle data. However, removing GPS coordinates from driving logs does n…",
-     "upvotes": 9,
-     "comments": 1,
-     "authors": "Yuhang Wang, Jingxin Yang, Chuheng Wei, Suyang Chen 等 6 人",
-     "org": "MOTIF-Lab",
-     "url": "https://huggingface.co/papers/2611.18442",
-     "arxiv": "https://arxiv.org/abs/2611.18442"
-    },
-    {
-     "id": "2611.17811",
-     "title": "AI Reviews Are Biased Towards the Appendix",
-     "summary": "Large language models (LLMs) are increasingly used by reviewers to highlight weaknesses during the reviewing process, and their outputs often shape the reviews that humans submit. Prior work studies how LLM reviews align…",
-     "upvotes": 9,
-     "comments": 1,
-     "authors": "Saptarshi Ghosh, Mohammad Saim, Tianyu Jiang",
-     "org": "CincyNLP",
-     "url": "https://huggingface.co/papers/2611.17811",
-     "arxiv": "https://arxiv.org/abs/2611.17811"
+     "authors": "Jacky Kumar",
+     "org": "Universite-de-Montreal",
+     "url": "https://huggingface.co/papers/2611.21439",
+     "arxiv": "https://arxiv.org/abs/2611.21439"
     }
    ],
-   "date": "2026-11-13",
+   "date": "2026-11-16",
    "stale": true
   },
   "arxiv": {
@@ -190,127 +179,127 @@
    "url": "https://arxiv.org/list/cs.AI/recent",
    "papers": [
     {
-     "id": "2611.18553",
-     "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+     "id": "2611.21608",
+     "title": "Latent Lattice Language Models",
      "authors": "",
-     "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all with…",
-     "url": "https://arxiv.org/abs/2611.18553v1",
-     "date": "2026-11-13"
+     "summary": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the n…",
+     "url": "https://arxiv.org/abs/2611.21608v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18543",
-     "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
+     "id": "2611.21605",
+     "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
      "authors": "",
-     "summary": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to t…",
-     "url": "https://arxiv.org/abs/2611.18543v1",
-     "date": "2026-11-13"
+     "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer…",
+     "url": "https://arxiv.org/abs/2611.21605v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18542",
-     "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
+     "id": "2611.21598",
+     "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
      "authors": "",
-     "summary": "Generative modeling based on stochastic interpolants requires specifying two key choices: an interpolant schedule bridging the initial and target distributions, and an efficient discretization of the resulting probability-flow ODE. In this …",
-     "url": "https://arxiv.org/abs/2611.18542v1",
-     "date": "2026-11-13"
+     "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable …",
+     "url": "https://arxiv.org/abs/2611.21598v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18533",
-     "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+     "id": "2611.21579",
+     "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
      "authors": "",
-     "summary": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness …",
-     "url": "https://arxiv.org/abs/2611.18533v1",
-     "date": "2026-11-13"
+     "summary": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but pl…",
+     "url": "https://arxiv.org/abs/2611.21579v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18531",
-     "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+     "id": "2611.21577",
+     "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
      "authors": "",
-     "summary": "Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can m…",
-     "url": "https://arxiv.org/abs/2611.18531v1",
-     "date": "2026-11-13"
+     "summary": "Large language model (LLM) applications increasingly act as agents that select and invoke external tools. The Model Context Protocol (MCP) standardizes this interaction by allowing clients to compose tools advertised by multiple servers. Ho…",
+     "url": "https://arxiv.org/abs/2611.21577v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18514",
-     "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+     "id": "2611.21562",
+     "title": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
      "authors": "",
-     "summary": "Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making pr…",
-     "url": "https://arxiv.org/abs/2611.18514v1",
-     "date": "2026-11-13"
+     "summary": "Zero-shot time-series foundation models (TSFMs) have become attractive alternatives to task-specific models because they handle diverse downstream tasks, including anomaly detection and forecasting, without per-series training. However, tim…",
+     "url": "https://arxiv.org/abs/2611.21562v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18513",
-     "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
+     "id": "2611.21548",
+     "title": "TRACE: Topological Representations for Anomaly detection through Contrastive Embeddings",
      "authors": "",
-     "summary": "This paper introduces MeReader, a privacy-preserving, offline and progress-aware AI assistant designed to function as a contextual companion for narrative reading on consumer hardware. Unlike conventional Large Language Model (LLM)-based sy…",
-     "url": "https://arxiv.org/abs/2611.18513v1",
-     "date": "2026-11-13"
+     "summary": "Intrusion detectors must recognize evolving malicious behavior even when confirmed attack labels are scarce or incomplete. We present TRACE, a topology-aware graph contrastive learning framework for label-efficient intrusion detection. TRAC…",
+     "url": "https://arxiv.org/abs/2611.21548v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18504",
-     "title": "Agentic AI for Discovering Fault-Tolerant Quantum Circuits",
+     "id": "2611.21545",
+     "title": "Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests",
      "authors": "",
-     "summary": "Scaling quantum computing toward practical quantum advantage is currently limited by the efficiency of circuits that operate on information encoded by quantum error-correcting codes. The full stack of quantum computing encompasses several t…",
-     "url": "https://arxiv.org/abs/2611.18504v1",
-     "date": "2026-11-13"
+     "summary": "Language models increasingly write the explanations people receive when a rule system denies their request. If several rules deny the request independently, an explanation can name a true reason and still leave the person denied after they …",
+     "url": "https://arxiv.org/abs/2611.21545v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18494",
-     "title": "ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
+     "id": "2611.21541",
+     "title": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents",
      "authors": "",
-     "summary": "Small language models are attractive for local, low-cost, and privacy-sensitive deployment, but they remain unreliable on mathematical reasoning tasks that require decomposition, exact computation, tool use, and verification. We introduce \\…",
-     "url": "https://arxiv.org/abs/2611.18494v1",
-     "date": "2026-11-13"
+     "summary": "We introduce SciResearch-Eval, an interactive benchmark of scientific judgment built on a standard laboratory problem: measuring a material's thermal properties by heating it and fitting a heat-conduction simulator. An agent designs its own…",
+     "url": "https://arxiv.org/abs/2611.21541v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18493",
-     "title": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
+     "id": "2611.21538",
+     "title": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle",
      "authors": "",
-     "summary": "Autonomous trading agents need controls that prevent problematic orders without making legitimate tasks impractical. We study this aspect of agentic compliance with TradeGauntlet, a replayable limit-order-book simulator that separates detec…",
-     "url": "https://arxiv.org/abs/2611.18493v1",
-     "date": "2026-11-13"
+     "summary": "Reinforcement learning from verifiable rewards inherits whatever its verifier gets wrong. Outside mathematics and code the verifier is a proxy, a rubric, a learned judge or a hand-written checker, and its distance from the true objective is…",
+     "url": "https://arxiv.org/abs/2611.21538v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18485",
-     "title": "Interactive Program Induction with Language Model Priors",
+     "id": "2611.21529",
+     "title": "Procedure without Judgment: What Small Language Models Learn under an Exact Verifier",
      "authors": "",
-     "summary": "Program induction refers to the process in which a learner aims to recover a program from a few given input-output examples. This paradigm broadens programming access by letting users demonstrate the rule-based behavior they want to apply t…",
-     "url": "https://arxiv.org/abs/2611.18485v1",
-     "date": "2026-11-13"
+     "summary": "When an authorization policy blocks an agent's tool call, the audit log should name the facts that forced the decision and nothing more. For an executable policy over an enumerable context space this minimal sufficient reason can be compute…",
+     "url": "https://arxiv.org/abs/2611.21529v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18484",
-     "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
+     "id": "2611.21524",
+     "title": "Algorithm Distillation for Safe In-Context Reinforcement Learning",
      "authors": "",
-     "summary": "AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping rev…",
-     "url": "https://arxiv.org/abs/2611.18484v1",
-     "date": "2026-11-13"
+     "summary": "Safe in-context reinforcement learning (Safe ICRL) asks a policy with fixed parameters to improve on an unseen constrained task from its interaction history while aiming to keep its cost within a budget. Prior work studied Safe ICRL on five…",
+     "url": "https://arxiv.org/abs/2611.21524v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18471",
-     "title": "Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation",
+     "id": "2611.21520",
+     "title": "Safe Resemblance, Silent Propagation: Limits of Text-Similarity Guardrails for AI Agent Safety",
      "authors": "",
-     "summary": "LLM-based verifiers are increasingly used to evaluate agent executions, but their reliability is typically measured under a single representation of the trajectory. In deployed agent systems, the same execution may be exposed through compos…",
-     "url": "https://arxiv.org/abs/2611.18471v1",
-     "date": "2026-11-13"
+     "summary": "When AI agents relay information to one another, an output can preserve an injected instruction's effect on downstream agents even after its wording changes, yet legitimate quotation and template reuse can produce high textual overlap with …",
+     "url": "https://arxiv.org/abs/2611.21520v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18464",
-     "title": "Typing Matters: Muscle, Language and Typing Behaviour in Live Keystroke Decoding from sEMG",
+     "id": "2611.21517",
+     "title": "Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models",
      "authors": "",
-     "summary": "Surface electromyography (sEMG) from the wrists can recover typed text without a keyboard. It is usually posed as a signal-inference problem: characters are read out of the muscle signal and character error rate is reported offline. We argu…",
-     "url": "https://arxiv.org/abs/2611.18464v1",
-     "date": "2026-11-13"
+     "summary": "Long-horizon manipulation tasks require a robot to perform a sequence of physical interactions with its environment, typically combining several different skills. Planning such behaviors efficiently is challenging: given a library of parame…",
+     "url": "https://arxiv.org/abs/2611.21517v1",
+     "date": "2026-11-16"
     },
     {
-     "id": "2611.18458",
-     "title": "When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
+     "id": "2611.21497",
+     "title": "The CYBER-BRIDGE project: An AI-Powered Platform for Cross-Border Cybersecurity, Compliance and Forensics in the EU",
      "authors": "",
-     "summary": "Clinical world models expose language-model agents to predicted patient responses, but simulations can be unreliable for poorly supported treatments or unfamiliar hospitals. We introduce Support-Gated World-Model decision support, a lightwe…",
-     "url": "https://arxiv.org/abs/2611.18458v1",
-     "date": "2026-11-13"
+     "summary": "Cross-border cyber attacks on European SMEs and critical-infrastructure operators expose a structural cyber-resilience gap: cybersecurity (threat sharing, detection, response), compliance (framework assessment, certification) and digital fo…",
+     "url": "https://arxiv.org/abs/2611.21497v1",
+     "date": "2026-11-16"
     }
    ],
-   "date": "2026-11-13",
+   "date": "2026-11-16",
    "total": 15
   },
   "artificial_analysis": {
@@ -661,17 +650,6 @@
      "open": true
     },
     {
-     "name": "Gemini 3.8 Flash (High)",
-     "family": "Gemini 3.8 Flash",
-     "creator": "Google",
-     "intelligence": 30.8,
-     "price_in": 0.75,
-     "price_out": 3.75,
-     "tps": null,
-     "context": 1000000,
-     "open": false
-    },
-    {
      "name": "Inkling 2 Small",
      "family": "Inkling 2 Small",
      "creator": "Thinking Machines",
@@ -914,17 +892,6 @@
      "open": true
     },
     {
-     "name": "Inkling Small",
-     "family": "Inkling Small",
-     "creator": "Thinking Machines",
-     "intelligence": 12.9,
-     "price_in": 0.3,
-     "price_out": 1.2,
-     "tps": null,
-     "context": 1000000,
-     "open": true
-    },
-    {
      "name": "Inkling (Xhigh)",
      "family": "Inkling",
      "creator": "Thinking Machines",
@@ -1013,6 +980,17 @@
      "open": true
     },
     {
+     "name": "Gemma 4 E4B (Reasoning)",
+     "family": "Gemma 4 E4B",
+     "creator": "Google",
+     "intelligence": 4.8,
+     "price_in": 0.02,
+     "price_out": 0.1,
+     "tps": null,
+     "context": 128000,
+     "open": true
+    },
+    {
      "name": "Granite 4.2 3B",
      "family": "Granite 4.2 3B",
      "creator": "IBM",
@@ -1090,7 +1068,7 @@
      "open": true
     }
    ],
-   "total_models": 58
+   "total_models": 57
   },
   "alphaxiv": {
    "name": "alphaXiv",
