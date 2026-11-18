@@ -1,5 +1,5 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
@@ -50,128 +50,139 @@
    "url": "https://huggingface.co/papers",
    "papers": [
     {
-     "id": "2611.21072",
-     "title": "Sage S2.1 Flash Technical Report",
-     "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders …",
-     "upvotes": 61,
-     "comments": 1,
-     "authors": "Kun Cai, Haodong Chen, Guangran Cheng, Qingxiu Cheng 等 206 人",
-     "org": "internlm",
-     "url": "https://huggingface.co/papers/2611.21072",
-     "arxiv": "https://arxiv.org/abs/2611.21072"
+     "id": "2611.22115",
+     "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+     "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles…",
+     "upvotes": 145,
+     "comments": 2,
+     "authors": "Xingchen AGI Lab, Baotian Hu, Bingkai Yang, Boyang Wang 等 139 人",
+     "org": "XingChen-AGI",
+     "url": "https://huggingface.co/papers/2611.22115",
+     "arxiv": "https://arxiv.org/abs/2611.22115"
     },
     {
-     "id": "2611.21003",
-     "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
-     "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep resea…",
-     "upvotes": 56,
-     "comments": 1,
-     "authors": "K2 Team, Zhengzhong Liu, Haonan Li, Xuezhe Ma 等 95 人",
-     "org": "IFM",
-     "url": "https://huggingface.co/papers/2611.21003",
-     "arxiv": "https://arxiv.org/abs/2611.21003"
+     "id": "2611.22055",
+     "title": "Weight-Space Programming Doesn't Need Transformers",
+     "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by han…",
+     "upvotes": 39,
+     "comments": 2,
+     "authors": "Hyunjong Ok, Jaeho Lee",
+     "org": "POSTECH",
+     "url": "https://huggingface.co/papers/2611.22055",
+     "arxiv": "https://arxiv.org/abs/2611.22055"
     },
     {
-     "id": "2611.21218",
-     "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-     "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation…",
-     "upvotes": 52,
+     "id": "2611.23143",
+     "title": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
+     "summary": "Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP)…",
+     "upvotes": 23,
      "comments": 1,
-     "authors": "The InclusionMed Collaboration",
+     "authors": "Haosong Peng, Xiangyang Liu, Zhengshen Zhang, Yunfeng Fan 等 8 人",
      "org": "",
-     "url": "https://huggingface.co/papers/2611.21218",
-     "arxiv": "https://arxiv.org/abs/2611.21218"
+     "url": "https://huggingface.co/papers/2611.23143",
+     "arxiv": "https://arxiv.org/abs/2611.23143"
     },
     {
-     "id": "2611.21607",
-     "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
-     "summary": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-La…",
-     "upvotes": 38,
+     "id": "2611.23226",
+     "title": "FastFrames: Video Generation at Interactive Latency",
+     "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for…",
+     "upvotes": 19,
      "comments": 1,
-     "authors": "Ruixi Yu, Dairu Liu, Xuchuan Chen, Zekun Qi 等 12 人",
-     "org": "GalaxyGeneralRobotics",
-     "url": "https://huggingface.co/papers/2611.21607",
-     "arxiv": "https://arxiv.org/abs/2611.21607"
+     "authors": "Gene Chou, Guandao Yang, Fujun Luan, Lars Mescheder 等 7 人",
+     "org": "apple",
+     "url": "https://huggingface.co/papers/2611.23226",
+     "arxiv": "https://arxiv.org/abs/2611.23226"
     },
     {
-     "id": "2611.20882",
-     "title": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
-     "summary": "Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU opt…",
-     "upvotes": 14,
+     "id": "2611.22275",
+     "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+     "summary": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precis…",
+     "upvotes": 18,
      "comments": 1,
-     "authors": "Bowen Liu, Yuhan Li, Nuo Chen, Weile Luo 等 10 人",
-     "org": "Tencent-Hunyuan",
-     "url": "https://huggingface.co/papers/2611.20882",
-     "arxiv": "https://arxiv.org/abs/2611.20882"
+     "authors": "Ting-Hsuan Chen, Siheng Zhao, Han Jiang, Qi Pan 等 10 人",
+     "org": "UniversityofSouthernCalifornia",
+     "url": "https://huggingface.co/papers/2611.22275",
+     "arxiv": "https://arxiv.org/abs/2611.22275"
     },
     {
-     "id": "2611.20986",
-     "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
-     "summary": "Biomolecular foundation models predict the structures of proteins and their complexes accurately, and large language models (LLMs) reason in natural language, but the two remain separate: the abilities of the former are …",
-     "upvotes": 11,
+     "id": "2611.23144",
+     "title": "π^4: A Foundation Model for 4D Scene Geometry and Motion",
+     "summary": "π^4 is a unified foundation model for 4D scene perception. From diverse, uncalibrated RGB observations in the wild---a single image, an unordered collection, or a video sequence---it recovers dense geometry, camera poses…",
+     "upvotes": 10,
      "comments": 1,
-     "authors": "Yong Liu, Zhanpeng Shi, Peicong Lin, Zhenyi Zhong 等 8 人",
-     "org": "SJTU",
-     "url": "https://huggingface.co/papers/2611.20986",
-     "arxiv": "https://arxiv.org/abs/2611.20986"
+     "authors": "Yifan Wang, Weiguang Zhao, Ni Yang, Haoyu Guo 等 7 人",
+     "org": "Shanghai-AI-Laboratory",
+     "url": "https://huggingface.co/papers/2611.23144",
+     "arxiv": "https://arxiv.org/abs/2611.23144"
     },
     {
-     "id": "2611.21339",
-     "title": "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
-     "summary": "Streaming video generation must sustain quality beyond the training horizon while handling self-generated history and growing cache costs. To address these challenges, we present MovieRoll, a base-to-distilled framework …",
-     "upvotes": 7,
+     "id": "2611.23108",
+     "title": "FMT: Lossless Image Compression in a Fixed Number of Parallel Steps",
+     "summary": "Learned lossless codecs make smaller files than common classical codecs, yet the images we archive and train on still use classical codecs. A main reason is time: a learned codec takes seconds to decode a photo that a cl…",
+     "upvotes": 9,
      "comments": 1,
-     "authors": "Yunyang Ge, Weijie Kong, Ryan Xu, Yue Wu 等 12 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.21339",
-     "arxiv": "https://arxiv.org/abs/2611.21339"
+     "authors": "Ammar Ali",
+     "org": "LEAD-ITMO",
+     "url": "https://huggingface.co/papers/2611.23108",
+     "arxiv": "https://arxiv.org/abs/2611.23108"
     },
     {
-     "id": "2611.20404",
-     "title": "Latent Feedback Is a Compute and Data Amplifier",
-     "summary": "When high-quality data runs out, a common practice is to train on it for several epochs, but each repeat is worth less than the last. Latent feedback, which feeds each token's top-layer state into the next token's input,…",
-     "upvotes": 5,
+     "id": "2611.21152",
+     "title": "From Repositories to Training Environments: Scaling Long-Horizon Coding Agents with Environment Evolution Loop",
+     "summary": "Training coding agents for long-horizon tasks requires environments with verifiable feedback. Existing pipelines often follow a linear process that ends with validation, establishing usability but providing little guidan…",
+     "upvotes": 8,
      "comments": 1,
-     "authors": "Benhao Huang, Chaitanya Dwivedi, Xuezhe Ma, Alexander Moreno 等 5 人",
-     "org": "IFM",
-     "url": "https://huggingface.co/papers/2611.20404",
-     "arxiv": "https://arxiv.org/abs/2611.20404"
+     "authors": "Yang Tian, Tianyu Zheng, Xiyuan Yang, Yaxin Du 等 8 人",
+     "org": "IQuestLab",
+     "url": "https://huggingface.co/papers/2611.21152",
+     "arxiv": "https://arxiv.org/abs/2611.21152"
     },
     {
-     "id": "2611.20385",
-     "title": "DominoBench: Evaluating Multi-Step Physical Reasoning from Still Images",
-     "summary": "Can a vision-language model look at a picture of a chain reaction and tell what will happen? Recent multimodal models describe scenes fluently and solve textbook physics problems, which suggests they should also predict …",
+     "id": "2611.23219",
+     "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+     "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do th…",
      "upvotes": 3,
      "comments": 1,
-     "authors": "Emilio Ferrara",
-     "org": "UniversityofSouthernCalifornia",
-     "url": "https://huggingface.co/papers/2611.20385",
-     "arxiv": "https://arxiv.org/abs/2611.20385"
+     "authors": "Shobhita Sundaram, Cansu Sancaktar, Phillip Isola",
+     "org": "MIT",
+     "url": "https://huggingface.co/papers/2611.23219",
+     "arxiv": "https://arxiv.org/abs/2611.23219"
     },
     {
-     "id": "2611.21479",
-     "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
-     "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into …",
+     "id": "2611.22563",
+     "title": "CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference",
+     "summary": "CAD practitioners often work with proprietary parts that they are unwilling to share with external services. For individuals and small companies, bringing this work in-house also requires computational resources they can…",
+     "upvotes": 2,
+     "comments": 1,
+     "authors": "Oleg Pavlov, Nikita Gavrilov, Soslan Kabisov, Gennadii Savrasov 等 7 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.22563",
+     "arxiv": "https://arxiv.org/abs/2611.22563"
+    },
+    {
+     "id": "2611.22565",
+     "title": "MillBill: A Machining Agent with Geometric Feedback",
+     "summary": "Turning a CAD model into a machining program requires both process knowledge and geometric precision. Language models can generate such workflows by writing geometry and toolpath code for each part, but this makes numeri…",
+     "upvotes": 2,
+     "comments": 1,
+     "authors": "Gennadii Savrasov, Artem Slavin, Soslan Kabisov, Andrey Kuznetsov 等 6 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.22565",
+     "arxiv": "https://arxiv.org/abs/2611.22565"
+    },
+    {
+     "id": "2611.23034",
+     "title": "M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation",
+     "summary": "Multi-Teacher On-Policy Distillation (MOPD) enables a single student to absorb the skills of several domain teachers by learning from its own generated responses. We present Multimodal Model Multi-Teacher On-Policy Disti…",
      "upvotes": 1,
      "comments": 1,
-     "authors": "Shaohao Rui, Chaoyang Zhang, Xiaofeng Mao, Weijie Ma",
+     "authors": "Nguyen Quang Trung, Hoang Phan, Shuo Sun, Longyin Zhang 等 5 人",
      "org": "",
-     "url": "https://huggingface.co/papers/2611.21479",
-     "arxiv": "https://arxiv.org/abs/2611.21479"
-    },
-    {
-     "id": "2611.21439",
-     "title": "A Reinforcement Learning Method to Navigate SMEFT Operator Space",
-     "summary": "In particle physics, discrepancies between experimental measurements and Standard Model (SM) predictions are commonly interpreted within new theoretical models. In this context, the Standard Model Effective Field Theory …",
-     "upvotes": 0,
-     "comments": 1,
-     "authors": "Jacky Kumar",
-     "org": "Universite-de-Montreal",
-     "url": "https://huggingface.co/papers/2611.21439",
-     "arxiv": "https://arxiv.org/abs/2611.21439"
+     "url": "https://huggingface.co/papers/2611.23034",
+     "arxiv": "https://arxiv.org/abs/2611.23034"
     }
    ],
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "stale": true
   },
   "arxiv": {
@@ -179,127 +190,119 @@
    "url": "https://arxiv.org/list/cs.AI/recent",
    "papers": [
     {
-     "id": "2611.21608",
-     "title": "Latent Lattice Language Models",
+     "id": "2611.23229",
+     "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
      "authors": "",
-     "summary": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the n…",
-     "url": "https://arxiv.org/abs/2611.21608v1",
-     "date": "2026-11-16"
+     "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used fo…",
+     "url": "https://arxiv.org/abs/2611.23229v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21605",
-     "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+     "id": "2611.23225",
+     "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
      "authors": "",
-     "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer…",
-     "url": "https://arxiv.org/abs/2611.21605v1",
-     "date": "2026-11-16"
+     "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane prob…",
+     "url": "https://arxiv.org/abs/2611.23225v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21598",
-     "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
+     "id": "2611.23216",
+     "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
      "authors": "",
-     "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable …",
-     "url": "https://arxiv.org/abs/2611.21598v1",
-     "date": "2026-11-16"
+     "summary": "New coding models advertise themselves on score improvements of coding benchmarks. Yet no study has tested if a model that scores higher on these benchmarks gets more real work done. On June 12, 2026, a U.S. export control directive banned …",
+     "url": "https://arxiv.org/abs/2611.23216v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21579",
-     "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+     "id": "2611.23206",
+     "title": "Reading Scene States: Uncovering Safety Failures in Vision-Language Models",
      "authors": "",
-     "summary": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but pl…",
-     "url": "https://arxiv.org/abs/2611.21579v1",
-     "date": "2026-11-16"
+     "summary": "Vision-language models (VLMs) can provide harmful assistance by interpreting visual events, even without an explicit request for the underlying harmful objective. We identify this \\textbf{scene-state safety vulnerability} and introduce \\tex…",
+     "url": "https://arxiv.org/abs/2611.23206v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21577",
-     "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+     "id": "2611.23205",
+     "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
      "authors": "",
-     "summary": "Large language model (LLM) applications increasingly act as agents that select and invoke external tools. The Model Context Protocol (MCP) standardizes this interaction by allowing clients to compose tools advertised by multiple servers. Ho…",
-     "url": "https://arxiv.org/abs/2611.21577v1",
-     "date": "2026-11-16"
+     "summary": "Small language models that run on a laptop are attractive for writing signal-processing code offline, but they make systematic errors on digital signal processing (DSP) conventions. We apply supervised fine-tuning (SFT) to the Gemma 4 edge …",
+     "url": "https://arxiv.org/abs/2611.23205v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21562",
-     "title": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
+     "id": "2611.23202",
+     "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
      "authors": "",
-     "summary": "Zero-shot time-series foundation models (TSFMs) have become attractive alternatives to task-specific models because they handle diverse downstream tasks, including anomaly detection and forecasting, without per-series training. However, tim…",
-     "url": "https://arxiv.org/abs/2611.21562v1",
-     "date": "2026-11-16"
+     "summary": "AI agents increasingly collaborate across organizational boundaries, invoking tools and interacting with agents operated by independent entities. Although existing agent frameworks support planning and coordination, they lack a common mecha…",
+     "url": "https://arxiv.org/abs/2611.23202v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21548",
-     "title": "TRACE: Topological Representations for Anomaly detection through Contrastive Embeddings",
+     "id": "2611.23197",
+     "title": "Structure--Residual Inductive Biases for Language Model Pretraining",
      "authors": "",
-     "summary": "Intrusion detectors must recognize evolving malicious behavior even when confirmed attack labels are scarce or incomplete. We present TRACE, a topology-aware graph contrastive learning framework for label-efficient intrusion detection. TRAC…",
-     "url": "https://arxiv.org/abs/2611.21548v1",
-     "date": "2026-11-16"
+     "summary": "Next-token prediction is relied upon to learn both predictive behavior and internal representations. We ask whether representation structure itself should be an explicit inductive bias. Motivated by the two-part coding view of Kolmogorov co…",
+     "url": "https://arxiv.org/abs/2611.23197v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21545",
-     "title": "Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests",
+     "id": "2611.23192",
+     "title": "WoRD: Diffusion-Based Posterior Inference for Online Goal Recognition",
      "authors": "",
-     "summary": "Language models increasingly write the explanations people receive when a rule system denies their request. If several rules deny the request independently, an explanation can name a true reason and still leave the person denied after they …",
-     "url": "https://arxiv.org/abs/2611.21545v1",
-     "date": "2026-11-16"
+     "summary": "Goal recognition is the task of inferring an agent's intended goal from its observed behavior. Most existing work focuses on high-level symbolic recognition, abstracting away the continuous motion through which agents reach their goal. Meth…",
+     "url": "https://arxiv.org/abs/2611.23192v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21541",
-     "title": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents",
+     "id": "2611.23189",
+     "title": "Retrieval-Augmented Correction for Generalist Medical Image Segmentation",
      "authors": "",
-     "summary": "We introduce SciResearch-Eval, an interactive benchmark of scientific judgment built on a standard laboratory problem: measuring a material's thermal properties by heating it and fitting a heat-conduction simulator. An agent designs its own…",
-     "url": "https://arxiv.org/abs/2611.21541v1",
-     "date": "2026-11-16"
+     "summary": "Automated segmentation is routinely used as the first step in quantitative image-based clinical workflows, where predicted masks are subsequently reviewed and corrected by human operators. Automated correction of the residual structural err…",
+     "url": "https://arxiv.org/abs/2611.23189v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21538",
-     "title": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle",
+     "id": "2611.23179",
+     "title": "Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models",
      "authors": "",
-     "summary": "Reinforcement learning from verifiable rewards inherits whatever its verifier gets wrong. Outside mathematics and code the verifier is a proxy, a rubric, a learned judge or a hand-written checker, and its distance from the true objective is…",
-     "url": "https://arxiv.org/abs/2611.21538v1",
-     "date": "2026-11-16"
+     "summary": "Preference optimization (PO) is the standard way to reduce object hallucination in large vision-language models. We find that four public PO checkpoints of LLaVA-1.5-7B also lower object coverage. They name fewer object categories, and thei…",
+     "url": "https://arxiv.org/abs/2611.23179v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21529",
-     "title": "Procedure without Judgment: What Small Language Models Learn under an Exact Verifier",
+     "id": "2611.23174",
+     "title": "Inference after coding agents",
      "authors": "",
-     "summary": "When an authorization policy blocks an agent's tool call, the audit log should name the facts that forced the decision and nothing more. For an executable policy over an enumerable context space this minimal sufficient reason can be compute…",
-     "url": "https://arxiv.org/abs/2611.21529v1",
-     "date": "2026-11-16"
+     "summary": "Empirical research is changing rapidly as AI coding agents are becoming increasingly proficient in every step of it, from writing code to manipulating data. We argue that while the potential of coding agents for science is vast, their use i…",
+     "url": "https://arxiv.org/abs/2611.23174v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21524",
-     "title": "Algorithm Distillation for Safe In-Context Reinforcement Learning",
+     "id": "2611.23161",
+     "title": "Attribution Through the Decoder: Prediction-Space Explanations for Structured Outputs",
      "authors": "",
-     "summary": "Safe in-context reinforcement learning (Safe ICRL) asks a policy with fixed parameters to improve on an unseen constrained task from its interaction history while aiming to keep its cost within a budget. Prior work studied Safe ICRL on five…",
-     "url": "https://arxiv.org/abs/2611.21524v1",
-     "date": "2026-11-16"
+     "summary": "Networks that predict angles, gaze directions, and rotations do not output these quantities directly: they emit raw coordinates that a fixed decoder, such as normalization, maps to the final prediction. Attribution methods are usually appli…",
+     "url": "https://arxiv.org/abs/2611.23161v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21520",
-     "title": "Safe Resemblance, Silent Propagation: Limits of Text-Similarity Guardrails for AI Agent Safety",
+     "id": "2611.23154",
+     "title": "Learning Stratified Policies for Inference-Time Objectives",
      "authors": "",
-     "summary": "When AI agents relay information to one another, an output can preserve an injected instruction's effect on downstream agents even after its wording changes, yet legitimate quotation and template reuse can produce high textual overlap with …",
-     "url": "https://arxiv.org/abs/2611.21520v1",
-     "date": "2026-11-16"
+     "summary": "Inference-time scaling improves the performance of large language models by sampling multiple responses and evaluating their collective utility. However, many existing approaches obtain these samples by repeatedly sampling from a single pol…",
+     "url": "https://arxiv.org/abs/2611.23154v1",
+     "date": "2026-11-17"
     },
     {
-     "id": "2611.21517",
-     "title": "Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models",
+     "id": "2611.23142",
+     "title": "Mind the Gap: A Deployed Multi-Agent System for Documentation Maintenance",
      "authors": "",
-     "summary": "Long-horizon manipulation tasks require a robot to perform a sequence of physical interactions with its environment, typically combining several different skills. Planning such behaviors efficiently is challenging: given a library of parame…",
-     "url": "https://arxiv.org/abs/2611.21517v1",
-     "date": "2026-11-16"
-    },
-    {
-     "id": "2611.21497",
-     "title": "The CYBER-BRIDGE project: An AI-Powered Platform for Cross-Border Cybersecurity, Compliance and Forensics in the EU",
-     "authors": "",
-     "summary": "Cross-border cyber attacks on European SMEs and critical-infrastructure operators expose a structural cyber-resilience gap: cybersecurity (threat sharing, detection, response), compliance (framework assessment, certification) and digital fo…",
-     "url": "https://arxiv.org/abs/2611.21497v1",
-     "date": "2026-11-16"
+     "summary": "The \"AI revolution\" has enabled teams across the technology industry to deliver software features at unprecedented velocity. While code evolves faster than ever, customer-facing documentation often struggles to stay up to speed. As users in…",
+     "url": "https://arxiv.org/abs/2611.23142v1",
+     "date": "2026-11-17"
     }
    ],
-   "date": "2026-11-16",
+   "date": "2026-11-17",
    "total": 15
   },
   "artificial_analysis": {
@@ -318,12 +321,23 @@
      "open": false
     },
     {
+     "name": "GPT-6.2 Astra (Max)",
+     "family": "GPT-6.2 Astra",
+     "creator": "OpenAI",
+     "intelligence": 62.1,
+     "price_in": 8,
+     "price_out": 40,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
      "name": "Gemini 4 Carbon (High)",
      "family": "Gemini 4 Carbon",
      "creator": "Google",
      "intelligence": 60.0,
-     "price_in": 2,
-     "price_out": 10,
+     "price_in": 4,
+     "price_out": 20,
      "tps": null,
      "context": 1000000,
      "open": false
@@ -340,21 +354,10 @@
      "open": false
     },
     {
-     "name": "GPT-6 Astra (Max)",
-     "family": "GPT-6 Astra",
+     "name": "GPT-6.2 Sol (Max)",
+     "family": "GPT-6.2 Sol",
      "creator": "OpenAI",
-     "intelligence": 56.9,
-     "price_in": 10,
-     "price_out": 50,
-     "tps": null,
-     "context": 1000000,
-     "open": false
-    },
-    {
-     "name": "GPT-6.1 Sol (Max)",
-     "family": "GPT-6.1 Sol",
-     "creator": "OpenAI",
-     "intelligence": 54.6,
+     "intelligence": 57.3,
      "price_in": 2,
      "price_out": 10,
      "tps": null,
@@ -452,12 +455,23 @@
      "open": false
     },
     {
+     "name": "GPT-6.2 Astra (Max)",
+     "family": "GPT-6.2 Astra",
+     "creator": "OpenAI",
+     "intelligence": 62.1,
+     "price_in": 8,
+     "price_out": 40,
+     "tps": null,
+     "context": 1000000,
+     "open": false
+    },
+    {
      "name": "Gemini 4 Carbon (High)",
      "family": "Gemini 4 Carbon",
      "creator": "Google",
      "intelligence": 60.0,
-     "price_in": 2,
-     "price_out": 10,
+     "price_in": 4,
+     "price_out": 20,
      "tps": null,
      "context": 1000000,
      "open": false
@@ -474,21 +488,10 @@
      "open": false
     },
     {
-     "name": "GPT-6 Astra (Max)",
-     "family": "GPT-6 Astra",
+     "name": "GPT-6.2 Sol (Max)",
+     "family": "GPT-6.2 Sol",
      "creator": "OpenAI",
-     "intelligence": 56.9,
-     "price_in": 10,
-     "price_out": 50,
-     "tps": null,
-     "context": 1000000,
-     "open": false
-    },
-    {
-     "name": "GPT-6.1 Sol (Max)",
-     "family": "GPT-6.1 Sol",
-     "creator": "OpenAI",
-     "intelligence": 54.6,
+     "intelligence": 57.3,
      "price_in": 2,
      "price_out": 10,
      "tps": null,
@@ -716,6 +719,17 @@
      "open": true
     },
     {
+     "name": "JoyAI-VL-Preview",
+     "family": "JoyAI-VL-Preview",
+     "creator": "Joy Future Academy",
+     "intelligence": 28.0,
+     "price_in": 0,
+     "price_out": 0,
+     "tps": null,
+     "context": 1048576,
+     "open": false
+    },
+    {
      "name": "GPT-6 Luna (Max)",
      "family": "GPT-6 Luna",
      "creator": "OpenAI",
@@ -870,6 +884,28 @@
      "open": false
     },
     {
+     "name": "K2 Horizon 32B",
+     "family": "K2 Horizon 32B",
+     "creator": "Institute of Foundation Models",
+     "intelligence": 13.9,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 524288,
+     "open": true
+    },
+    {
+     "name": "K2 Horizon MoVA 36B A4B",
+     "family": "K2 Horizon MoVA 36B A4B",
+     "creator": "Institute of Foundation Models",
+     "intelligence": 13.8,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 524288,
+     "open": true
+    },
+    {
      "name": "Apodex 1.1",
      "family": "Apodex 1.1",
      "creator": "Apodex",
@@ -885,7 +921,7 @@
      "family": "Nemotron 3.5 Super VL",
      "creator": "NVIDIA",
      "intelligence": 13.6,
-     "price_in": 0.2,
+     "price_in": 0.15,
      "price_out": 0.5,
      "tps": null,
      "context": 1000000,
@@ -925,6 +961,39 @@
      "open": false
     },
     {
+     "name": "K2 Horizon 7B",
+     "family": "K2 Horizon 7B",
+     "creator": "Institute of Foundation Models",
+     "intelligence": 10.6,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 524288,
+     "open": true
+    },
+    {
+     "name": "A.X-K2",
+     "family": "A.X-K2",
+     "creator": "SK Telecom",
+     "intelligence": 9.0,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 262144,
+     "open": true
+    },
+    {
+     "name": "K2 Horizon 3.7B",
+     "family": "K2 Horizon 3.7B",
+     "creator": "Institute of Foundation Models",
+     "intelligence": 8.0,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 524288,
+     "open": true
+    },
+    {
      "name": "K-EXAONE 2.0",
      "family": "K-EXAONE 2.0",
      "creator": "LG AI Research",
@@ -955,6 +1024,17 @@
      "price_out": 0,
      "tps": null,
      "context": 192000,
+     "open": true
+    },
+    {
+     "name": "LFM3-1.7B",
+     "family": "LFM3-1.7B",
+     "creator": "Liquid AI",
+     "intelligence": 6.0,
+     "price_in": 0.08,
+     "price_out": 0.2,
+     "tps": null,
+     "context": 262144,
      "open": true
     },
     {
@@ -1057,6 +1137,17 @@
      "open": true
     },
     {
+     "name": "K2 Horizon 0.9B",
+     "family": "K2 Horizon 0.9B",
+     "creator": "Institute of Foundation Models",
+     "intelligence": 2.7,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 131072,
+     "open": true
+    },
+    {
      "name": "NVIDIA Nemotron 3 Nano 4B",
      "family": "NVIDIA Nemotron 3 Nano 4B",
      "creator": "NVIDIA",
@@ -1066,9 +1157,20 @@
      "tps": null,
      "context": 262000,
      "open": true
+    },
+    {
+     "name": "LFM3-VL-2B",
+     "family": "LFM3-VL-2B",
+     "creator": "Liquid AI",
+     "intelligence": 1.7,
+     "price_in": 0.1,
+     "price_out": 0.5,
+     "tps": null,
+     "context": 128000,
+     "open": true
     }
    ],
-   "total_models": 57
+   "total_models": 66
   },
   "alphaxiv": {
    "name": "alphaXiv",

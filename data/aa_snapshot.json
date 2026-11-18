@@ -1,11 +1,11 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "models": {
   "Claude Fable 5.2": 64.6,
+  "GPT-6.2 Astra": 62.1,
   "Gemini 4 Carbon": 60.0,
   "Claude Opus 5.5": 59.1,
-  "GPT-6 Astra": 56.9,
-  "GPT-6.1 Sol": 54.6,
+  "GPT-6.2 Sol": 57.3,
   "Claude Sonnet 5.5": 54.5,
   "Gemini 4 Hydrogen": 53.9,
   "GPT-6.1 Terra": 51.3,
@@ -26,6 +26,7 @@
   "MiniMax-M3.1-Flash": 29.1,
   "Qwen3.8-Flash-Next": 28.6,
   "Step 5 Preview": 28.5,
+  "JoyAI-VL-Preview": 28.0,
   "GPT-6 Luna": 27.9,
   "GLM-5.3-Flash": 27.8,
   "MiMo-V2.6-Flash": 26.7,
@@ -40,14 +41,20 @@
   "K2 Horizon 375B A23B": 17.8,
   "Beam 1.0": 17.7,
   "Solar Pro 4": 14.2,
+  "K2 Horizon 32B": 13.9,
+  "K2 Horizon MoVA 36B A4B": 13.8,
   "Apodex 1.1": 13.7,
   "Nemotron 3.5 Super VL": 13.6,
   "Inkling": 12.5,
   "Nemotron 3 Ultra 550B A55B": 11.8,
   "Gemini 3.5 Flash-Lite": 11.7,
+  "K2 Horizon 7B": 10.6,
+  "A.X-K2": 9.0,
+  "K2 Horizon 3.7B": 8.0,
   "K-EXAONE 2.0": 7.6,
   "Muse Glimmer": 6.3,
   "Command A+": 6.2,
+  "LFM3-1.7B": 6.0,
   "Nemotron 3.5 Lightning": 5.5,
   "Granite 4.2 8B": 5.1,
   "Gemma 4 E4B": 4.8,
@@ -57,6 +64,8 @@
   "Mistral Small 4": 4.3,
   "gpt-oss-120b": 3.8,
   "North Mini Code": 3.4,
-  "NVIDIA Nemotron 3 Nano 4B": 1.8
+  "K2 Horizon 0.9B": 2.7,
+  "NVIDIA Nemotron 3 Nano 4B": 1.8,
+  "LFM3-VL-2B": 1.7
  }
 }
