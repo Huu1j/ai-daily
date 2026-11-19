@@ -1,8 +1,9 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "models": {
   "Claude Fable 5.2": 64.6,
   "GPT-6.2 Astra": 62.1,
+  "Gemini 4 Neon": 61.4,
   "Gemini 4 Carbon": 60.0,
   "Claude Opus 5.5": 59.1,
   "GPT-6.2 Sol": 57.3,
@@ -55,6 +56,7 @@
   "Muse Glimmer": 6.3,
   "Command A+": 6.2,
   "LFM3-1.7B": 6.0,
+  "Granite 4.2 30B": 5.5,
   "Nemotron 3.5 Lightning": 5.5,
   "Granite 4.2 8B": 5.1,
   "Gemma 4 E4B": 4.8,
