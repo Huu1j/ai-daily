@@ -1,5 +1,5 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
@@ -50,139 +50,139 @@
    "url": "https://huggingface.co/papers",
    "papers": [
     {
-     "id": "2611.24738",
-     "title": "Jeveration: System One Models Now Generate",
-     "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward …",
-     "upvotes": 54,
-     "comments": 3,
-     "authors": "Yuhe Liu, Qi Li, Shihua Zhang, Xinchao Wang",
-     "org": "NUS-DSA3101",
-     "url": "https://huggingface.co/papers/2611.24738",
-     "arxiv": "https://arxiv.org/abs/2611.24738"
+     "id": "2611.26444",
+     "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+     "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely…",
+     "upvotes": 43,
+     "comments": 2,
+     "authors": "Yuzhi Huang, Jie Wu, Fanding Huang, Junchao Lin 等 43 人",
+     "org": "Mind2Act-World",
+     "url": "https://huggingface.co/papers/2611.26444",
+     "arxiv": "https://arxiv.org/abs/2611.26444"
     },
     {
-     "id": "2611.24154",
-     "title": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
-     "summary": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing act…",
+     "id": "2611.26409",
+     "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+     "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation mode…",
+     "upvotes": 36,
+     "comments": 2,
+     "authors": "Changli Tang, Jie Yang, Tianyi Wang, Lei Li 等 12 人",
+     "org": "tencent",
+     "url": "https://huggingface.co/papers/2611.26409",
+     "arxiv": "https://arxiv.org/abs/2611.26409"
+    },
+    {
+     "id": "2611.26595",
+     "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+     "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplor…",
+     "upvotes": 29,
+     "comments": 1,
+     "authors": "Yiyan Ji, Qixun Wang, Yang Shi, Zhuoran Zhang 等 23 人",
+     "org": "KlingTeam",
+     "url": "https://huggingface.co/papers/2611.26595",
+     "arxiv": "https://arxiv.org/abs/2611.26595"
+    },
+    {
+     "id": "2611.26590",
+     "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+     "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel …",
+     "upvotes": 27,
+     "comments": 1,
+     "authors": "Jiahao Huang, Jun Wang",
+     "org": "UniversityCollegeLondon",
+     "url": "https://huggingface.co/papers/2611.26590",
+     "arxiv": "https://arxiv.org/abs/2611.26590"
+    },
+    {
+     "id": "2611.26107",
+     "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+     "summary": "Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate th…",
      "upvotes": 23,
      "comments": 1,
-     "authors": "Xirui Jiang, Yuxi Chen, Rui Yang, Feng Luo 等 14 人",
-     "org": "UIUC-CS",
-     "url": "https://huggingface.co/papers/2611.24154",
-     "arxiv": "https://arxiv.org/abs/2611.24154"
+     "authors": "Jiahao Hu, Jingdong Du, Yichen Zhang, Yi Song 等 13 人",
+     "org": "ernie-research",
+     "url": "https://huggingface.co/papers/2611.26107",
+     "arxiv": "https://arxiv.org/abs/2611.26107"
     },
     {
-     "id": "2611.24789",
-     "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
-     "summary": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into relia…",
+     "id": "2611.26380",
+     "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+     "summary": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Exist…",
      "upvotes": 22,
      "comments": 1,
-     "authors": "Phuong Tuan Dat, Qi Li, Xinchao Wang",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.24789",
-     "arxiv": "https://arxiv.org/abs/2611.24789"
+     "authors": "Yuqi Tang, Yang Shi, Yuran Wang, Tengfei Liu 等 17 人",
+     "org": "KlingTeam",
+     "url": "https://huggingface.co/papers/2611.26380",
+     "arxiv": "https://arxiv.org/abs/2611.26380"
     },
     {
-     "id": "2611.24654",
-     "title": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
-     "summary": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities. We introduce CurvDelta, a scalable framework that incorp…",
-     "upvotes": 20,
+     "id": "2611.25387",
+     "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
+     "summary": "Humans act in the visual world by inferring the 3D layout behind a 2D view, predicting how an action changes it, and correcting themselves after seeing the result. Can multimodal large language models (MLLMs) do the same…",
+     "upvotes": 21,
      "comments": 1,
-     "authors": "Zeguan Xiao, Zhuocheng Liang, Yun Chen, Yong Wang 等 6 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.24654",
-     "arxiv": "https://arxiv.org/abs/2611.24654"
+     "authors": "Xuwei Ding, Skylar Zhai, Linxin Song, Jiarui Feng 等 12 人",
+     "org": "meta",
+     "url": "https://huggingface.co/papers/2611.25387",
+     "arxiv": "https://arxiv.org/abs/2611.25387"
     },
     {
-     "id": "2611.24869",
-     "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
-     "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user…",
-     "upvotes": 15,
+     "id": "2611.26414",
+     "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+     "summary": "Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals. …",
+     "upvotes": 19,
      "comments": 1,
-     "authors": "Mingliang Zhai, Chuanhao Li, Jiaming Tan, Zhen Li 等 9 人",
-     "org": "AlayaLab",
-     "url": "https://huggingface.co/papers/2611.24869",
-     "arxiv": "https://arxiv.org/abs/2611.24869"
+     "authors": "Zixuan Huang, Yang Zhou, Guli Zhang, Sunzhu Li 等 11 人",
+     "org": "ZYT-AI",
+     "url": "https://huggingface.co/papers/2611.26414",
+     "arxiv": "https://arxiv.org/abs/2611.26414"
     },
     {
-     "id": "2611.24408",
-     "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
-     "summary": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action to keep a stable effect. Existing benchma…",
-     "upvotes": 10,
+     "id": "2611.26629",
+     "title": "Posterior Matching Distillation",
+     "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the stude…",
+     "upvotes": 18,
      "comments": 1,
-     "authors": "Chuang Wang, Rui Nie, Jie Song, Junyuan Gao 等 12 人",
-     "org": "SJTU",
-     "url": "https://huggingface.co/papers/2611.24408",
-     "arxiv": "https://arxiv.org/abs/2611.24408"
+     "authors": "Hidir Yesiltepe, Julius Berner, Arash Vahdat, Pinar Yanardag",
+     "org": "nvidia",
+     "url": "https://huggingface.co/papers/2611.26629",
+     "arxiv": "https://arxiv.org/abs/2611.26629"
     },
     {
-     "id": "2611.24098",
-     "title": "RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models",
-     "summary": "Video rough-cut is a core stage in media production workflows, organizing raw media materials into an initial video cut. Despite recent advances in large vision-language models (LVLMs) for video-related tasks, automatic …",
-     "upvotes": 7,
+     "id": "2611.26603",
+     "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+     "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consi…",
+     "upvotes": 16,
      "comments": 1,
-     "authors": "Ruisi Zhao, You Li, Sihan Chen, Aosong Cheng 等 10 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.24098",
-     "arxiv": "https://arxiv.org/abs/2611.24098"
+     "authors": "Peiyun Hu, Marko Mihajlovic, Lyndon Duong, Lahav Lipson 等 8 人",
+     "org": "apple",
+     "url": "https://huggingface.co/papers/2611.26603",
+     "arxiv": "https://arxiv.org/abs/2611.26603"
     },
     {
-     "id": "2611.24733",
-     "title": "Mechanistic Critics for Sample-Efficient NPU Design-Space Exploration",
-     "summary": "NPU design-space exploration for LLM inference mainly relies on an expensive simulator that often returns only scalar feedback such as latency and power. Such feedback can rank evaluated configurations, but gives little …",
-     "upvotes": 7,
-     "comments": 1,
-     "authors": "Yicheng He, Yuqi Xue, Tianyang Wu, Jian Huang 等 5 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.24733",
-     "arxiv": "https://arxiv.org/abs/2611.24733"
+     "id": "2611.26268",
+     "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
+     "summary": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fix…",
+     "upvotes": 14,
+     "comments": 2,
+     "authors": "Yingqi Shi, Junru Lu, Yun Liu, Di Yin 等 5 人",
+     "org": "tencent",
+     "url": "https://huggingface.co/papers/2611.26268",
+     "arxiv": "https://arxiv.org/abs/2611.26268"
     },
     {
-     "id": "2611.23808",
-     "title": "PReMind: When Personal Memory Meets Visual Hazards",
-     "summary": "Personalized vision-language assistants use visual observations and personal memories to provide advice tailored to the user. When the observed scene contains a physical hazard, personal context, such as allergies, medic…",
-     "upvotes": 6,
+     "id": "2611.26073",
+     "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+     "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative A…",
+     "upvotes": 14,
      "comments": 1,
-     "authors": "Yeongtak Oh, Donghyeok Lee, Joonhee Oh, Jaewon Jeong 等 5 人",
-     "org": "SeoulNatlUniv",
-     "url": "https://huggingface.co/papers/2611.23808",
-     "arxiv": "https://arxiv.org/abs/2611.23808"
-    },
-    {
-     "id": "2611.24651",
-     "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
-     "summary": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabili…",
-     "upvotes": 5,
-     "comments": 1,
-     "authors": "Zhenqing Ling, Qirui Jiao, Daoyuan Chen, Cheng Chen 等 17 人",
-     "org": "agentscope-ai",
-     "url": "https://huggingface.co/papers/2611.24651",
-     "arxiv": "https://arxiv.org/abs/2611.24651"
-    },
-    {
-     "id": "2611.23994",
-     "title": "WaveView: The Novel View Is in the Noise",
-     "summary": "Generative novel view synthesis (NVS) employs a diffusion model to render a static or dynamic scene from a target camera view. Explicit warp methods complete a reprojection of the source with video diffusion models, and …",
-     "upvotes": 4,
-     "comments": 1,
-     "authors": "Kaiwen Wang, Jan-Hendrik Pauls, Yinzhe Shen, Frank Bieder 等 5 人",
-     "org": "KIT-Karlsruhe",
-     "url": "https://huggingface.co/papers/2611.23994",
-     "arxiv": "https://arxiv.org/abs/2611.23994"
-    },
-    {
-     "id": "2611.24941",
-     "title": "UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation",
-     "summary": "Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. Whi…",
-     "upvotes": 4,
-     "comments": 1,
-     "authors": "Jingzhi Bao, Xiaohe Ma, Hong Li, Yuanming Hu 等 5 人",
-     "org": "meshy-ai-team",
-     "url": "https://huggingface.co/papers/2611.24941",
-     "arxiv": "https://arxiv.org/abs/2611.24941"
+     "authors": "Nagham Omar, Rotem Dror, Almog Gueta, Avigdor Gal 等 6 人",
+     "org": "Technion",
+     "url": "https://huggingface.co/papers/2611.26073",
+     "arxiv": "https://arxiv.org/abs/2611.26073"
     }
    ],
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "stale": true
   },
   "arxiv": {
@@ -190,119 +190,119 @@
    "url": "https://arxiv.org/list/cs.AI/recent",
    "papers": [
     {
-     "id": "2611.24932",
-     "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+     "id": "2611.26624",
+     "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
      "authors": "",
-     "summary": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral con…",
-     "url": "https://arxiv.org/abs/2611.24932v1",
-     "date": "2026-11-18"
+     "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework t…",
+     "url": "https://arxiv.org/abs/2611.26624v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24927",
-     "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+     "id": "2611.26617",
+     "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
      "authors": "",
-     "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across…",
-     "url": "https://arxiv.org/abs/2611.24927v1",
-     "date": "2026-11-18"
+     "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a …",
+     "url": "https://arxiv.org/abs/2611.26617v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24924",
-     "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+     "id": "2611.26601",
+     "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
      "authors": "",
-     "summary": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using…",
-     "url": "https://arxiv.org/abs/2611.24924v1",
-     "date": "2026-11-18"
+     "summary": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These cla…",
+     "url": "https://arxiv.org/abs/2611.26601v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24888",
-     "title": "Who are you? The Personal Imitation Game",
+     "id": "2611.26598",
+     "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
      "authors": "",
-     "summary": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather t…",
-     "url": "https://arxiv.org/abs/2611.24888v1",
-     "date": "2026-11-18"
+     "summary": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which featur…",
+     "url": "https://arxiv.org/abs/2611.26598v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24880",
-     "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
+     "id": "2611.26596",
+     "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
      "authors": "",
-     "summary": "Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, r…",
-     "url": "https://arxiv.org/abs/2611.24880v1",
-     "date": "2026-11-18"
+     "summary": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a …",
+     "url": "https://arxiv.org/abs/2611.26596v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24877",
-     "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+     "id": "2611.26592",
+     "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
      "authors": "",
-     "summary": "Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where the answers could b…",
-     "url": "https://arxiv.org/abs/2611.24877v1",
-     "date": "2026-11-18"
+     "summary": "Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's ineq…",
+     "url": "https://arxiv.org/abs/2611.26592v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24867",
-     "title": "Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents",
+     "id": "2611.26588",
+     "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
      "authors": "",
-     "summary": "Visual agents that read dense documents must ration a finite observation budget across candidate regions, yet answer accuracy conflates where an agent looks, how it adapts to the reads that remain, and how it an?swers once observation stops…",
-     "url": "https://arxiv.org/abs/2611.24867v1",
-     "date": "2026-11-18"
+     "summary": "A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature…",
+     "url": "https://arxiv.org/abs/2611.26588v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24845",
-     "title": "Vibe-Trading: Towards Agent-Native Trading",
+     "id": "2611.26586",
+     "title": "ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images",
      "authors": "",
-     "summary": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial tr…",
-     "url": "https://arxiv.org/abs/2611.24845v1",
-     "date": "2026-11-18"
+     "summary": "Graphic designs are ordered compositions of RGBA layers whose separation enables selection, movement, and reuse. Existing layered models represent each layer with a full-canvas or region-sized spatial latent grid, so representation size gro…",
+     "url": "https://arxiv.org/abs/2611.26586v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24844",
-     "title": "General progress substitutes for specific training data in language models",
+     "id": "2611.26564",
+     "title": "GEOHunter: Mapping a Generative Engine Optimization Network in the Wild",
      "authors": "",
-     "summary": "Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to a…",
-     "url": "https://arxiv.org/abs/2611.24844v1",
-     "date": "2026-11-18"
+     "summary": "Generative engines synthesize retrieved web pages into answers, recommendations, and rankings. Generative engine optimization (GEO) services sell visibility in these answers by publishing promotional articles on user-generated-content (UGC)…",
+     "url": "https://arxiv.org/abs/2611.26564v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24840",
-     "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+     "id": "2611.26562",
+     "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
      "authors": "",
-     "summary": "World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelit…",
-     "url": "https://arxiv.org/abs/2611.24840v1",
-     "date": "2026-11-18"
+     "summary": "Barrett's esophagus dysplasia grading suffers substantial inter-observer variability, particularly for low-grade dysplasia, complicating clinical decision-making. We conducted a retrospective multi-institutional diagnostic accuracy study of…",
+     "url": "https://arxiv.org/abs/2611.26562v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24830",
-     "title": "A Foundation Model to Measure and Predict Human Behaviour",
+     "id": "2611.26557",
+     "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
      "authors": "",
-     "summary": "Large language models (LLMs) are increasingly used to infer psychological attributes, predict individual behaviour, and simulate human populations. However, despite generating plausible responses, they often misrepresent individuals and dis…",
-     "url": "https://arxiv.org/abs/2611.24830v1",
-     "date": "2026-11-18"
+     "summary": "When multimodal decision models determine actions, moderation outcomes, or quality judgments, their reliability depends on preserving semantic decisions across presentation changes, ignoring irrelevant additions, and distinguishing informat…",
+     "url": "https://arxiv.org/abs/2611.26557v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24810",
-     "title": "LAaDT-DSS: decision support for non-experts on rooftop PV, incentive and grid simulations under Turkish tariff rules",
+     "id": "2611.26553",
+     "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
      "authors": "",
-     "summary": "Rooftop photovoltaics raise three questions: should a household invest, which incentive costs the state least, and does the feeder stay within limits? Those who ask are rarely modellers. We present LAaDT-DSS, decision-support software that …",
-     "url": "https://arxiv.org/abs/2611.24810v1",
-     "date": "2026-11-18"
+     "summary": "Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a…",
+     "url": "https://arxiv.org/abs/2611.26553v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24798",
-     "title": "Soft Mixture of Quantum Experts for Hybrid Quantum-Classical Learning",
+     "id": "2611.26545",
+     "title": "The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models",
      "authors": "",
-     "summary": "Quantum Machine Learning (QML) has attracted increasing interest as a possible route to construct feature representations that are difficult to reproduce with classical models. However, near-term QML architectures based on trainable paramet…",
-     "url": "https://arxiv.org/abs/2611.24798v1",
-     "date": "2026-11-18"
+     "summary": "Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest deni…",
+     "url": "https://arxiv.org/abs/2611.26545v1",
+     "date": "2026-11-19"
     },
     {
-     "id": "2611.24797",
-     "title": "Bias-Only Training Dynamics in ReLU Networks",
+     "id": "2611.26540",
+     "title": "AURA: AUdio-dRiven streaming Avatar",
      "authors": "",
-     "summary": "Neural networks with randomly initialized, fixed weights and trainable biases are universal approximators, yet the dynamics of bias-only training remain largely unexplored. We study these dynamics in one-hidden-layer ReLU networks through a…",
-     "url": "https://arxiv.org/abs/2611.24797v1",
-     "date": "2026-11-18"
+     "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voi…",
+     "url": "https://arxiv.org/abs/2611.26540v1",
+     "date": "2026-11-19"
     }
    ],
-   "date": "2026-11-18",
+   "date": "2026-11-19",
    "total": 15
   },
   "artificial_analysis": {
@@ -954,8 +954,8 @@
      "family": "Nemotron 3 Ultra 550B A55B",
      "creator": "NVIDIA",
      "intelligence": 11.8,
-     "price_in": 0.6,
-     "price_out": 2.4,
+     "price_in": 0.55,
+     "price_out": 2.3,
      "tps": null,
      "context": 262144,
      "open": true
@@ -1086,8 +1086,8 @@
      "family": "Gemma 4 E4B",
      "creator": "Google",
      "intelligence": 4.8,
-     "price_in": 0.02,
-     "price_out": 0.1,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 128000,
      "open": true
