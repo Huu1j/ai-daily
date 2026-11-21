@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "models": {
   "Claude Fable 5.2": 64.6,
   "GPT-6.2 Astra": 62.1,
@@ -37,6 +37,7 @@
   "DeepSeek V4 Pro 0813": 23.1,
   "Nanbeige4.3-33B": 20.4,
   "Qwen3.8 27B": 20.1,
+  "Inkling 2 Mini": 20.1,
   "JT-4.1 Flash 236B A21B": 19.0,
   "MiniMax-M3": 18.9,
   "K2 Horizon 375B A23B": 17.8,

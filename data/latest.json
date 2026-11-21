@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
@@ -53,52 +53,74 @@
      "id": "2611.26444",
      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
      "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely…",
-     "upvotes": 43,
-     "comments": 2,
+     "upvotes": 48,
+     "comments": 3,
      "authors": "Yuzhi Huang, Jie Wu, Fanding Huang, Junchao Lin 等 43 人",
      "org": "Mind2Act-World",
      "url": "https://huggingface.co/papers/2611.26444",
      "arxiv": "https://arxiv.org/abs/2611.26444"
     },
     {
-     "id": "2611.26409",
-     "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
-     "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation mode…",
-     "upvotes": 36,
-     "comments": 2,
-     "authors": "Changli Tang, Jie Yang, Tianyi Wang, Lei Li 等 12 人",
-     "org": "tencent",
-     "url": "https://huggingface.co/papers/2611.26409",
-     "arxiv": "https://arxiv.org/abs/2611.26409"
-    },
-    {
-     "id": "2611.26595",
-     "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
-     "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplor…",
-     "upvotes": 29,
-     "comments": 1,
-     "authors": "Yiyan Ji, Qixun Wang, Yang Shi, Zhuoran Zhang 等 23 人",
-     "org": "KlingTeam",
-     "url": "https://huggingface.co/papers/2611.26595",
-     "arxiv": "https://arxiv.org/abs/2611.26595"
-    },
-    {
      "id": "2611.26590",
      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
      "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel …",
-     "upvotes": 27,
-     "comments": 1,
+     "upvotes": 41,
+     "comments": 2,
      "authors": "Jiahao Huang, Jun Wang",
      "org": "UniversityCollegeLondon",
      "url": "https://huggingface.co/papers/2611.26590",
      "arxiv": "https://arxiv.org/abs/2611.26590"
     },
     {
+     "id": "2611.26409",
+     "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+     "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation mode…",
+     "upvotes": 40,
+     "comments": 3,
+     "authors": "Changli Tang, Jie Yang, Tianyi Wang, Lei Li 等 12 人",
+     "org": "tencent",
+     "url": "https://huggingface.co/papers/2611.26409",
+     "arxiv": "https://arxiv.org/abs/2611.26409"
+    },
+    {
+     "id": "2611.26629",
+     "title": "Posterior Matching Distillation",
+     "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the stude…",
+     "upvotes": 35,
+     "comments": 4,
+     "authors": "Hidir Yesiltepe, Julius Berner, Arash Vahdat, Pinar Yanardag",
+     "org": "nvidia",
+     "url": "https://huggingface.co/papers/2611.26629",
+     "arxiv": "https://arxiv.org/abs/2611.26629"
+    },
+    {
+     "id": "2611.26595",
+     "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+     "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplor…",
+     "upvotes": 34,
+     "comments": 4,
+     "authors": "Yiyan Ji, Qixun Wang, Yang Shi, Zhuoran Zhang 等 23 人",
+     "org": "KlingTeam",
+     "url": "https://huggingface.co/papers/2611.26595",
+     "arxiv": "https://arxiv.org/abs/2611.26595"
+    },
+    {
+     "id": "2611.26603",
+     "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+     "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consi…",
+     "upvotes": 29,
+     "comments": 2,
+     "authors": "Peiyun Hu, Marko Mihajlovic, Lyndon Duong, Lahav Lipson 等 8 人",
+     "org": "apple",
+     "url": "https://huggingface.co/papers/2611.26603",
+     "arxiv": "https://arxiv.org/abs/2611.26603"
+    },
+    {
      "id": "2611.26107",
      "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
      "summary": "Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate th…",
-     "upvotes": 23,
-     "comments": 1,
+     "upvotes": 25,
+     "comments": 2,
      "authors": "Jiahao Hu, Jingdong Du, Yichen Zhang, Yi Song 等 13 人",
      "org": "ernie-research",
      "url": "https://huggingface.co/papers/2611.26107",
@@ -108,19 +130,30 @@
      "id": "2611.26380",
      "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
      "summary": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Exist…",
-     "upvotes": 22,
-     "comments": 1,
+     "upvotes": 24,
+     "comments": 2,
      "authors": "Yuqi Tang, Yang Shi, Yuran Wang, Tengfei Liu 等 17 人",
      "org": "KlingTeam",
      "url": "https://huggingface.co/papers/2611.26380",
      "arxiv": "https://arxiv.org/abs/2611.26380"
     },
     {
+     "id": "2611.26073",
+     "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+     "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative A…",
+     "upvotes": 23,
+     "comments": 3,
+     "authors": "Nagham Omar, Rotem Dror, Almog Gueta, Avigdor Gal 等 6 人",
+     "org": "Technion",
+     "url": "https://huggingface.co/papers/2611.26073",
+     "arxiv": "https://arxiv.org/abs/2611.26073"
+    },
+    {
      "id": "2611.25387",
      "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
      "summary": "Humans act in the visual world by inferring the 3D layout behind a 2D view, predicting how an action changes it, and correcting themselves after seeing the result. Can multimodal large language models (MLLMs) do the same…",
-     "upvotes": 21,
-     "comments": 1,
+     "upvotes": 23,
+     "comments": 2,
      "authors": "Xuwei Ding, Skylar Zhai, Linxin Song, Jiarui Feng 等 12 人",
      "org": "meta",
      "url": "https://huggingface.co/papers/2611.25387",
@@ -130,56 +163,23 @@
      "id": "2611.26414",
      "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
      "summary": "Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals. …",
-     "upvotes": 19,
-     "comments": 1,
+     "upvotes": 21,
+     "comments": 2,
      "authors": "Zixuan Huang, Yang Zhou, Guli Zhang, Sunzhu Li 等 11 人",
      "org": "ZYT-AI",
      "url": "https://huggingface.co/papers/2611.26414",
      "arxiv": "https://arxiv.org/abs/2611.26414"
     },
     {
-     "id": "2611.26629",
-     "title": "Posterior Matching Distillation",
-     "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the stude…",
-     "upvotes": 18,
-     "comments": 1,
-     "authors": "Hidir Yesiltepe, Julius Berner, Arash Vahdat, Pinar Yanardag",
-     "org": "nvidia",
-     "url": "https://huggingface.co/papers/2611.26629",
-     "arxiv": "https://arxiv.org/abs/2611.26629"
-    },
-    {
-     "id": "2611.26603",
-     "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
-     "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consi…",
-     "upvotes": 16,
-     "comments": 1,
-     "authors": "Peiyun Hu, Marko Mihajlovic, Lyndon Duong, Lahav Lipson 等 8 人",
-     "org": "apple",
-     "url": "https://huggingface.co/papers/2611.26603",
-     "arxiv": "https://arxiv.org/abs/2611.26603"
-    },
-    {
      "id": "2611.26268",
      "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
      "summary": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fix…",
-     "upvotes": 14,
-     "comments": 2,
+     "upvotes": 17,
+     "comments": 3,
      "authors": "Yingqi Shi, Junru Lu, Yun Liu, Di Yin 等 5 人",
      "org": "tencent",
      "url": "https://huggingface.co/papers/2611.26268",
      "arxiv": "https://arxiv.org/abs/2611.26268"
-    },
-    {
-     "id": "2611.26073",
-     "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
-     "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative A…",
-     "upvotes": 14,
-     "comments": 1,
-     "authors": "Nagham Omar, Rotem Dror, Almog Gueta, Avigdor Gal 等 6 人",
-     "org": "Technion",
-     "url": "https://huggingface.co/papers/2611.26073",
-     "arxiv": "https://arxiv.org/abs/2611.26073"
     }
    ],
    "date": "2026-11-19",
@@ -413,8 +413,8 @@
      "family": "Gemini 4 Argon",
      "creator": "Google",
      "intelligence": 50.4,
-     "price_in": 2,
-     "price_out": 10,
+     "price_in": 4,
+     "price_out": 20,
      "tps": null,
      "context": 1000000,
      "open": false
@@ -547,8 +547,8 @@
      "family": "Gemini 4 Argon",
      "creator": "Google",
      "intelligence": 50.4,
-     "price_in": 2,
-     "price_out": 10,
+     "price_in": 4,
+     "price_out": 20,
      "tps": null,
      "context": 1000000,
      "open": false
@@ -639,7 +639,7 @@
      "price_out": 2.501,
      "tps": null,
      "context": 1048576,
-     "open": false
+     "open": true
     },
     {
      "name": "DeepSeek V4.1 Flash 1017 (Max)",
@@ -734,8 +734,8 @@
      "family": "JoyAI-VL-Preview",
      "creator": "Joy Future Academy",
      "intelligence": 28.0,
-     "price_in": 0,
-     "price_out": 0,
+     "price_in": null,
+     "price_out": null,
      "tps": null,
      "context": 1048576,
      "open": false
@@ -837,6 +837,17 @@
      "price_out": 3,
      "tps": null,
      "context": 256000,
+     "open": true
+    },
+    {
+     "name": "Inkling 2 Mini",
+     "family": "Inkling 2 Mini",
+     "creator": "Thinking Machines",
+     "intelligence": 20.1,
+     "price_in": 0.15,
+     "price_out": 0.5,
+     "tps": null,
+     "context": 1024000,
      "open": true
     },
     {
@@ -1192,7 +1203,7 @@
      "open": true
     }
    ],
-   "total_models": 68
+   "total_models": 69
   },
   "alphaxiv": {
    "name": "alphaXiv",
