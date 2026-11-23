@@ -1,6 +1,6 @@
 {
- "date": "2026-11-22",
- "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
+ "date": "2026-11-23",
+ "stats": "3 条要闻 · 20 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
    "name": "AINews (smol.ai)",
@@ -50,139 +50,84 @@
    "url": "https://huggingface.co/papers",
    "papers": [
     {
-     "id": "2611.26444",
-     "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
-     "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely…",
+     "id": "2611.27193",
+     "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+     "summary": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubl…",
+     "upvotes": 81,
+     "comments": 2,
+     "authors": "Haowei He, Ziwen Zhao, Chenshuo Pan, Gang Lin 等 13 人",
+     "org": "XingChen-AGI",
+     "url": "https://huggingface.co/papers/2611.27193",
+     "arxiv": "https://arxiv.org/abs/2611.27193"
+    },
+    {
+     "id": "2611.27963",
+     "title": "Non-penetrating World Models",
+     "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to phy…",
      "upvotes": 52,
-     "comments": 4,
-     "authors": "Yuzhi Huang, Jie Wu, Fanding Huang, Junchao Lin 等 43 人",
-     "org": "Mind2Act-World",
-     "url": "https://huggingface.co/papers/2611.26444",
-     "arxiv": "https://arxiv.org/abs/2611.26444"
-    },
-    {
-     "id": "2611.26409",
-     "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
-     "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation mode…",
-     "upvotes": 45,
-     "comments": 3,
-     "authors": "Changli Tang, Jie Yang, Tianyi Wang, Lei Li 等 12 人",
-     "org": "tencent",
-     "url": "https://huggingface.co/papers/2611.26409",
-     "arxiv": "https://arxiv.org/abs/2611.26409"
-    },
-    {
-     "id": "2611.26590",
-     "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
-     "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel …",
-     "upvotes": 42,
      "comments": 2,
-     "authors": "Jiahao Huang, Jun Wang",
-     "org": "UniversityCollegeLondon",
-     "url": "https://huggingface.co/papers/2611.26590",
-     "arxiv": "https://arxiv.org/abs/2611.26590"
+     "authors": "Yuhang Dai, Yinwei Wu, Ziyue Lin, Han Ji 等 5 人",
+     "org": "PolyUHK",
+     "url": "https://huggingface.co/papers/2611.27963",
+     "arxiv": "https://arxiv.org/abs/2611.27963"
     },
     {
-     "id": "2611.26629",
-     "title": "Posterior Matching Distillation",
-     "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the stude…",
-     "upvotes": 38,
-     "comments": 4,
-     "authors": "Hidir Yesiltepe, Julius Berner, Arash Vahdat, Pinar Yanardag",
-     "org": "nvidia",
-     "url": "https://huggingface.co/papers/2611.26629",
-     "arxiv": "https://arxiv.org/abs/2611.26629"
+     "id": "2611.27973",
+     "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+     "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accu…",
+     "upvotes": 15,
+     "comments": 1,
+     "authors": "Chang Nie, Chaoyou Fu, Songlin Liu, Yiqing Hu 等 5 人",
+     "org": "NJU",
+     "url": "https://huggingface.co/papers/2611.27973",
+     "arxiv": "https://arxiv.org/abs/2611.27973"
     },
     {
-     "id": "2611.26595",
-     "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
-     "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplor…",
-     "upvotes": 35,
-     "comments": 4,
-     "authors": "Yiyan Ji, Qixun Wang, Yang Shi, Zhuoran Zhang 等 23 人",
-     "org": "KlingTeam",
-     "url": "https://huggingface.co/papers/2611.26595",
-     "arxiv": "https://arxiv.org/abs/2611.26595"
+     "id": "2611.27915",
+     "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+     "summary": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or …",
+     "upvotes": 6,
+     "comments": 1,
+     "authors": "Chi Yan, Guoyang Zhao, Wentao Yuan, Yixiao Ge 等 6 人",
+     "org": "xpeng-robotics",
+     "url": "https://huggingface.co/papers/2611.27915",
+     "arxiv": "https://arxiv.org/abs/2611.27915"
     },
     {
-     "id": "2611.26603",
-     "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
-     "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consi…",
-     "upvotes": 31,
-     "comments": 3,
-     "authors": "Peiyun Hu, Marko Mihajlovic, Lyndon Duong, Lahav Lipson 等 8 人",
-     "org": "apple",
-     "url": "https://huggingface.co/papers/2611.26603",
-     "arxiv": "https://arxiv.org/abs/2611.26603"
+     "id": "2611.27229",
+     "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+     "summary": "Prompt enhancement (PE) refines concise user prompts into detailed descriptions to improve the compositional aesthetics of generated images while preserving user intent. A common practice constructs supervised fine-tunin…",
+     "upvotes": 3,
+     "comments": 1,
+     "authors": "Tianhe Wu, Qilin Sun, Kede Ma",
+     "org": "CityU-HongKong",
+     "url": "https://huggingface.co/papers/2611.27229",
+     "arxiv": "https://arxiv.org/abs/2611.27229"
     },
     {
-     "id": "2611.26107",
-     "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
-     "summary": "Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate th…",
-     "upvotes": 25,
-     "comments": 2,
-     "authors": "Jiahao Hu, Jingdong Du, Yichen Zhang, Yi Song 等 13 人",
-     "org": "ernie-research",
-     "url": "https://huggingface.co/papers/2611.26107",
-     "arxiv": "https://arxiv.org/abs/2611.26107"
+     "id": "2611.27398",
+     "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
+     "summary": "We introduce Transformation Tracking and Understanding (TTU), extending video object tracking to environments where objects undergo physical assemblies and disassemblies. TTU requires continuously tracking objects throug…",
+     "upvotes": 2,
+     "comments": 1,
+     "authors": "Davide Gardenal, Mingxuan Liu, Flavio Vella, Quentin Guimard 等 5 人",
+     "org": "MHUGLab",
+     "url": "https://huggingface.co/papers/2611.27398",
+     "arxiv": "https://arxiv.org/abs/2611.27398"
     },
     {
-     "id": "2611.26380",
-     "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
-     "summary": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Exist…",
-     "upvotes": 25,
-     "comments": 2,
-     "authors": "Yuqi Tang, Yang Shi, Yuran Wang, Tengfei Liu 等 17 人",
-     "org": "KlingTeam",
-     "url": "https://huggingface.co/papers/2611.26380",
-     "arxiv": "https://arxiv.org/abs/2611.26380"
-    },
-    {
-     "id": "2611.26073",
-     "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
-     "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative A…",
-     "upvotes": 23,
-     "comments": 3,
-     "authors": "Nagham Omar, Rotem Dror, Almog Gueta, Avigdor Gal 等 6 人",
-     "org": "Technion",
-     "url": "https://huggingface.co/papers/2611.26073",
-     "arxiv": "https://arxiv.org/abs/2611.26073"
-    },
-    {
-     "id": "2611.25387",
-     "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
-     "summary": "Humans act in the visual world by inferring the 3D layout behind a 2D view, predicting how an action changes it, and correcting themselves after seeing the result. Can multimodal large language models (MLLMs) do the same…",
-     "upvotes": 23,
-     "comments": 2,
-     "authors": "Xuwei Ding, Skylar Zhai, Linxin Song, Jiarui Feng 等 12 人",
-     "org": "meta",
-     "url": "https://huggingface.co/papers/2611.25387",
-     "arxiv": "https://arxiv.org/abs/2611.25387"
-    },
-    {
-     "id": "2611.26414",
-     "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
-     "summary": "Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals. …",
-     "upvotes": 22,
-     "comments": 2,
-     "authors": "Zixuan Huang, Yang Zhou, Guli Zhang, Sunzhu Li 等 11 人",
-     "org": "ZYT-AI",
-     "url": "https://huggingface.co/papers/2611.26414",
-     "arxiv": "https://arxiv.org/abs/2611.26414"
-    },
-    {
-     "id": "2611.26627",
-     "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
-     "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composin…",
-     "upvotes": 19,
-     "comments": 3,
-     "authors": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling, Atakan Kara 等 6 人",
+     "id": "2611.27211",
+     "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
+     "summary": "Personalized long-form generation asks a language model to write new text the way a specific user would. The standard recipe, retrieval-augmented generation, places a few of the user's past texts in the prompt but leaves…",
+     "upvotes": 2,
+     "comments": 1,
+     "authors": "Jenitha Reddy Patel, Sameeksha Kini, Amulya Rayasam, Anisa Dye 等 21 人",
      "org": "",
-     "url": "https://huggingface.co/papers/2611.26627",
-     "arxiv": "https://arxiv.org/abs/2611.26627"
+     "url": "https://huggingface.co/papers/2611.27211",
+     "arxiv": "https://arxiv.org/abs/2611.27211"
     }
    ],
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "stale": true
   },
   "arxiv": {
@@ -190,119 +135,111 @@
    "url": "https://arxiv.org/list/cs.AI/recent",
    "papers": [
     {
-     "id": "2611.26624",
-     "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+     "id": "2611.27983",
+     "title": "Optimal Linear Regression Without a Variance",
      "authors": "",
-     "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework t…",
-     "url": "https://arxiv.org/abs/2611.26624v1",
-     "date": "2026-11-19"
+     "summary": "We study high-probability linear regression in the infinite variance regime, wherecthe regression noise has only a finite conditional $α$-moment $ν$ for some unknown $α\\in(1,2)$, and the covariates may only have finite moments up to a given…",
+     "url": "https://arxiv.org/abs/2611.27983v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26617",
-     "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+     "id": "2611.27962",
+     "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
      "authors": "",
-     "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a …",
-     "url": "https://arxiv.org/abs/2611.26617v1",
-     "date": "2026-11-19"
+     "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the w…",
+     "url": "https://arxiv.org/abs/2611.27962v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26601",
-     "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+     "id": "2611.27924",
+     "title": "BioEmu2: Scalable Emulation of Biomolecular Dynamics",
      "authors": "",
-     "summary": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These cla…",
-     "url": "https://arxiv.org/abs/2611.26601v1",
-     "date": "2026-11-19"
+     "summary": "Despite major advances in structure prediction, modelling the motions and interactions that drive biomolecular function at scale remains a central challenge. We introduce BioEmu2, a generative model for atomically resolved biomolecular stru…",
+     "url": "https://arxiv.org/abs/2611.27924v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26598",
-     "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
+     "id": "2611.27919",
+     "title": "SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement",
      "authors": "",
-     "summary": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which featur…",
-     "url": "https://arxiv.org/abs/2611.26598v1",
-     "date": "2026-11-19"
+     "summary": "Reward-independent representations enable reinforcement learning agents to reuse knowledge across tasks, but limited representation capacity raises three fundamental questions: what statistical dependence should these representations captur…",
+     "url": "https://arxiv.org/abs/2611.27919v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26596",
-     "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+     "id": "2611.27913",
+     "title": "Star Panoptic Quality: Selectively Evaluating Split and Merged Instances",
      "authors": "",
-     "summary": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a …",
-     "url": "https://arxiv.org/abs/2611.26596v1",
-     "date": "2026-11-19"
+     "summary": "Detecting individual instances is crucial for many segmentation problems. However, expert instance annotations are often unavailable, so instances are approximated heuristically (e.g., as connected components of semantic maps), which can me…",
+     "url": "https://arxiv.org/abs/2611.27913v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26592",
-     "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
+     "id": "2611.27911",
+     "title": "Functional Depth Is Learned: Isolating the Computation That Layers Produce Only Together",
      "authors": "",
-     "summary": "Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's ineq…",
-     "url": "https://arxiv.org/abs/2611.26592v1",
-     "date": "2026-11-19"
+     "summary": "Transformer performance scales with depth, but layer count merely counts the opportunities for sequential computation: layers could still behave as nearly independent refinements that barely depend on one another. We study how transformers …",
+     "url": "https://arxiv.org/abs/2611.27911v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26588",
-     "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
+     "id": "2611.27910",
+     "title": "Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search",
      "authors": "",
-     "summary": "A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature…",
-     "url": "https://arxiv.org/abs/2611.26588v1",
-     "date": "2026-11-19"
+     "summary": "Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embed…",
+     "url": "https://arxiv.org/abs/2611.27910v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26586",
-     "title": "ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images",
+     "id": "2611.27899",
+     "title": "The Dual-Tier Sentiment Framework: Scalable Multimodal UX Attribution in Web Search",
      "authors": "",
-     "summary": "Graphic designs are ordered compositions of RGBA layers whose separation enables selection, movement, and reuse. Existing layered models represent each layer with a full-canvas or region-sized spatial latent grid, so representation size gro…",
-     "url": "https://arxiv.org/abs/2611.26586v1",
-     "date": "2026-11-19"
+     "summary": "Sustaining user experience (UX) quality in large-scale web search requires scalable evaluation. Traditional surveys are slow and bottleneck rapid A/B testing, while automated metrics often lack the granularity to diagnose visual-spatial UX …",
+     "url": "https://arxiv.org/abs/2611.27899v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26564",
-     "title": "GEOHunter: Mapping a Generative Engine Optimization Network in the Wild",
+     "id": "2611.27895",
+     "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
      "authors": "",
-     "summary": "Generative engines synthesize retrieved web pages into answers, recommendations, and rankings. Generative engine optimization (GEO) services sell visibility in these answers by publishing promotional articles on user-generated-content (UGC)…",
-     "url": "https://arxiv.org/abs/2611.26564v1",
-     "date": "2026-11-19"
+     "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) scr…",
+     "url": "https://arxiv.org/abs/2611.27895v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26562",
-     "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
+     "id": "2611.27891",
+     "title": "Speculative Decoding Is Less Speculative Than You Think",
      "authors": "",
-     "summary": "Barrett's esophagus dysplasia grading suffers substantial inter-observer variability, particularly for low-grade dysplasia, complicating clinical decision-making. We conducted a retrospective multi-institutional diagnostic accuracy study of…",
-     "url": "https://arxiv.org/abs/2611.26562v1",
-     "date": "2026-11-19"
+     "summary": "Speculative decoding accelerates language-model inference by preparing candidate continuations before the target model generates them. Its efficiency depends on how well limited drafting computation anticipates the path the target will actu…",
+     "url": "https://arxiv.org/abs/2611.27891v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26557",
-     "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
+     "id": "2611.27876",
+     "title": "LesionAgent: Training-Free Agentic Tumor Tracking and Response Assessment in Longitudinal CT",
      "authors": "",
-     "summary": "When multimodal decision models determine actions, moderation outcomes, or quality judgments, their reliability depends on preserving semantic decisions across presentation changes, ignoring irrelevant additions, and distinguishing informat…",
-     "url": "https://arxiv.org/abs/2611.26557v1",
-     "date": "2026-11-19"
+     "summary": "Every few months, a cancer patient's CT scans decide whether treatment continues. 3D foundation models can now detect, segment, register and track lesions, yet none of them reads the scans as a radiologist does. A radiologist decides which …",
+     "url": "https://arxiv.org/abs/2611.27876v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26553",
-     "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
+     "id": "2611.27870",
+     "title": "Beyond Visual Fidelity: Comparing Categorical and Continuous World Models",
      "authors": "",
-     "summary": "Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a…",
-     "url": "https://arxiv.org/abs/2611.26553v1",
-     "date": "2026-11-19"
+     "summary": "Visual world models can now generate compelling interactive worlds, but visual realism does not guarantee faithful dynamics. We systematically compare how categorical and continuous prediction shape learned dynamics under both next-token an…",
+     "url": "https://arxiv.org/abs/2611.27870v1",
+     "date": "2026-11-20"
     },
     {
-     "id": "2611.26545",
-     "title": "The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models",
+     "id": "2611.27868",
+     "title": "Integrating Generative Artificial Intelligence with Learning Style Models: Opportunities, Challenges, and Future Directions",
      "authors": "",
-     "summary": "Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest deni…",
-     "url": "https://arxiv.org/abs/2611.26545v1",
-     "date": "2026-11-19"
-    },
-    {
-     "id": "2611.26540",
-     "title": "AURA: AUdio-dRiven streaming Avatar",
-     "authors": "",
-     "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voi…",
-     "url": "https://arxiv.org/abs/2611.26540v1",
-     "date": "2026-11-19"
+     "summary": "Generative Artificial Intelligence (Generative AI) has emerged as a powerful tool for transforming learning. This review examines how Generative AI can be integrated with established learning style models (VARK, Kolb, Felder-Silverman, and …",
+     "url": "https://arxiv.org/abs/2611.27868v1",
+     "date": "2026-11-20"
     }
    ],
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "total": 15
   },
   "artificial_analysis": {
@@ -807,6 +744,17 @@
      "open": false
     },
     {
+     "name": "Ling-3.2-air",
+     "family": "Ling-3.2-air",
+     "creator": "InclusionAI",
+     "intelligence": 23.4,
+     "price_in": null,
+     "price_out": null,
+     "tps": null,
+     "context": 1048576,
+     "open": true
+    },
+    {
      "name": "DeepSeek V4 Pro 0813 (Max)",
      "family": "DeepSeek V4 Pro 0813",
      "creator": "DeepSeek",
@@ -1203,7 +1151,7 @@
      "open": true
     }
    ],
-   "total_models": 69
+   "total_models": 70
   },
   "alphaxiv": {
    "name": "alphaXiv",
