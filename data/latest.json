@@ -1,6 +1,6 @@
 {
- "date": "2026-11-23",
- "stats": "3 条要闻 · 20 篇论文 · 12 个模型",
+ "date": "2026-11-24",
+ "stats": "3 条要闻 · 27 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
    "name": "AINews (smol.ai)",
@@ -50,84 +50,139 @@
    "url": "https://huggingface.co/papers",
    "papers": [
     {
-     "id": "2611.27193",
-     "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
-     "summary": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubl…",
-     "upvotes": 81,
+     "id": "2611.29897",
+     "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+     "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregre…",
+     "upvotes": 161,
      "comments": 2,
-     "authors": "Haowei He, Ziwen Zhao, Chenshuo Pan, Gang Lin 等 13 人",
-     "org": "XingChen-AGI",
-     "url": "https://huggingface.co/papers/2611.27193",
-     "arxiv": "https://arxiv.org/abs/2611.27193"
+     "authors": "Yue Huang, Tianshan Zhang, Zeyu Zhang, Jayeon Kang 等 8 人",
+     "org": "PekingUniversity",
+     "url": "https://huggingface.co/papers/2611.29897",
+     "arxiv": "https://arxiv.org/abs/2611.29897"
     },
     {
-     "id": "2611.27963",
-     "title": "Non-penetrating World Models",
-     "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to phy…",
-     "upvotes": 52,
+     "id": "2611.31201",
+     "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+     "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic …",
+     "upvotes": 88,
+     "comments": 1,
+     "authors": "Xiao-Ming Wu, Kang Liao, Yuexiao Ma, Taolin Zhang 等 15 人",
+     "org": "mmlab-ntu",
+     "url": "https://huggingface.co/papers/2611.31201",
+     "arxiv": "https://arxiv.org/abs/2611.31201"
+    },
+    {
+     "id": "2611.30989",
+     "title": "WorldLeague: Benchmarking Physical Agency",
+     "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question re…",
+     "upvotes": 61,
+     "comments": 1,
+     "authors": "Xinyang Zhou, Qi Li, Xinchao Wang",
+     "org": "NationalUniversityofSingapore",
+     "url": "https://huggingface.co/papers/2611.30989",
+     "arxiv": "https://arxiv.org/abs/2611.30989"
+    },
+    {
+     "id": "2611.30013",
+     "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+     "summary": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We intro…",
+     "upvotes": 56,
      "comments": 2,
-     "authors": "Yuhang Dai, Yinwei Wu, Ziyue Lin, Han Ji 等 5 人",
-     "org": "PolyUHK",
-     "url": "https://huggingface.co/papers/2611.27963",
-     "arxiv": "https://arxiv.org/abs/2611.27963"
+     "authors": "Bohan Zeng, Kaixin Zhu, Yifan Yang, Dongge Yu 等 22 人",
+     "org": "PekingUniversity",
+     "url": "https://huggingface.co/papers/2611.30013",
+     "arxiv": "https://arxiv.org/abs/2611.30013"
     },
     {
-     "id": "2611.27973",
-     "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
-     "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accu…",
-     "upvotes": 15,
+     "id": "2611.30662",
+     "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+     "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans f…",
+     "upvotes": 54,
      "comments": 1,
-     "authors": "Chang Nie, Chaoyou Fu, Songlin Liu, Yiqing Hu 等 5 人",
-     "org": "NJU",
-     "url": "https://huggingface.co/papers/2611.27973",
-     "arxiv": "https://arxiv.org/abs/2611.27973"
+     "authors": "Binhui Xie, Jinmin Li, Haomiao Tang, Guangting Wang 等 8 人",
+     "org": "tencent",
+     "url": "https://huggingface.co/papers/2611.30662",
+     "arxiv": "https://arxiv.org/abs/2611.30662"
     },
     {
-     "id": "2611.27915",
-     "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
-     "summary": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or …",
-     "upvotes": 6,
+     "id": "2611.30898",
+     "title": "World Models as Native Latent Action Models",
+     "summary": "Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can re…",
+     "upvotes": 23,
      "comments": 1,
-     "authors": "Chi Yan, Guoyang Zhao, Wentao Yuan, Yixiao Ge 等 6 人",
-     "org": "xpeng-robotics",
-     "url": "https://huggingface.co/papers/2611.27915",
-     "arxiv": "https://arxiv.org/abs/2611.27915"
+     "authors": "Qinyue Li, Weijie Qiao, Qingyi Tao, Zerui Gong 等 10 人",
+     "org": "SenseTime",
+     "url": "https://huggingface.co/papers/2611.30898",
+     "arxiv": "https://arxiv.org/abs/2611.30898"
     },
     {
-     "id": "2611.27229",
-     "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
-     "summary": "Prompt enhancement (PE) refines concise user prompts into detailed descriptions to improve the compositional aesthetics of generated images while preserving user intent. A common practice constructs supervised fine-tunin…",
-     "upvotes": 3,
-     "comments": 1,
-     "authors": "Tianhe Wu, Qilin Sun, Kede Ma",
-     "org": "CityU-HongKong",
-     "url": "https://huggingface.co/papers/2611.27229",
-     "arxiv": "https://arxiv.org/abs/2611.27229"
+     "id": "2611.31115",
+     "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+     "summary": "Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface…",
+     "upvotes": 21,
+     "comments": 2,
+     "authors": "Yanzhe Chen, Zhijun Cao, Zechen Bai, Wenzheng Zeng 等 11 人",
+     "org": "showlab",
+     "url": "https://huggingface.co/papers/2611.31115",
+     "arxiv": "https://arxiv.org/abs/2611.31115"
     },
     {
-     "id": "2611.27398",
-     "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
-     "summary": "We introduce Transformation Tracking and Understanding (TTU), extending video object tracking to environments where objects undergo physical assemblies and disassemblies. TTU requires continuously tracking objects throug…",
-     "upvotes": 2,
+     "id": "2611.30597",
+     "title": "ViDiHand2: Unifying Video Diffusion Priors and Hand Geometry for 3D Hand Motion Reconstruction in the Wild",
+     "summary": "Learning robot manipulation from egocentric human videos requires accurate metric 3D hand motion. Recent methods leverage pretrained video diffusion model (VDM) priors to recover occluded hands directly from full-frame v…",
+     "upvotes": 19,
      "comments": 1,
-     "authors": "Davide Gardenal, Mingxuan Liu, Flavio Vella, Quentin Guimard 等 5 人",
-     "org": "MHUGLab",
-     "url": "https://huggingface.co/papers/2611.27398",
-     "arxiv": "https://arxiv.org/abs/2611.27398"
+     "authors": "Yuxi Wang, Yufei Liu, Chengkai Jin, Qingyue Chen 等 11 人",
+     "org": "ACERobotics",
+     "url": "https://huggingface.co/papers/2611.30597",
+     "arxiv": "https://arxiv.org/abs/2611.30597"
     },
     {
-     "id": "2611.27211",
-     "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
-     "summary": "Personalized long-form generation asks a language model to write new text the way a specific user would. The standard recipe, retrieval-augmented generation, places a few of the user's past texts in the prompt but leaves…",
-     "upvotes": 2,
+     "id": "2611.30157",
+     "title": "UUBench: Understanding the Unspoken toward Full-Duplex Multimodal Interaction",
+     "summary": "Effective real-time, full-duplex multimodal interaction requires systems to understand not only what users say, but also the communicative needs conveyed through prosody, facial expressions, gestures, and context, and to…",
+     "upvotes": 14,
      "comments": 1,
-     "authors": "Jenitha Reddy Patel, Sameeksha Kini, Amulya Rayasam, Anisa Dye 等 21 人",
+     "authors": "Ye Pan, Chenfei Liao, Bin Ren, Hanqian Li 等 20 人",
      "org": "",
-     "url": "https://huggingface.co/papers/2611.27211",
-     "arxiv": "https://arxiv.org/abs/2611.27211"
+     "url": "https://huggingface.co/papers/2611.30157",
+     "arxiv": "https://arxiv.org/abs/2611.30157"
+    },
+    {
+     "id": "2611.30495",
+     "title": "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
+     "summary": "Human demonstrations provide a rich source of bimanual dexterous skills, yet transferring them to robot hands remains challenging. Existing methods primarily optimize object trajectory tracking, often overlooking how hum…",
+     "upvotes": 11,
+     "comments": 1,
+     "authors": "Haoran Zhang, Haokai Ding, Han Zhou, Zuxing Lu 等 6 人",
+     "org": "MBZUAI",
+     "url": "https://huggingface.co/papers/2611.30495",
+     "arxiv": "https://arxiv.org/abs/2611.30495"
+    },
+    {
+     "id": "2611.30813",
+     "title": "HIVE-Bench: Evaluating Patch-Level Visual Representations for Egocentric Robot Manipulation",
+     "summary": "Pretrained vision is a common start for robot learning, but most comparisons still score one pooled vector from a third-person image. Bimanual policies instead read dense patch tokens from cameras on the robot. We introd…",
+     "upvotes": 10,
+     "comments": 2,
+     "authors": "Qiwei Liang, Zhengtu Liang, Minghao Lai, Yikeng Chen 等 16 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.30813",
+     "arxiv": "https://arxiv.org/abs/2611.30813"
+    },
+    {
+     "id": "2611.30207",
+     "title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+     "summary": "Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task collections check these tests only against the reference fix. We ask what makes a task good training data,…",
+     "upvotes": 9,
+     "comments": 1,
+     "authors": "Yikai Zhang, Mai Xu, Yunbei Zhang, Qirui Jin 等 12 人",
+     "org": "amd",
+     "url": "https://huggingface.co/papers/2611.30207",
+     "arxiv": "https://arxiv.org/abs/2611.30207"
     }
    ],
-   "date": "2026-11-20",
+   "date": "2026-11-23",
    "stale": true
   },
   "arxiv": {
@@ -135,111 +190,127 @@
    "url": "https://arxiv.org/list/cs.AI/recent",
    "papers": [
     {
-     "id": "2611.27983",
-     "title": "Optimal Linear Regression Without a Variance",
+     "id": "2611.31228",
+     "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
      "authors": "",
-     "summary": "We study high-probability linear regression in the infinite variance regime, wherecthe regression noise has only a finite conditional $α$-moment $ν$ for some unknown $α\\in(1,2)$, and the covariates may only have finite moments up to a given…",
-     "url": "https://arxiv.org/abs/2611.27983v1",
-     "date": "2026-11-20"
+     "summary": "Prompting language models to verbalize stepwise numerical confidence during generation is an increasingly popular approach for triggering backtracking and error correction in agentic reasoning. This strategy presupposes two capabilities: (1…",
+     "url": "https://arxiv.org/abs/2611.31228v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27962",
-     "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+     "id": "2611.31222",
+     "title": "CTLink: A Text-Prompted Segmentation Model for Linking Radiology Report Findings to 3D Chest CT Scans",
      "authors": "",
-     "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the w…",
-     "url": "https://arxiv.org/abs/2611.27962v1",
-     "date": "2026-11-20"
+     "summary": "Radiology reports describe findings in text only, without visually marking them on the scan, so readers cannot directly see which abnormality each reported finding refers to. We introduce CTLink, a text-prompted 3D segmentation model that s…",
+     "url": "https://arxiv.org/abs/2611.31222v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27924",
-     "title": "BioEmu2: Scalable Emulation of Biomolecular Dynamics",
+     "id": "2611.31215",
+     "title": "Seeking in Space: Benchmarking Purposeful Active Exploration of Vision-Language Models for Spatial Reasoning",
      "authors": "",
-     "summary": "Despite major advances in structure prediction, modelling the motions and interactions that drive biomolecular function at scale remains a central challenge. We introduce BioEmu2, a generative model for atomically resolved biomolecular stru…",
-     "url": "https://arxiv.org/abs/2611.27924v1",
-     "date": "2026-11-20"
+     "summary": "Humans explore unfamiliar spaces with purpose, deciding where to look until they have gathered the evidence a spatial question requires. However, can vision-language models (VLMs), which reason increasingly well over curated images and vide…",
+     "url": "https://arxiv.org/abs/2611.31215v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27919",
-     "title": "SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement",
+     "id": "2611.31198",
+     "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
      "authors": "",
-     "summary": "Reward-independent representations enable reinforcement learning agents to reuse knowledge across tasks, but limited representation capacity raises three fundamental questions: what statistical dependence should these representations captur…",
-     "url": "https://arxiv.org/abs/2611.27919v1",
-     "date": "2026-11-20"
+     "summary": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is l…",
+     "url": "https://arxiv.org/abs/2611.31198v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27913",
-     "title": "Star Panoptic Quality: Selectively Evaluating Split and Merged Instances",
+     "id": "2611.31194",
+     "title": "Learning Neurovascular Codes for EEG-to-fMRI Synthesis",
      "authors": "",
-     "summary": "Detecting individual instances is crucial for many segmentation problems. However, expert instance annotations are often unavailable, so instances are approximated heuristically (e.g., as connected components of semantic maps), which can me…",
-     "url": "https://arxiv.org/abs/2611.27913v1",
-     "date": "2026-11-20"
+     "summary": "In this paper, we introduce Neurovascular Codes as shared EEG representations for fMRI generation. We first train a separate EEG encoder to predict each fMRI signal, learning target-specific temporal and spectral features from the same EEG …",
+     "url": "https://arxiv.org/abs/2611.31194v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27911",
-     "title": "Functional Depth Is Learned: Isolating the Computation That Layers Produce Only Together",
+     "id": "2611.31190",
+     "title": "Know When to Abstain: Conformal Confidence Estimation for Text-to-SQL",
      "authors": "",
-     "summary": "Transformer performance scales with depth, but layer count merely counts the opportunities for sequential computation: layers could still behave as nearly independent refinements that barely depend on one another. We study how transformers …",
-     "url": "https://arxiv.org/abs/2611.27911v1",
-     "date": "2026-11-20"
+     "summary": "Text-to-SQL systems often return queries that execute successfully but answer the wrong question. Detecting these errors at deployment is hard because execution correctness is defined against a gold query, which exists only in labeled data.…",
+     "url": "https://arxiv.org/abs/2611.31190v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27910",
-     "title": "Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search",
+     "id": "2611.31185",
+     "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
      "authors": "",
-     "summary": "Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embed…",
-     "url": "https://arxiv.org/abs/2611.27910v1",
-     "date": "2026-11-20"
+     "summary": "Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or in…",
+     "url": "https://arxiv.org/abs/2611.31185v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27899",
-     "title": "The Dual-Tier Sentiment Framework: Scalable Multimodal UX Attribution in Web Search",
+     "id": "2611.31175",
+     "title": "Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions",
      "authors": "",
-     "summary": "Sustaining user experience (UX) quality in large-scale web search requires scalable evaluation. Traditional surveys are slow and bottleneck rapid A/B testing, while automated metrics often lack the granularity to diagnose visual-spatial UX …",
-     "url": "https://arxiv.org/abs/2611.27899v1",
-     "date": "2026-11-20"
+     "summary": "Conversational recommenders must rank items against needs that catalogs record only in part, while users add, withdraw and reverse needs and switch between requests. LLM rankers re-read the dialogue at every turn: they are slow, and their o…",
+     "url": "https://arxiv.org/abs/2611.31175v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27895",
-     "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+     "id": "2611.31174",
+     "title": "Reducing Order Sensitivity in Decision Models",
      "authors": "",
-     "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) scr…",
-     "url": "https://arxiv.org/abs/2611.27895v1",
-     "date": "2026-11-20"
+     "summary": "Decision models are emerging as fast components of larger AI systems. Yet recent decision models, such as Jev, process options sequentially, leading to different predictions based on their ordering. Across ten open- and closed-source decisi…",
+     "url": "https://arxiv.org/abs/2611.31174v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27891",
-     "title": "Speculative Decoding Is Less Speculative Than You Think",
+     "id": "2611.31165",
+     "title": "When Does Overriding the Majority Vote Help?",
      "authors": "",
-     "summary": "Speculative decoding accelerates language-model inference by preparing candidate continuations before the target model generates them. Its efficiency depends on how well limited drafting computation anticipates the path the target will actu…",
-     "url": "https://arxiv.org/abs/2611.27891v1",
-     "date": "2026-11-20"
+     "summary": "When should additional reasoning or verification replace a majority-vote answer? We call such a replacement an override. We examine two obstacles: the availability of correct alternatives and the reliability of methods that produce or selec…",
+     "url": "https://arxiv.org/abs/2611.31165v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27876",
-     "title": "LesionAgent: Training-Free Agentic Tumor Tracking and Response Assessment in Longitudinal CT",
+     "id": "2611.31160",
+     "title": "Habitats: A Framework for Open-Ended Evolution of Agent Objectives",
      "authors": "",
-     "summary": "Every few months, a cancer patient's CT scans decide whether treatment continues. 3D foundation models can now detect, segment, register and track lesions, yet none of them reads the scans as a radiologist does. A radiologist decides which …",
-     "url": "https://arxiv.org/abs/2611.27876v1",
-     "date": "2026-11-20"
+     "summary": "Designing what an agent should optimize can be as difficult as optimizing the agent itself. Existing language-model-based reward-generation methods typically refine objectives for predefined tasks and couple the decision of what to explore …",
+     "url": "https://arxiv.org/abs/2611.31160v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27870",
-     "title": "Beyond Visual Fidelity: Comparing Categorical and Continuous World Models",
+     "id": "2611.31139",
+     "title": "Deneb-Vritra: Descriptions, Edges and Names Examined by Blocking Via Restoring Token Representations and Attention",
      "authors": "",
-     "summary": "Visual world models can now generate compelling interactive worlds, but visual realism does not guarantee faithful dynamics. We systematically compare how categorical and continuous prediction shape learned dynamics under both next-token an…",
-     "url": "https://arxiv.org/abs/2611.27870v1",
-     "date": "2026-11-20"
+     "summary": "Laya is a 421M-parameter encoder that answers a question about a text in one pass: each answer option, written as a name plus a description, gets a marker token, and one score is read from the network at each marker. We first confirm that s…",
+     "url": "https://arxiv.org/abs/2611.31139v1",
+     "date": "2026-11-23"
     },
     {
-     "id": "2611.27868",
-     "title": "Integrating Generative Artificial Intelligence with Learning Style Models: Opportunities, Challenges, and Future Directions",
+     "id": "2611.31135",
+     "title": "SRCWDNet: Semantic-Relational Cross-Window Dual-Graph Network for Multi-Label Remote Sensing Scene Classification",
      "authors": "",
-     "summary": "Generative Artificial Intelligence (Generative AI) has emerged as a powerful tool for transforming learning. This review examines how Generative AI can be integrated with established learning style models (VARK, Kolb, Felder-Silverman, and …",
-     "url": "https://arxiv.org/abs/2611.27868v1",
-     "date": "2026-11-20"
+     "summary": "Multi-label remote sensing scene classification remains a challenging task due to complex spatial-spectral patterns, extreme class imbalance, and inter-label dependencies that are often insufficiently modeled. To address these challenges, w…",
+     "url": "https://arxiv.org/abs/2611.31135v1",
+     "date": "2026-11-23"
+    },
+    {
+     "id": "2611.31132",
+     "title": "Genome-to-Image Translation: Reconstructing Escherichia coli Morphology from Genomic Sequences",
+     "authors": "",
+     "summary": "Antimicrobial resistance in Escherichia coli is established in routine practice by culture-based susceptibility testing, which is slow relative to the clinical need for an early treatment decision. Resistance status also leaves a measurable…",
+     "url": "https://arxiv.org/abs/2611.31132v1",
+     "date": "2026-11-23"
+    },
+    {
+     "id": "2611.31129",
+     "title": "FATCAT: Fault Injection Attacks Targeting Chip-level Alignment",
+     "authors": "",
+     "summary": "Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern foundation models; yet, existing adversarial evaluations implicitly assume underlying hardware integrity. In this paper, we pr…",
+     "url": "https://arxiv.org/abs/2611.31129v1",
+     "date": "2026-11-23"
     }
    ],
-   "date": "2026-11-20",
+   "date": "2026-11-23",
    "total": 15
   },
   "artificial_analysis": {
@@ -689,7 +760,7 @@
      "open": false
     },
     {
-     "name": "GLM-5.3-Flash",
+     "name": "GLM-5.3-Flash (Max)",
      "family": "GLM-5.3-Flash",
      "creator": "Z AI",
      "intelligence": 27.8,
