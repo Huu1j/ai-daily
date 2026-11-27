@@ -1,6 +1,6 @@
 {
- "date": "2026-11-26",
- "stats": "7 条要闻 · 27 篇论文 · 12 个模型",
+ "date": "2026-11-27",
+ "stats": "3 条要闻 · 26 篇论文 · 12 个模型",
  "sources": {
   "smolai": {
    "name": "AINews (smol.ai)",
@@ -45,168 +45,141 @@
    "stale": true,
    "latest_date": "2026-09-09"
   },
-  "the_batch": {
-   "name": "The Batch",
-   "url": "https://www.deeplearning.ai/the-batch",
-   "issue": 380,
-   "issue_url": "https://www.deeplearning.ai/the-batch/issue-380",
-   "headline": "Jensen Huang’s Nvidia legacy, Claude Fable 5.2 and Anthropic’s IPO, World Labs Releases Atlas to Developers",
-   "blurb": "",
-   "date": "2026-11-20",
-   "articles": [
-    {
-     "title": "Jensen Huang Resigns as Nvidia CEO",
-     "url": "https://www.deeplearning.ai/the-batch/jensen-huang-resigns-as-nvidia-ceo"
-    },
-    {
-     "title": "Claude Fable Gets a Price Cut",
-     "url": "https://www.deeplearning.ai/the-batch/claude-fable-gets-a-price-cut"
-    },
-    {
-     "title": "AMD’s World Model Arrives",
-     "url": "https://www.deeplearning.ai/the-batch/amd%E2%80%99s-world-model-arrives"
-    },
-    {
-     "title": "Adaptive Memory Management",
-     "url": "https://www.deeplearning.ai/the-batch/adaptive-memory-management"
-    }
-   ]
-  },
   "hf_papers": {
    "name": "Hugging Face Daily Papers",
    "url": "https://huggingface.co/papers",
    "papers": [
     {
-     "id": "2611.34849",
-     "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
-     "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video…",
-     "upvotes": 99,
+     "id": "2611.34051",
+     "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+     "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writin…",
+     "upvotes": 121,
      "comments": 2,
-     "authors": "Yongchang Zhang, Jie Huang, Yunhe Ni, Ningyu Zhou 等 13 人",
-     "org": "PKU-VaLuE-Lab",
-     "url": "https://huggingface.co/papers/2611.34849",
-     "arxiv": "https://arxiv.org/abs/2611.34849"
+     "authors": "Xichong Zhang, Xixuan Hao, Zhichen Liu, Le Zhou 等 14 人",
+     "org": "MemTensor",
+     "url": "https://huggingface.co/papers/2611.34051",
+     "arxiv": "https://arxiv.org/abs/2611.34051"
     },
     {
-     "id": "2611.34575",
-     "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
-     "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform fr…",
-     "upvotes": 81,
-     "comments": 1,
-     "authors": "Med Team, Ming Hu, Cheng Tang, Wei Li 等 108 人",
-     "org": "Shanghai-AI-Laboratory",
-     "url": "https://huggingface.co/papers/2611.34575",
-     "arxiv": "https://arxiv.org/abs/2611.34575"
+     "id": "2611.34232",
+     "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+     "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear w…",
+     "upvotes": 98,
+     "comments": 2,
+     "authors": "Hui Shen, Yunta Hsieh, Jianing Ma, Zhuoran Yin 等 76 人",
+     "org": "touchstone-ai",
+     "url": "https://huggingface.co/papers/2611.34232",
+     "arxiv": "https://arxiv.org/abs/2611.34232"
     },
     {
      "id": "2611.34923",
      "title": "Mixture-of-Loops Transformer",
      "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops…",
-     "upvotes": 56,
-     "comments": 1,
+     "upvotes": 72,
+     "comments": 2,
      "authors": "Lianghui Zhu, Shijie Wang, Xinggang Wang, Jinze Bai 等 6 人",
      "org": "ByteDance-Seed",
      "url": "https://huggingface.co/papers/2611.34923",
      "arxiv": "https://arxiv.org/abs/2611.34923"
     },
     {
-     "id": "2611.34237",
-     "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
-     "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable pr…",
-     "upvotes": 54,
-     "comments": 4,
-     "authors": "Xuanyu Zheng, Luoyuan Zhang, Yancheng Long, Haoyang Xu 等 9 人",
-     "org": "Kling-Keye",
-     "url": "https://huggingface.co/papers/2611.34237",
-     "arxiv": "https://arxiv.org/abs/2611.34237"
+     "id": "2611.34457",
+     "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+     "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera beha…",
+     "upvotes": 35,
+     "comments": 2,
+     "authors": "Zhenchen Tang, Haolin Lu, Songlin Yang, Xiaotong Zhao 等 15 人",
+     "org": "tencent",
+     "url": "https://huggingface.co/papers/2611.34457",
+     "arxiv": "https://arxiv.org/abs/2611.34457"
     },
     {
-     "id": "2611.34941",
-     "title": "Improving and Expanding Video Editing Capabilities Without Videos",
-     "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advance…",
-     "upvotes": 39,
+     "id": "2611.28732",
+     "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+     "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performe…",
+     "upvotes": 34,
      "comments": 2,
-     "authors": "Ji Xie, Yanhao Jia, Xiangpeng Yang, Martin Q. Ma 等 7 人",
-     "org": "CMU-SCS",
-     "url": "https://huggingface.co/papers/2611.34941",
-     "arxiv": "https://arxiv.org/abs/2611.34941"
+     "authors": "Chendong Xiang, Chengwen Zhang, Ruowen Zhao, Zeyuan Wang 等 10 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.28732",
+     "arxiv": "https://arxiv.org/abs/2611.28732"
     },
     {
      "id": "2611.34420",
      "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
      "summary": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language…",
-     "upvotes": 25,
-     "comments": 2,
+     "upvotes": 28,
+     "comments": 4,
      "authors": "Hoang-Nhat Nguyen, Chen Change Loy",
      "org": "mmlab-ntu",
      "url": "https://huggingface.co/papers/2611.34420",
      "arxiv": "https://arxiv.org/abs/2611.34420"
     },
     {
-     "id": "2611.34811",
-     "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
-     "summary": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural …",
-     "upvotes": 22,
+     "id": "2611.34852",
+     "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+     "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated know…",
+     "upvotes": 23,
      "comments": 1,
-     "authors": "Boxuan Dong, Yupeng Qian, Ying Wu, Heshuai Li 等 8 人",
-     "org": "ipplab",
-     "url": "https://huggingface.co/papers/2611.34811",
-     "arxiv": "https://arxiv.org/abs/2611.34811"
+     "authors": "Han Huang, Yuchen Yan, Xingyu Wu, Yijun Li 等 8 人",
+     "org": "ZhejiangUniversity",
+     "url": "https://huggingface.co/papers/2611.34852",
+     "arxiv": "https://arxiv.org/abs/2611.34852"
+    },
+    {
+     "id": "2611.34290",
+     "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+     "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challen…",
+     "upvotes": 23,
+     "comments": 1,
+     "authors": "Modi Jin, Xuying Zhang, Yijing Guo, Haoran Li 等 9 人",
+     "org": "",
+     "url": "https://huggingface.co/papers/2611.34290",
+     "arxiv": "https://arxiv.org/abs/2611.34290"
+    },
+    {
+     "id": "2611.34813",
+     "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+     "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is consi…",
+     "upvotes": 22,
+     "comments": 2,
+     "authors": "Dezhi Luo, Fengyuan Yu, Haotian Zhang, Zehong Zhao 等 14 人",
+     "org": "CarnegieMellonU",
+     "url": "https://huggingface.co/papers/2611.34813",
+     "arxiv": "https://arxiv.org/abs/2611.34813"
+    },
+    {
+     "id": "2611.34693",
+     "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+     "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generati…",
+     "upvotes": 19,
+     "comments": 2,
+     "authors": "Yiren Song, Guian Fang, Mike Zheng Shou",
+     "org": "showlab",
+     "url": "https://huggingface.co/papers/2611.34693",
+     "arxiv": "https://arxiv.org/abs/2611.34693"
     },
     {
      "id": "2611.33579",
      "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
      "summary": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically e…",
-     "upvotes": 17,
-     "comments": 1,
+     "upvotes": 19,
+     "comments": 2,
      "authors": "Wongyun Yu, Honggeun Kim, Donguk Lee, Minchan Kim 等 6 人",
      "org": "POSTECH-CVLab",
      "url": "https://huggingface.co/papers/2611.33579",
      "arxiv": "https://arxiv.org/abs/2611.33579"
     },
     {
-     "id": "2611.34466",
-     "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
-     "summary": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rat…",
-     "upvotes": 17,
-     "comments": 1,
-     "authors": "Yurun Chen, Biao Yi, Qihang Yu, Keting Yin 等 5 人",
-     "org": "ZhejiangUniversity",
-     "url": "https://huggingface.co/papers/2611.34466",
-     "arxiv": "https://arxiv.org/abs/2611.34466"
-    },
-    {
-     "id": "2611.34347",
-     "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
-     "summary": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing be…",
-     "upvotes": 17,
-     "comments": 1,
-     "authors": "Yuchen Zhou, Hongsheng Wu, Jiayu Tang, Yunxuan Mao 等 11 人",
-     "org": "tencent",
-     "url": "https://huggingface.co/papers/2611.34347",
-     "arxiv": "https://arxiv.org/abs/2611.34347"
-    },
-    {
-     "id": "2611.34929",
-     "title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
-     "summary": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compresse…",
-     "upvotes": 16,
+     "id": "2611.33925",
+     "title": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
+     "summary": "Robot world models are increasingly used to evaluate and plan policies, yet robot training data are dominated by successful demonstrations. Off the happy path, when a grasp is misaligned or mistimed and the object is pus…",
+     "upvotes": 13,
      "comments": 3,
-     "authors": "Baihan Yang, Xin Lin, Yufan Wei, Baiang Li 等 8 人",
-     "org": "",
-     "url": "https://huggingface.co/papers/2611.34929",
-     "arxiv": "https://arxiv.org/abs/2611.34929"
-    },
-    {
-     "id": "2611.34128",
-     "title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
-     "summary": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse …",
-     "upvotes": 16,
-     "comments": 2,
-     "authors": "Shenxing Wei, Jinxi Li, Zihui Zhang, Ajay Kumar 等 6 人",
-     "org": "PolyUHK",
-     "url": "https://huggingface.co/papers/2611.34128",
-     "arxiv": "https://arxiv.org/abs/2611.34128"
+     "authors": "Zhiyue Zhao, Mingyu Liu, Bolin Zhang, Liyang Li 等 10 人",
+     "org": "ZhejiangUniversity",
+     "url": "https://huggingface.co/papers/2611.33925",
+     "arxiv": "https://arxiv.org/abs/2611.33925"
     }
    ],
    "date": "2026-11-25",
@@ -310,14 +283,6 @@
      "authors": "",
      "summary": "Autoregressive transformers trained on tokenized tabular event streams are a simple and strong baseline for predicting financial events such as fraud. Yet institutions do not act on probabilities; they act on decisions whose consequences ar…",
      "url": "https://arxiv.org/abs/2611.34858v1",
-     "date": "2026-11-25"
-    },
-    {
-     "id": "2611.34852",
-     "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-     "authors": "",
-     "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evalua…",
-     "url": "https://arxiv.org/abs/2611.34852v1",
      "date": "2026-11-25"
     },
     {
@@ -699,6 +664,17 @@
      "open": true
     },
     {
+     "name": "ERNIE 5.5 Flash Preview",
+     "family": "ERNIE 5.5 Flash Preview",
+     "creator": "Baidu",
+     "intelligence": 31.3,
+     "price_in": 0.28,
+     "price_out": 1.13,
+     "tps": null,
+     "context": 1024000,
+     "open": true
+    },
+    {
      "name": "Inkling 2 Small",
      "family": "Inkling 2 Small",
      "creator": "Thinking Machines",
@@ -851,6 +827,17 @@
      "tps": null,
      "context": 1048576,
      "open": true
+    },
+    {
+     "name": "Quasar 1.2 358B (Max, Based on GLM-5.3)",
+     "family": "Quasar 1.2 358B",
+     "creator": "Multiverse Computing",
+     "intelligence": 23.1,
+     "price_in": 0.11,
+     "price_out": 0.33,
+     "tps": null,
+     "context": 1000000,
+     "open": false
     },
     {
      "name": "DeepSeek V4 Pro 0813 (Max)",
@@ -1161,6 +1148,17 @@
      "open": true
     },
     {
+     "name": "Gemma 4 26B A4B (Reasoning)",
+     "family": "Gemma 4 26B A4B",
+     "creator": "Google",
+     "intelligence": 4.0,
+     "price_in": 0.095,
+     "price_out": 0.32,
+     "tps": null,
+     "context": 256000,
+     "open": true
+    },
+    {
      "name": "gpt-oss-120b (High)",
      "family": "gpt-oss-120b",
      "creator": "OpenAI",
@@ -1216,7 +1214,7 @@
      "open": true
     }
    ],
-   "total_models": 67
+   "total_models": 70
   },
   "alphaxiv": {
    "name": "alphaXiv",

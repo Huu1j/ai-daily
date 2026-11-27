@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "models": {
   "Claude Fable 5.2": 64.8,
   "GPT-6.2 Astra": 62.2,
@@ -21,6 +21,7 @@
   "Tencent Hy4": 34.6,
   "DeepSeek V4.1 Flash 1017": 32.4,
   "GLM-5.3": 31.6,
+  "ERNIE 5.5 Flash Preview": 31.3,
   "Inkling 2 Small": 30.7,
   "MiMo-V2.6-Pro": 29.9,
   "Ling 3.1 Flash 1019": 29.7,
@@ -35,6 +36,7 @@
   "Muse Spark Open": 24.9,
   "Agnes 2.5 Pro Theta": 24.1,
   "Ling-3.2-air": 23.4,
+  "Quasar 1.2 358B": 23.1,
   "DeepSeek V4 Pro 0813": 23.1,
   "Nanbeige4.3-33B": 20.4,
   "Qwen3.8 27B": 20.1,
@@ -63,6 +65,7 @@
   "Mistral Medium 3.5": 4.6,
   "Gemma 4 31B": 4.4,
   "Mistral Small 4": 4.3,
+  "Gemma 4 26B A4B": 4.0,
   "gpt-oss-120b": 3.8,
   "North Mini Code": 3.4,
   "K2 Horizon 0.9B": 2.7,
